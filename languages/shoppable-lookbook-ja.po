@@ -1,0 +1,1359 @@
+# ja translation for Shoppable Lookbook.
+# Copyright (C) 2026 Douple
+# This file is distributed under the GPLv2 or later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shoppable Lookbook 1.8.0\n"
+"Report-Msgid-Bugs-To: https://douple.net\n"
+"POT-Creation-Date: 2026-07-29 16:37+0700\n"
+"PO-Revision-Date: 2026-07-21 17:00+0700\n"
+"Last-Translator: Douple <support@douple.net>\n"
+"Language-Team: Douple <support@douple.net>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: shoppable-lookbook\n"
+
+#: inc/init.php:62 inc/init.php:125
+#: includes/pro__premium_only/quick-view.php:130
+#: includes/pro__premium_only/shop-the-look.php:142
+msgid "Adding…"
+msgstr "追加中…"
+
+#: inc/init.php:63 inc/init.php:126
+#: includes/pro__premium_only/quick-view.php:131
+msgid "Added ✓"
+msgstr "追加しました ✓"
+
+#: inc/init.php:88
+msgid "Select a product"
+msgstr "商品を選択"
+
+#: inc/init.php:89 includes/shoppable-lookbook-admin.php:257
+msgid "Search a product..."
+msgstr "商品を検索..."
+
+#: inc/init.php:90 includes/shoppable-lookbook-admin.php:821
+msgid "Select Image"
+msgstr "画像を選択"
+
+#: inc/init.php:91 includes/shoppable-lookbook-admin.php:254
+msgid "Add a link"
+msgstr "リンクを追加"
+
+#: inc/init.php:92 includes/shoppable-lookbook-admin.php:256
+#: includes/pro__premium_only/analytics.php:740
+msgid "Product"
+msgstr "商品"
+
+#: inc/init.php:93 includes/shoppable-lookbook-admin.php:256
+msgid "Custom Link"
+msgstr "カスタムリンク"
+
+#: inc/init.php:94 includes/shoppable-lookbook-admin.php:259
+msgid "Link URL (https://...)"
+msgstr "リンクURL (https://...)"
+
+#: inc/init.php:95 includes/shoppable-lookbook-admin.php:260
+#: includes/shoppable-lookbook-admin.php:397
+#: includes/shoppable-lookbook-admin.php:830
+#: includes/pro__premium_only/gallery.php:536
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/init.php:96 includes/shoppable-lookbook-admin.php:261
+msgid "Price (optional)"
+msgstr "価格（任意）"
+
+#: inc/init.php:97 includes/shoppable-lookbook-admin.php:262
+msgid "Select image"
+msgstr "画像を選択"
+
+#: inc/init.php:98 includes/shoppable-lookbook-admin.php:263
+msgid "Open in new tab"
+msgstr "新しいタブで開く"
+
+#: inc/init.php:99 includes/shoppable-lookbook-admin.php:264
+msgid "Apply link"
+msgstr "リンクを適用"
+
+#: inc/init.php:100
+msgid "Please enter a link URL."
+msgstr "リンクURLを入力してください。"
+
+#: inc/init.php:101 includes/shoppable-lookbook-admin.php:789
+#: includes/shoppable-lookbook-admin.php:1211
+#: includes/pro__premium_only/gallery.php:322
+#: includes/pro__premium_only/gallery.php:627
+msgid "Preview"
+msgstr "プレビュー"
+
+#: inc/init.php:102
+msgid "Could not duplicate the lookbook."
+msgstr "ルックブックを複製できませんでした。"
+
+#: inc/init.php:103 includes/pro__premium_only/gallery.php:323
+#: includes/pro__premium_only/gallery.php:929
+#: includes/shoppable-lookbook-init.php:704
+msgid "Could not import the lookbook."
+msgstr "ルックブックをインポートできませんでした。"
+
+#: inc/init.php:104
+msgid "No markers yet. Click on the image to add one."
+msgstr "マーカーがまだありません。画像をクリックして追加してください。"
+
+#: inc/init.php:105
+msgid "(no link yet)"
+msgstr "（リンク未設定）"
+
+#: plugins/gutenberg/gutenberg-init.php:32
+msgid "Douple"
+msgstr "Douple"
+
+#: plugins/elementor/elementor-widget.php:68
+#: includes/shoppable-lookbook-list.php:55
+msgid "Select a lookbook"
+msgstr "ルックブックを選択"
+
+#: plugins/wpbakery/wpbakery-init.php:47 plugins/wpbakery/wpbakery-init.php:54
+#: plugins/fusionbuilder/fusionbuilder-init.php:48
+#: plugins/fusionbuilder/fusionbuilder-init.php:56
+#: includes/shoppable-lookbook-init.php:97
+msgid "Shoppable Lookbook"
+msgstr "Shoppable Lookbook"
+
+#: plugins/wpbakery/wpbakery-init.php:55
+#: plugins/fusionbuilder/fusionbuilder-init.php:57
+msgid "Select a lookbook to display"
+msgstr "表示するルックブックを選択してください"
+
+#: includes/shoppable-lookbook-admin.php:50
+msgid "More info"
+msgstr "詳細情報"
+
+#: includes/shoppable-lookbook-admin.php:84
+msgid "Back to Lookbook"
+msgstr "ルックブックに戻る"
+
+#: includes/shoppable-lookbook-admin.php:88
+msgid "Back"
+msgstr "戻る"
+
+#: includes/shoppable-lookbook-admin.php:100
+#, php-format
+msgid "Hello %s!"
+msgstr "こんにちは、%s さん！"
+
+#: includes/shoppable-lookbook-admin.php:102
+#, php-format
+msgid "You are running %1$s %2$s"
+msgstr "%1$s %2$s を使用中"
+
+#: includes/shoppable-lookbook-admin.php:113
+#: includes/pro__premium_only/gallery.php:383
+msgid "Are you sure you want to delete"
+msgstr "本当に削除しますか："
+
+#: includes/shoppable-lookbook-admin.php:116
+#: includes/pro__premium_only/gallery.php:386
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/shoppable-lookbook-admin.php:117
+#: includes/pro__premium_only/gallery.php:387
+msgid "Yes, delete lookbook"
+msgstr "はい、ルックブックを削除"
+
+#: includes/shoppable-lookbook-admin.php:120
+#: includes/pro__premium_only/gallery.php:390
+msgid "Deleting..."
+msgstr "削除中..."
+
+#: includes/shoppable-lookbook-admin.php:121
+#: includes/pro__premium_only/gallery.php:391
+msgid "Deleted..."
+msgstr "削除しました..."
+
+#: includes/shoppable-lookbook-admin.php:122
+#: includes/shoppable-lookbook-admin.php:369
+#: includes/shoppable-lookbook-admin.php:804
+#: includes/pro__premium_only/gallery.php:474
+msgid "Loading..."
+msgstr "読み込み中..."
+
+#: includes/shoppable-lookbook-admin.php:123
+#: includes/pro__premium_only/gallery.php:392
+msgid "Failed..."
+msgstr "失敗しました..."
+
+#: includes/shoppable-lookbook-admin.php:127
+#: includes/pro__premium_only/gallery.php:397
+msgid "Add New"
+msgstr "新規追加"
+
+#: includes/shoppable-lookbook-admin.php:129
+#: includes/pro__premium_only/gallery.php:398
+#: includes/pro__premium_only/gallery.php:516
+msgid "Import"
+msgstr "インポート"
+
+#: includes/shoppable-lookbook-admin.php:135
+msgid "No image hotspots yet."
+msgstr "Image Hotspotはまだありません。"
+
+#: includes/shoppable-lookbook-admin.php:135
+msgid "Create your first image hotspots"
+msgstr "最初のImage Hotspotを作成"
+
+#: includes/shoppable-lookbook-admin.php:157
+#, php-format
+msgid "%d marker points to a missing product"
+msgid_plural "%d markers point to missing products"
+msgstr[0] "%d 個のマーカーが存在しない商品を指しています"
+
+#: includes/shoppable-lookbook-admin.php:161
+#, php-format
+msgid "%d product is out of stock"
+msgid_plural "%d products are out of stock"
+msgstr[0] "%d 件の商品が在庫切れです"
+
+#: includes/shoppable-lookbook-admin.php:175
+msgid "Duplicate"
+msgstr "複製"
+
+#: includes/shoppable-lookbook-admin.php:176
+#: includes/pro__premium_only/gallery.php:425
+msgid "Export"
+msgstr "エクスポート"
+
+#: includes/shoppable-lookbook-admin.php:177
+#: includes/pro__premium_only/gallery.php:426
+msgid "Delete"
+msgstr "削除"
+
+#: includes/shoppable-lookbook-admin.php:180
+#: includes/shoppable-lookbook-admin.php:403
+#: includes/shoppable-lookbook-admin.php:836
+#: includes/pro__premium_only/gallery.php:429
+#: includes/pro__premium_only/gallery.php:545
+msgid "Copied to clipboard"
+msgstr "クリップボードにコピーしました"
+
+#: includes/shoppable-lookbook-admin.php:288
+msgid "Lookbook not found."
+msgstr "ルックブックが見つかりません。"
+
+#: includes/shoppable-lookbook-admin.php:357
+#, php-format
+msgid ""
+"%d marker points to a product that no longer exists and will not be shown."
+msgid_plural ""
+"%d markers point to products that no longer exist and will not be shown."
+msgstr[0] "%d 個のマーカーは存在しない商品を指しているため表示されません。"
+
+#: includes/shoppable-lookbook-admin.php:361
+#, php-format
+msgid "%d linked product is out of stock."
+msgid_plural "%d linked products are out of stock."
+msgstr[0] "%d 件のリンクされた商品が在庫切れです。"
+
+#: includes/shoppable-lookbook-admin.php:363
+msgid "Product check:"
+msgstr "商品チェック："
+
+#: includes/shoppable-lookbook-admin.php:370
+#: includes/shoppable-lookbook-admin.php:805
+#: includes/pro__premium_only/gallery.php:475
+msgid "Saving..."
+msgstr "保存中..."
+
+#: includes/shoppable-lookbook-admin.php:371
+#: includes/shoppable-lookbook-admin.php:806
+#: includes/pro__premium_only/gallery.php:476
+msgid "Saved..."
+msgstr "保存しました..."
+
+#: includes/shoppable-lookbook-admin.php:376
+#: includes/shoppable-lookbook-admin.php:811
+msgid "Change Image"
+msgstr "画像を変更"
+
+#: includes/shoppable-lookbook-admin.php:390
+#: includes/shoppable-lookbook-admin.php:819
+msgid "Click anywhere on the image to add a marker"
+msgstr "画像の任意の場所をクリックしてマーカーを追加"
+
+#: includes/shoppable-lookbook-admin.php:393
+msgid "Image Hotspot Settings"
+msgstr "Image Hotspot設定"
+
+#: includes/shoppable-lookbook-admin.php:401
+#: includes/shoppable-lookbook-admin.php:834
+#: includes/pro__premium_only/gallery.php:543
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: includes/shoppable-lookbook-admin.php:405
+#: includes/shoppable-lookbook-admin.php:838
+msgid "Hotspot List"
+msgstr "ホットスポット一覧"
+
+#: includes/shoppable-lookbook-admin.php:407
+#: includes/shoppable-lookbook-admin.php:840
+msgid "Box"
+msgstr "ボックス"
+
+#: includes/shoppable-lookbook-admin.php:410
+#: includes/shoppable-lookbook-admin.php:843
+msgid "Box Style"
+msgstr "ボックススタイル"
+
+#: includes/shoppable-lookbook-admin.php:415
+#: includes/shoppable-lookbook-admin.php:848
+msgid "Inline"
+msgstr "インライン"
+
+#: includes/shoppable-lookbook-admin.php:423
+#: includes/shoppable-lookbook-admin.php:856
+msgid "Pad"
+msgstr "パッド"
+
+#: includes/shoppable-lookbook-admin.php:431
+#: includes/shoppable-lookbook-admin.php:864
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/shoppable-lookbook-admin.php:439
+#: includes/shoppable-lookbook-admin.php:872
+msgid "Tag"
+msgstr "タグ"
+
+#: includes/shoppable-lookbook-admin.php:447
+#: includes/shoppable-lookbook-admin.php:880
+msgid "Bottom"
+msgstr "下部"
+
+#: includes/shoppable-lookbook-admin.php:454
+#: includes/shoppable-lookbook-admin.php:887
+msgid "Box Corner"
+msgstr "ボックスの角丸"
+
+#: includes/shoppable-lookbook-admin.php:454
+#: includes/shoppable-lookbook-admin.php:887
+msgid ""
+"Rounds the corners of the box and its thumbnail. Switching Box Style "
+"suggests a matching value (Instagram: 5, Tag: 50) — drag the slider to fine-"
+"tune."
+msgstr ""
+"ボックスとサムネイルの角を丸くします。ボックススタイルを切り替えると適した値"
+"が提案されます（Instagram: 5、タグ: 50）。スライダーで微調整してください。"
+
+#: includes/shoppable-lookbook-admin.php:459
+#: includes/shoppable-lookbook-admin.php:892
+msgid "Box Color"
+msgstr "ボックスの色"
+
+#: includes/shoppable-lookbook-admin.php:464
+#: includes/shoppable-lookbook-admin.php:543
+#: includes/shoppable-lookbook-admin.php:897
+#: includes/shoppable-lookbook-admin.php:968
+msgid "Light"
+msgstr "ライト"
+
+#: includes/shoppable-lookbook-admin.php:472
+#: includes/shoppable-lookbook-admin.php:551
+#: includes/shoppable-lookbook-admin.php:904
+#: includes/shoppable-lookbook-admin.php:975
+msgid "Dark"
+msgstr "ダーク"
+
+#: includes/shoppable-lookbook-admin.php:480
+#: includes/shoppable-lookbook-admin.php:911
+msgid "Yellow"
+msgstr "イエロー"
+
+#: includes/shoppable-lookbook-admin.php:488
+#: includes/shoppable-lookbook-admin.php:918
+msgid "Blue"
+msgstr "ブルー"
+
+#: includes/shoppable-lookbook-admin.php:496
+#: includes/shoppable-lookbook-admin.php:925
+msgid "Green"
+msgstr "グリーン"
+
+#: includes/shoppable-lookbook-admin.php:504
+#: includes/shoppable-lookbook-admin.php:932
+msgid "Rose"
+msgstr "ローズ"
+
+#: includes/shoppable-lookbook-admin.php:512
+#: includes/shoppable-lookbook-admin.php:939
+msgid "Custom"
+msgstr "カスタム"
+
+#: includes/shoppable-lookbook-admin.php:520
+#: includes/shoppable-lookbook-admin.php:946
+msgid "Custom Color"
+msgstr "カスタムカラー"
+
+#: includes/shoppable-lookbook-admin.php:524
+#: includes/shoppable-lookbook-admin.php:950
+msgid "Opacity"
+msgstr "不透明度"
+
+#: includes/shoppable-lookbook-admin.php:530
+#: includes/shoppable-lookbook-admin.php:956
+msgid "Content Color"
+msgstr "コンテンツの色"
+
+#: includes/shoppable-lookbook-admin.php:530
+#: includes/shoppable-lookbook-admin.php:956
+msgid ""
+"Color of the product name, price, close icon, preview link and Add to Cart "
+"button inside the box. Auto picks a readable color for the chosen box color."
+msgstr ""
+"ボックス内の商品名・価格・閉じるアイコン・プレビューリンク・カート追加ボタン"
+"の色。自動はボックスの色に合わせて読みやすい色を選びます。"
+
+#: includes/shoppable-lookbook-admin.php:535
+#: includes/shoppable-lookbook-admin.php:961
+msgid "Auto"
+msgstr "自動"
+
+#: includes/shoppable-lookbook-admin.php:554
+#: includes/shoppable-lookbook-admin.php:557
+#: includes/shoppable-lookbook-admin.php:977
+#: includes/shoppable-lookbook-admin.php:980
+msgid "Marker"
+msgstr "マーカー"
+
+#: includes/shoppable-lookbook-admin.php:609
+#: includes/shoppable-lookbook-admin.php:1055
+msgid "Marker Animation"
+msgstr "マーカーアニメーション"
+
+#: includes/shoppable-lookbook-admin.php:614
+#: includes/shoppable-lookbook-admin.php:768
+#: includes/shoppable-lookbook-admin.php:1060
+#: includes/shoppable-lookbook-admin.php:1190
+#: includes/pro__premium_only/product-list.php:88
+msgid "None"
+msgstr "なし"
+
+#: includes/shoppable-lookbook-admin.php:621
+#: includes/shoppable-lookbook-admin.php:1067
+msgid "Pulse"
+msgstr "パルス"
+
+#: includes/shoppable-lookbook-admin.php:628
+#: includes/shoppable-lookbook-admin.php:1074
+msgid "Beat"
+msgstr "ビート"
+
+#: includes/shoppable-lookbook-admin.php:635
+#: includes/shoppable-lookbook-admin.php:1081
+msgid "Bounce"
+msgstr "バウンス"
+
+#: includes/shoppable-lookbook-admin.php:642
+#: includes/shoppable-lookbook-admin.php:1049
+msgid "Marker Color"
+msgstr "マーカーの色"
+
+#: includes/shoppable-lookbook-admin.php:648
+#: includes/shoppable-lookbook-admin.php:1044
+msgid "Marker Size"
+msgstr "マーカーのサイズ"
+
+#: includes/shoppable-lookbook-admin.php:654
+msgid "Custom Marker"
+msgstr "カスタムマーカー"
+
+#: includes/shoppable-lookbook-admin.php:654
+msgid "Image PNG or SVG"
+msgstr "PNGまたはSVG画像"
+
+#: includes/shoppable-lookbook-admin.php:657
+#: includes/shoppable-lookbook-admin.php:1035
+msgid "Upload"
+msgstr "アップロード"
+
+#: includes/shoppable-lookbook-admin.php:658
+#: includes/shoppable-lookbook-admin.php:1036
+msgid "Remove"
+msgstr "削除"
+
+#: includes/shoppable-lookbook-admin.php:662
+#: includes/shoppable-lookbook-admin.php:1084
+#: includes/pro__premium_only/gallery.php:551
+msgid "Display"
+msgstr "表示"
+
+#: includes/shoppable-lookbook-admin.php:665
+#: includes/shoppable-lookbook-admin.php:1087
+msgid "Photo Width"
+msgstr "写真の幅"
+
+#: includes/shoppable-lookbook-admin.php:665
+#: includes/shoppable-lookbook-admin.php:1087
+msgid "Full width"
+msgstr "全幅"
+
+#: includes/shoppable-lookbook-admin.php:665
+#: includes/shoppable-lookbook-admin.php:1087
+msgid ""
+"Caps how wide the main photo can grow on the frontend. Drag to 0 for no "
+"limit (full width of its container)."
+msgstr ""
+"フロントエンドでのメイン写真の最大幅を制限します。0にすると制限なし（コンテ"
+"ナーの全幅）になります。"
+
+#: includes/shoppable-lookbook-admin.php:671
+#: includes/shoppable-lookbook-admin.php:1093
+msgid "Show Price"
+msgstr "価格を表示"
+
+#: includes/shoppable-lookbook-admin.php:676
+#: includes/shoppable-lookbook-admin.php:693
+#: includes/shoppable-lookbook-admin.php:1098
+#: includes/shoppable-lookbook-admin.php:1115
+#: includes/pro__premium_only/quick-view.php:51
+msgid "No"
+msgstr "いいえ"
+
+#: includes/shoppable-lookbook-admin.php:683
+#: includes/shoppable-lookbook-admin.php:700
+#: includes/shoppable-lookbook-admin.php:1105
+#: includes/shoppable-lookbook-admin.php:1122
+#: includes/pro__premium_only/quick-view.php:58
+msgid "Yes"
+msgstr "はい"
+
+#: includes/shoppable-lookbook-admin.php:688
+#: includes/shoppable-lookbook-admin.php:1110
+msgid "Add to Cart"
+msgstr "カートに追加"
+
+#: includes/shoppable-lookbook-admin.php:708
+#: includes/shoppable-lookbook-admin.php:1130
+msgid "Open Marker On"
+msgstr "マーカーを開く操作"
+
+#: includes/shoppable-lookbook-admin.php:708
+#: includes/shoppable-lookbook-admin.php:1130
+msgid ""
+"Open All: every box opens on load (visitors can close them). Open First: the "
+"first box opens on load. Accordion: one box is always open — opening another "
+"closes it."
+msgstr ""
+"すべて開く：読み込み時にすべてのボックスが開きます（訪問者は閉じられます）。"
+"最初を開く：読み込み時に最初のボックスが開きます。アコーディオン：常に1つだけ"
+"開き、別のボックスを開くと前のものが閉じます。"
+
+#: includes/shoppable-lookbook-admin.php:713
+#: includes/shoppable-lookbook-admin.php:1135
+msgid "Click"
+msgstr "クリック"
+
+#: includes/shoppable-lookbook-admin.php:720
+#: includes/shoppable-lookbook-admin.php:1142
+msgid "Hover"
+msgstr "ホバー"
+
+#: includes/shoppable-lookbook-admin.php:727
+#: includes/shoppable-lookbook-admin.php:1149
+msgid "Open All"
+msgstr "すべて開く"
+
+#: includes/shoppable-lookbook-admin.php:734
+#: includes/shoppable-lookbook-admin.php:1156
+msgid "Open First"
+msgstr "最初を開く"
+
+#: includes/shoppable-lookbook-admin.php:741
+#: includes/shoppable-lookbook-admin.php:1163
+msgid "Accordion"
+msgstr "アコーディオン"
+
+#: includes/shoppable-lookbook-admin.php:746
+#: includes/shoppable-lookbook-admin.php:1168
+msgid "Mobile Display"
+msgstr "モバイル表示"
+
+#: includes/shoppable-lookbook-admin.php:746
+#: includes/shoppable-lookbook-admin.php:1168
+msgid ""
+"Bottom sheet: the box slides up from the bottom of the screen, full width. "
+"Compact: the box opens next to its marker like on desktop, sized down for "
+"mobile."
+msgstr ""
+"ボトムシート：ボックスが画面下から全幅でスライドします。コンパクト：デスク"
+"トップ同様マーカーの横に、モバイル向けに縮小して開きます。"
+
+#: includes/shoppable-lookbook-admin.php:751
+#: includes/shoppable-lookbook-admin.php:1173
+msgid "Bottom sheet"
+msgstr "ボトムシート"
+
+#: includes/shoppable-lookbook-admin.php:758
+#: includes/shoppable-lookbook-admin.php:1180
+msgid "Compact (desktop-style)"
+msgstr "コンパクト（デスクトップ風）"
+
+#: includes/shoppable-lookbook-admin.php:763
+#: includes/shoppable-lookbook-admin.php:1185
+msgid "Show Sidebar"
+msgstr "サイドバーを表示"
+
+#: includes/shoppable-lookbook-admin.php:775
+#: includes/shoppable-lookbook-admin.php:1197
+#: includes/pro__premium_only/product-list.php:89
+msgid "Left"
+msgstr "左"
+
+#: includes/shoppable-lookbook-admin.php:782
+#: includes/shoppable-lookbook-admin.php:1204
+#: includes/pro__premium_only/product-list.php:90
+msgid "Right"
+msgstr "右"
+
+#: includes/shoppable-lookbook-admin.php:788
+#: includes/shoppable-lookbook-admin.php:1210
+#: includes/pro__premium_only/gallery.php:626
+msgid "Save"
+msgstr "保存"
+
+#: includes/shoppable-lookbook-admin.php:822
+msgid "or drag & drop an image here"
+msgstr "またはここに画像をドラッグ＆ドロップ"
+
+#: includes/shoppable-lookbook-admin.php:826
+#: includes/pro__premium_only/gallery.php:530
+msgid "Lookbook Settings"
+msgstr "ルックブック設定"
+
+#: includes/shoppable-lookbook-admin.php:1032
+msgid "Marker Image"
+msgstr "マーカー画像"
+
+#: includes/shoppable-lookbook-admin.php:1040
+msgid "PNG or SVG. Leave empty to use an icon above."
+msgstr "PNGまたはSVG。空のままにすると上のアイコンを使用します。"
+
+#: includes/pro__premium_only/quick-view.php:46
+msgid "Quick View"
+msgstr "クイックビュー"
+
+#: includes/pro__premium_only/quick-view.php:82
+#: includes/pro__premium_only/quick-view.php:85
+msgid "Quick view"
+msgstr "クイックビュー"
+
+#: includes/pro__premium_only/quick-view.php:127
+msgid "Loading…"
+msgstr "読み込み中…"
+
+#: includes/pro__premium_only/quick-view.php:128
+msgid "Could not load the product."
+msgstr "商品を読み込めませんでした。"
+
+#: includes/pro__premium_only/quick-view.php:129
+#: includes/shoppable-lookbook-frontend.php:411
+msgid "Close"
+msgstr "閉じる"
+
+#: includes/pro__premium_only/quick-view.php:132
+#: includes/pro__premium_only/quick-view.php:213
+#: includes/pro__premium_only/quick-view.php:246
+msgid "Could not add this product to the cart."
+msgstr "この商品をカートに追加できませんでした。"
+
+#: includes/pro__premium_only/quick-view.php:187
+msgid "View full details"
+msgstr "詳細を見る"
+
+#: includes/pro__premium_only/quick-view.php:230
+msgid "Product not found."
+msgstr "商品が見つかりません。"
+
+#: includes/pro__premium_only/quick-view.php:234
+msgid "Please choose an option first."
+msgstr "先にオプションを選択してください。"
+
+#: includes/pro__premium_only/quick-view.php:240
+msgid "This product cannot be added to the cart right now."
+msgstr "この商品は現在カートに追加できません。"
+
+#: includes/pro__premium_only/gallery.php:199
+msgid "Slide — classic"
+msgstr "スライド — クラシック"
+
+#: includes/pro__premium_only/gallery.php:199
+msgid "Slides swipe across edge to edge, one at a time."
+msgstr "スライドが端から端まで、1枚ずつスワイプします。"
+
+#: includes/pro__premium_only/gallery.php:200
+msgid "Fade — cross-dissolve"
+msgstr "フェード — クロスディゾルブ"
+
+#: includes/pro__premium_only/gallery.php:200
+msgid "Slides dissolve into each other in place. Minimal, editorial."
+msgstr "スライドがその場で互いに溶け合います。ミニマルで洗練された印象です。"
+
+#: includes/pro__premium_only/gallery.php:201
+msgid "Coverflow — 3D"
+msgstr "カバーフロー — 3D"
+
+#: includes/pro__premium_only/gallery.php:201
+msgid ""
+"The active photo sits large and flat; neighbors tilt away in 3D on either "
+"side."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:202
+msgid "Peek — neighbors visible"
+msgstr "ピーク — 隣のスライドが見える"
+
+#: includes/pro__premium_only/gallery.php:202
+msgid ""
+"The active photo is large with the next/previous photo peeking in at the "
+"edges."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:203
+msgid "Cards — stacked deck"
+msgstr "カード — 重なったデッキ"
+
+#: includes/pro__premium_only/gallery.php:203
+msgid ""
+"Photos stack like a card deck; the front card slides away to reveal the next."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:214
+#: includes/pro__premium_only/gallery.php:229
+#: includes/pro__premium_only/product-list.php:114
+msgid "1:1"
+msgstr "1:1"
+
+#: includes/pro__premium_only/gallery.php:215
+#: includes/pro__premium_only/gallery.php:230
+#: includes/pro__premium_only/product-list.php:115
+msgid "4:3"
+msgstr "4:3"
+
+#: includes/pro__premium_only/gallery.php:216
+#: includes/pro__premium_only/gallery.php:231
+#: includes/pro__premium_only/product-list.php:116
+msgid "3:4"
+msgstr "3:4"
+
+#: includes/pro__premium_only/gallery.php:217
+msgid "16:9"
+msgstr "16:9"
+
+#: includes/pro__premium_only/gallery.php:218
+msgid "9:16"
+msgstr "9:16"
+
+#: includes/pro__premium_only/gallery.php:266
+#: includes/pro__premium_only/gallery.php:267
+#: includes/pro__premium_only/gallery.php:396
+#: includes/pro__premium_only/analytics.php:784
+msgid "Lookbooks"
+msgstr "ルックブック"
+
+#: includes/pro__premium_only/gallery.php:319
+#: includes/pro__premium_only/gallery.php:711
+msgid "Please enter a lookbook name."
+msgstr "ルックブック名を入力してください。"
+
+#: includes/pro__premium_only/gallery.php:320
+msgid "Could not save the lookbook. Please try again."
+msgstr "ルックブックを保存できませんでした。もう一度お試しください。"
+
+#: includes/pro__premium_only/gallery.php:321
+#: includes/pro__premium_only/gallery.php:652
+msgid "Edit"
+msgstr "編集"
+
+#: includes/pro__premium_only/gallery.php:403
+msgid "No lookbooks yet."
+msgstr "ルックブックはまだありません。"
+
+#: includes/pro__premium_only/gallery.php:403
+msgid "Create your first lookbook"
+msgstr "最初のルックブックを作成"
+
+#: includes/pro__premium_only/gallery.php:412
+#: includes/pro__premium_only/analytics.php:625
+#: includes/pro__premium_only/analytics.php:789
+#: includes/shoppable-lookbook-init.php:98
+msgid "Lookbook"
+msgstr "ルックブック"
+
+#: includes/pro__premium_only/gallery.php:482
+msgid "Back to Lookbooks"
+msgstr "ルックブック一覧に戻る"
+
+#: includes/pro__premium_only/gallery.php:483
+msgid "Edit Lookbook"
+msgstr "ルックブックを編集"
+
+#: includes/pro__premium_only/gallery.php:501
+msgid "Add Image Hotspots to include. Drag to reorder."
+msgstr "含めるImage Hotspotを追加します。ドラッグで並べ替えられます。"
+
+#: includes/pro__premium_only/gallery.php:511
+msgid "-- Choose from Image Hotspots --"
+msgstr "-- Image Hotspotから選択 --"
+
+#: includes/pro__premium_only/gallery.php:518
+msgid "or"
+msgstr "または"
+
+#: includes/pro__premium_only/gallery.php:520
+msgid "Add New Image Hotspot"
+msgstr "新しいImage Hotspotを追加"
+
+#: includes/pro__premium_only/gallery.php:522
+msgid "Save the lookbook first to enable this."
+msgstr "有効にするには、先にルックブックを保存してください。"
+
+#: includes/pro__premium_only/gallery.php:522
+#: includes/shoppable-lookbook-init.php:115
+msgid "New Image Hotspot"
+msgstr "新しいImage Hotspot"
+
+#: includes/pro__premium_only/gallery.php:537
+msgid "e.g. Spring collection"
+msgstr "例：春コレクション"
+
+#: includes/pro__premium_only/gallery.php:553
+msgid "Carousel (slider)"
+msgstr "カルーセル（スライダー）"
+
+#: includes/pro__premium_only/gallery.php:554
+msgid "Flipbook (magazine)"
+msgstr "フリップブック（雑誌風）"
+
+#: includes/pro__premium_only/gallery.php:555
+msgid "Grid"
+msgstr "グリッド"
+
+#: includes/pro__premium_only/gallery.php:556
+msgid "Masonry"
+msgstr "メイソンリー"
+
+#: includes/pro__premium_only/gallery.php:562
+msgid "Book Size"
+msgstr "ブックサイズ"
+
+#: includes/pro__premium_only/gallery.php:562
+msgid "Photos that do not match the page shape are centered on the page."
+msgstr "ページの形に合わない写真はページ中央に配置されます。"
+
+#: includes/pro__premium_only/gallery.php:564
+msgid "Portrait — like a magazine"
+msgstr "縦向き — 雑誌のように"
+
+#: includes/pro__premium_only/gallery.php:565
+msgid "Landscape — like a photo album"
+msgstr "横向き — フォトアルバムのように"
+
+#: includes/pro__premium_only/gallery.php:568
+#: includes/pro__premium_only/gallery.php:594
+msgid "Photo Fit"
+msgstr "写真の表示"
+
+#: includes/pro__premium_only/gallery.php:568
+msgid ""
+"Full crops photos to fill the page; markers follow the visible part "
+"automatically."
+msgstr ""
+"フルは写真をトリミングしてページを埋めます。マーカーは表示部分に自動で追従し"
+"ます。"
+
+#: includes/pro__premium_only/gallery.php:570
+msgid "Fit — show the whole photo"
+msgstr "フィット — 写真全体を表示"
+
+#: includes/pro__premium_only/gallery.php:571
+msgid "Full — cover the page edge to edge"
+msgstr "フル — ページ全面に表示"
+
+#: includes/pro__premium_only/gallery.php:580
+msgid "Style"
+msgstr "スタイル"
+
+#: includes/pro__premium_only/gallery.php:580
+msgid "How slides move as visitors browse the carousel."
+msgstr "訪問者がカルーセルを閲覧する際のスライドの動き方です。"
+
+#: includes/pro__premium_only/gallery.php:587
+#: includes/pro__premium_only/product-list.php:138
+msgid "Items per view"
+msgstr "1画面あたりの件数"
+
+#: includes/pro__premium_only/gallery.php:587
+msgid ""
+"How many photos show side by side per page. Only applies to the Slide style."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:591
+#, php-format
+msgid "%d image"
+msgid_plural "%d images"
+msgstr[0] "%d枚の画像"
+
+#: includes/pro__premium_only/gallery.php:594
+msgid "Fit adds empty space on the sides if the photo doesn't match the frame."
+msgstr "フィットは、写真が枠に合わない場合、両端に余白ができます。"
+
+#: includes/pro__premium_only/gallery.php:596
+msgid "Full — crop to fill the frame"
+msgstr "フル — 枠いっぱいにトリミング"
+
+#: includes/pro__premium_only/gallery.php:597
+msgid "Fit — show the whole photo, centered"
+msgstr "フィット — 写真全体を中央に表示"
+
+#: includes/pro__premium_only/gallery.php:600
+#: includes/pro__premium_only/gallery.php:614
+msgid "Size"
+msgstr "サイズ"
+
+#: includes/pro__premium_only/gallery.php:600
+msgid "The same frame size is used for every photo in the carousel."
+msgstr "カルーセル内のすべての写真に同じフレームサイズが使われます。"
+
+#: includes/pro__premium_only/gallery.php:603
+msgid "Autoplay slides"
+msgstr "スライドを自動再生"
+
+#: includes/pro__premium_only/gallery.php:604
+msgid "Prev / next arrows"
+msgstr "前へ / 次へ矢印"
+
+#: includes/pro__premium_only/gallery.php:605
+msgid "Navigation dots"
+msgstr "ナビゲーションドット"
+
+#: includes/pro__premium_only/gallery.php:606
+msgid "Speed (ms)"
+msgstr "速度（ミリ秒）"
+
+#: includes/pro__premium_only/gallery.php:617
+msgid "Columns"
+msgstr "列数"
+
+#: includes/pro__premium_only/gallery.php:621
+msgid "Gap (px)"
+msgstr "間隔（px）"
+
+#: includes/pro__premium_only/gallery.php:627
+msgid "Save the lookbook first to preview."
+msgstr "プレビューするには、先にルックブックを保存してください。"
+
+#: includes/pro__premium_only/gallery.php:700
+#: includes/pro__premium_only/gallery.php:792
+#: includes/pro__premium_only/gallery.php:814
+#: includes/pro__premium_only/gallery.php:836
+#: includes/pro__premium_only/gallery.php:882
+#: includes/shoppable-lookbook-list.php:47
+#: includes/shoppable-lookbook-init.php:22
+#: includes/shoppable-lookbook-search.php:22
+msgid "You are not allowed to do this."
+msgstr "この操作を行う権限がありません。"
+
+#: includes/pro__premium_only/gallery.php:892
+#: includes/shoppable-lookbook-init.php:764
+msgid "This is not a valid lookbook export file."
+msgstr "有効なルックブックのエクスポートファイルではありません。"
+
+#: includes/pro__premium_only/gallery.php:908
+msgid "None of the image hotspots in this file could be imported."
+msgstr "このファイルのImage Hotspotはいずれもインポートできませんでした。"
+
+#: includes/pro__premium_only/gallery.php:914
+#: includes/shoppable-lookbook-init.php:667
+msgid "Imported lookbook"
+msgstr "インポートしたルックブック"
+
+#: includes/pro__premium_only/gallery.php:935
+#, php-format
+msgid "%d image hotspot could not be imported (missing image)."
+msgid_plural "%d image hotspots could not be imported (missing image)."
+msgstr[0] ""
+"%d 件のImage Hotspotをインポートできませんでした（画像が見つかりません）。"
+
+#: includes/pro__premium_only/gallery.php:1026
+#: includes/pro__premium_only/gallery.php:1046
+#: includes/pro__premium_only/gallery.php:1099
+#: includes/pro__premium_only/gallery.php:1106
+#: includes/pro__premium_only/gallery.php:1137
+#: includes/pro__premium_only/gallery.php:1144
+msgid "Shoppable Gallery"
+msgstr "Shoppable Gallery"
+
+#: includes/pro__premium_only/gallery.php:1053
+msgid "Select a gallery"
+msgstr "ギャラリーを選択"
+
+#: includes/pro__premium_only/gallery.php:1107
+#: includes/pro__premium_only/gallery.php:1145
+msgid "Select a gallery to display"
+msgstr "表示するギャラリーを選択してください"
+
+#: includes/pro__premium_only/multi-image.php:207
+#: includes/pro__premium_only/product-list.php:262
+#: includes/pro__premium_only/product-list.php:279
+msgid "Previous"
+msgstr "前へ"
+
+#: includes/pro__premium_only/multi-image.php:208
+#: includes/pro__premium_only/product-list.php:263
+#: includes/pro__premium_only/product-list.php:283
+msgid "Next"
+msgstr "次へ"
+
+#: includes/pro__premium_only/multi-image.php:216
+#, php-format
+msgid "Go to slide %d"
+msgstr "スライド %d へ"
+
+#: includes/pro__premium_only/multi-image.php:265
+#, php-format
+msgid "Go to page %d"
+msgstr "ページ %d へ"
+
+#: includes/pro__premium_only/product-list.php:91
+msgid "Below"
+msgstr "下"
+
+#: includes/pro__premium_only/product-list.php:96
+msgid "Shop the Look"
+msgstr "Shop the Look"
+
+#: includes/pro__premium_only/product-list.php:100
+msgid "Product List"
+msgstr "商品リスト"
+
+#: includes/pro__premium_only/product-list.php:100
+msgid ""
+"Shows every tagged product as a shoppable list beside the image, or as a "
+"carousel below it. Left/Right scroll after the chosen number of items; Below "
+"shows up to 6 per view."
+msgstr ""
+"タグ付けした商品を画像の横に購入可能なリストとして、または下にカルーセルとし"
+"て表示します。左/右は指定した件数以降スクロール、下は1画面に最大6件表示しま"
+"す。"
+
+#: includes/pro__premium_only/product-list.php:126
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: includes/pro__premium_only/product-list.php:142
+msgid ""
+"Shows just a total price and an \"Add all to cart\" button below the image — "
+"no individual product cards."
+msgstr ""
+"画像の下に合計金額と「すべてカートに追加」ボタンだけを表示します（個別の商品"
+"カードなし）。"
+
+#: includes/pro__premium_only/product-page.php:105
+#: includes/pro__premium_only/shop-the-look.php:81
+msgid "Shop the look"
+msgstr "Shop the look"
+
+#: includes/pro__premium_only/analytics.php:152
+#: includes/pro__premium_only/analytics.php:614
+msgid "Lookbook Analytics"
+msgstr "ルックブック分析"
+
+#: includes/pro__premium_only/analytics.php:153
+msgid "Analytics"
+msgstr "分析"
+
+#: includes/pro__premium_only/analytics.php:171
+msgid "Last 7 days"
+msgstr "過去7日間"
+
+#: includes/pro__premium_only/analytics.php:172
+msgid "Last 30 days"
+msgstr "過去30日間"
+
+#: includes/pro__premium_only/analytics.php:173
+msgid "Last 90 days"
+msgstr "過去90日間"
+
+#: includes/pro__premium_only/analytics.php:174
+msgid "Last 12 months"
+msgstr "過去12か月"
+
+#: includes/pro__premium_only/analytics.php:175
+msgid "All time"
+msgstr "全期間"
+
+#: includes/pro__premium_only/analytics.php:446
+msgid "No change"
+msgstr "変化なし"
+
+#: includes/pro__premium_only/analytics.php:453
+#, php-format
+msgid "%s%%"
+msgstr "%s%%"
+
+#: includes/pro__premium_only/analytics.php:455
+#, php-format
+msgid "%s pts"
+msgstr "%s pt"
+
+#: includes/pro__premium_only/analytics.php:457
+msgid "vs previous period"
+msgstr "前期間比"
+
+#: includes/pro__premium_only/analytics.php:567
+#: includes/pro__premium_only/analytics.php:649
+#: includes/pro__premium_only/analytics.php:695
+#: includes/pro__premium_only/analytics.php:790
+msgid "Impressions"
+msgstr "表示回数"
+
+#: includes/pro__premium_only/analytics.php:573
+#: includes/pro__premium_only/analytics.php:650
+#: includes/pro__premium_only/analytics.php:696
+msgid "Marker opens"
+msgstr "マーカー開封数"
+
+#: includes/pro__premium_only/analytics.php:579
+#: includes/pro__premium_only/analytics.php:651
+#: includes/pro__premium_only/analytics.php:697
+msgid "Product clicks"
+msgstr "商品クリック数"
+
+#: includes/pro__premium_only/analytics.php:585
+#: includes/pro__premium_only/analytics.php:652
+#: includes/pro__premium_only/analytics.php:698
+#: includes/pro__premium_only/analytics.php:743
+#: includes/pro__premium_only/analytics.php:793
+#: includes/shoppable-lookbook-frontend.php:38
+msgid "Add to cart"
+msgstr "カートに追加"
+
+#: includes/pro__premium_only/analytics.php:606
+#: includes/pro__premium_only/analytics.php:682
+#, php-format
+msgid "Week of %s"
+msgstr "%s の週"
+
+#: includes/pro__premium_only/analytics.php:619
+msgid "Date range"
+msgstr "期間"
+
+#: includes/pro__premium_only/analytics.php:627
+msgid "All lookbooks"
+msgstr "すべてのルックブック"
+
+#: includes/pro__premium_only/analytics.php:638
+msgid "No data for this period"
+msgstr "この期間のデータはありません"
+
+#: includes/pro__premium_only/analytics.php:639
+msgid ""
+"Stats appear here once visitors interact with your published lookbooks. Try "
+"a wider date range, or embed a lookbook with the shortcode and share the "
+"page."
+msgstr ""
+"公開したルックブックに訪問者が反応すると、ここに統計が表示されます。期間を広"
+"げるか、ショートコードでルックブックを埋め込んでページを共有してください。"
+
+#: includes/pro__premium_only/analytics.php:653
+#: includes/pro__premium_only/analytics.php:794
+msgid "Open rate"
+msgstr "開封率"
+
+#: includes/pro__premium_only/analytics.php:654
+#: includes/pro__premium_only/analytics.php:744
+msgid "Cart rate"
+msgstr "カート率"
+
+#: includes/pro__premium_only/analytics.php:662
+msgid "Activity"
+msgstr "アクティビティ"
+
+#: includes/pro__premium_only/analytics.php:669
+msgid "Daily activity chart. The same data is available in the table below."
+msgstr "日別アクティビティグラフ。同じデータは下の表でも確認できます。"
+
+#: includes/pro__premium_only/analytics.php:672
+msgid "View data table"
+msgstr "データ表を表示"
+
+#: includes/pro__premium_only/analytics.php:674
+msgid "Date"
+msgstr "日付"
+
+#: includes/pro__premium_only/analytics.php:701
+msgid "Conversion funnel"
+msgstr "コンバージョンファネル"
+
+#: includes/pro__premium_only/analytics.php:711
+#, php-format
+msgid "%s%% of previous step"
+msgstr "前のステップの %s%%"
+
+#: includes/pro__premium_only/analytics.php:731
+msgid "Top products"
+msgstr "人気商品"
+
+#: includes/pro__premium_only/analytics.php:733
+msgid "No product interactions in this period."
+msgstr "この期間に商品への操作はありません。"
+
+#: includes/pro__premium_only/analytics.php:741
+#: includes/pro__premium_only/analytics.php:791
+msgid "Opens"
+msgstr "開封数"
+
+#: includes/pro__premium_only/analytics.php:742
+#: includes/pro__premium_only/analytics.php:792
+msgid "Clicks"
+msgstr "クリック数"
+
+#: includes/pro__premium_only/analytics.php:786
+msgid "No lookbook activity in this period."
+msgstr "この期間にルックブックのアクティビティはありません。"
+
+#: includes/pro__premium_only/shop-the-look.php:78
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d 件"
+
+#: includes/pro__premium_only/shop-the-look.php:85
+msgid "Add all to cart"
+msgstr "すべてカートに追加"
+
+#: includes/pro__premium_only/shop-the-look.php:143
+msgid "Added to cart"
+msgstr "カートに追加しました"
+
+#: includes/pro__premium_only/shop-the-look.php:144
+#: includes/pro__premium_only/shop-the-look.php:197
+#: includes/pro__premium_only/shop-the-look.php:216
+#: includes/pro__premium_only/shop-the-look.php:260
+msgid "Could not add the products."
+msgstr "商品を追加できませんでした。"
+
+#: includes/pro__premium_only/shop-the-look.php:259
+#, php-format
+msgid "Choose options for: %s"
+msgstr "オプションを選択してください：%s"
+
+#: includes/pro__premium_only/shop-the-look.php:276
+#, php-format
+msgid "%1$d item added. Choose options for: %2$s"
+msgid_plural "%1$d items added. Choose options for: %2$s"
+msgstr[0] "%1$d 件追加しました。オプションを選択してください：%2$s"
+
+#: includes/shoppable-lookbook-init.php:110
+msgid "Image Hotspots"
+msgstr "Image Hotspot"
+
+#: includes/shoppable-lookbook-init.php:610
+#, php-format
+msgid "%s (Copy)"
+msgstr "%s（コピー）"
+
+#: includes/shoppable-lookbook-init.php:685
+msgid "The lookbook image could not be imported."
+msgstr "ルックブックの画像をインポートできませんでした。"
+
+#: includes/shoppable-lookbook-init.php:716
+msgid "Export is a Pro feature."
+msgstr "エクスポートはPro機能です。"
+
+#: includes/shoppable-lookbook-init.php:755
+msgid "Import is a Pro feature."
+msgstr "インポートはPro機能です。"
+
+#: includes/shoppable-lookbook-init.php:870
+msgid "You are not allowed to upload SVG files."
+msgstr "SVGファイルをアップロードする権限がありません。"
+
+#: includes/shoppable-lookbook-init.php:883
+msgid "This SVG could not be sanitized and was rejected."
+msgstr "このSVGはサニタイズできなかったため拒否されました。"
+
+#: includes/shoppable-lookbook-init.php:991
+msgid ""
+"WooCommerce is not active. You can still create lookbooks with custom links, "
+"but product markers require WooCommerce."
+msgstr ""
+"WooCommerceが有効ではありません。カスタムリンクでルックブックを作成できます"
+"が、商品マーカーにはWooCommerceが必要です。"
+
+#: includes/shoppable-lookbook-init.php:992
+msgid "Return to Plugins"
+msgstr "プラグイン一覧に戻る"
+
+#: includes/shoppable-lookbook-frontend.php:386
+#, php-format
+msgid "View: %s"
+msgstr "表示：%s"
+
+#: plugins/gutenberg/js/shoppable-lookbook-gutenberg.js:86
+#: assets/pro__premium_only/js/shoppable-gallery-gutenberg.js:73
+msgid "Settings"
+msgstr "設定"
+
+#: plugins/gutenberg/js/shoppable-lookbook-gutenberg.js:101
+msgid "Select a lookbook to display."
+msgstr "表示するルックブックを選択してください。"
+
+#: assets/pro__premium_only/js/shoppable-gallery-gutenberg.js:88
+msgid "Select a gallery to display."
+msgstr "表示するギャラリーを選択してください。"
+
+#~ msgid "Image Size"
+#~ msgstr "画像サイズ"
+
+#~ msgid "Square 1:1"
+#~ msgstr "正方形 1:1"
+
+#~ msgid "Landscape 4:3"
+#~ msgstr "横長 4:3"
+
+#~ msgid "Portrait 3:4"
+#~ msgstr "縦長 3:4"
+
+#~ msgid "Landscape 16:9"
+#~ msgstr "横向き 16:9"
+
+#~ msgid "Portrait 9:16"
+#~ msgstr "縦向き 9:16"
+
+#~ msgid "Frame Width"
+#~ msgstr "フレーム幅"
+
+#~ msgid "Frame Height"
+#~ msgstr "フレーム高さ"
+
+#~ msgid ""
+#~ "The frame shape as a ratio, e.g. 4 and 3 for a 4:3 frame. The same frame "
+#~ "size is used for every photo."
+#~ msgstr ""
+#~ "フレームの形を比率で指定します（例: 4:3フレームなら4と3）。すべての写真に"
+#~ "同じフレームサイズが使われます。"
+
+#~ msgid "Uniform — all slides equal, crop to match"
+#~ msgstr "均一 — 全スライド同じサイズにトリミング"
+
+#~ msgid "Auto — natural size per photo, centered"
+#~ msgstr "自動 — 写真ごとの元のサイズで中央表示"
+
+#~ msgid "Edit Hotspots"
+#~ msgstr "ホットスポットを編集"

@@ -1,0 +1,1359 @@
+# Vietnamese translation for Shoppable Lookbook.
+# Copyright (C) 2026 Douple
+# This file is distributed under the GPLv2 or later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shoppable Lookbook 1.8.0\n"
+"Report-Msgid-Bugs-To: https://douple.net\n"
+"POT-Creation-Date: 2026-07-29 16:37+0700\n"
+"PO-Revision-Date: 2026-07-21 16:00+0700\n"
+"Last-Translator: Douple <support@douple.net>\n"
+"Language-Team: Douple <support@douple.net>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: shoppable-lookbook\n"
+
+#: inc/init.php:62 inc/init.php:125
+#: includes/pro__premium_only/quick-view.php:130
+#: includes/pro__premium_only/shop-the-look.php:142
+msgid "Adding…"
+msgstr "Đang thêm…"
+
+#: inc/init.php:63 inc/init.php:126
+#: includes/pro__premium_only/quick-view.php:131
+msgid "Added ✓"
+msgstr "Đã thêm ✓"
+
+#: inc/init.php:88
+msgid "Select a product"
+msgstr "Chọn sản phẩm"
+
+#: inc/init.php:89 includes/shoppable-lookbook-admin.php:257
+msgid "Search a product..."
+msgstr "Tìm sản phẩm..."
+
+#: inc/init.php:90 includes/shoppable-lookbook-admin.php:821
+msgid "Select Image"
+msgstr "Chọn ảnh"
+
+#: inc/init.php:91 includes/shoppable-lookbook-admin.php:254
+msgid "Add a link"
+msgstr "Thêm liên kết"
+
+#: inc/init.php:92 includes/shoppable-lookbook-admin.php:256
+#: includes/pro__premium_only/analytics.php:740
+msgid "Product"
+msgstr "Sản phẩm"
+
+#: inc/init.php:93 includes/shoppable-lookbook-admin.php:256
+msgid "Custom Link"
+msgstr "Liên kết tùy chỉnh"
+
+#: inc/init.php:94 includes/shoppable-lookbook-admin.php:259
+msgid "Link URL (https://...)"
+msgstr "URL liên kết (https://...)"
+
+#: inc/init.php:95 includes/shoppable-lookbook-admin.php:260
+#: includes/shoppable-lookbook-admin.php:397
+#: includes/shoppable-lookbook-admin.php:830
+#: includes/pro__premium_only/gallery.php:536
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: inc/init.php:96 includes/shoppable-lookbook-admin.php:261
+msgid "Price (optional)"
+msgstr "Giá (không bắt buộc)"
+
+#: inc/init.php:97 includes/shoppable-lookbook-admin.php:262
+msgid "Select image"
+msgstr "Chọn ảnh"
+
+#: inc/init.php:98 includes/shoppable-lookbook-admin.php:263
+msgid "Open in new tab"
+msgstr "Mở trong tab mới"
+
+#: inc/init.php:99 includes/shoppable-lookbook-admin.php:264
+msgid "Apply link"
+msgstr "Áp dụng liên kết"
+
+#: inc/init.php:100
+msgid "Please enter a link URL."
+msgstr "Vui lòng nhập URL liên kết."
+
+#: inc/init.php:101 includes/shoppable-lookbook-admin.php:789
+#: includes/shoppable-lookbook-admin.php:1211
+#: includes/pro__premium_only/gallery.php:322
+#: includes/pro__premium_only/gallery.php:627
+msgid "Preview"
+msgstr "Xem trước"
+
+#: inc/init.php:102
+msgid "Could not duplicate the lookbook."
+msgstr "Không thể nhân bản lookbook."
+
+#: inc/init.php:103 includes/pro__premium_only/gallery.php:323
+#: includes/pro__premium_only/gallery.php:929
+#: includes/shoppable-lookbook-init.php:704
+msgid "Could not import the lookbook."
+msgstr "Không thể nhập lookbook."
+
+#: inc/init.php:104
+msgid "No markers yet. Click on the image to add one."
+msgstr "Chưa có marker nào. Bấm vào ảnh để thêm."
+
+#: inc/init.php:105
+msgid "(no link yet)"
+msgstr "(chưa có liên kết)"
+
+#: plugins/gutenberg/gutenberg-init.php:32
+msgid "Douple"
+msgstr "Douple"
+
+#: plugins/elementor/elementor-widget.php:68
+#: includes/shoppable-lookbook-list.php:55
+msgid "Select a lookbook"
+msgstr "Chọn một lookbook"
+
+#: plugins/wpbakery/wpbakery-init.php:47 plugins/wpbakery/wpbakery-init.php:54
+#: plugins/fusionbuilder/fusionbuilder-init.php:48
+#: plugins/fusionbuilder/fusionbuilder-init.php:56
+#: includes/shoppable-lookbook-init.php:97
+msgid "Shoppable Lookbook"
+msgstr "Shoppable Lookbook"
+
+#: plugins/wpbakery/wpbakery-init.php:55
+#: plugins/fusionbuilder/fusionbuilder-init.php:57
+msgid "Select a lookbook to display"
+msgstr "Chọn lookbook để hiển thị"
+
+#: includes/shoppable-lookbook-admin.php:50
+msgid "More info"
+msgstr "Thông tin thêm"
+
+#: includes/shoppable-lookbook-admin.php:84
+msgid "Back to Lookbook"
+msgstr "Quay lại Lookbook"
+
+#: includes/shoppable-lookbook-admin.php:88
+msgid "Back"
+msgstr "Quay lại"
+
+#: includes/shoppable-lookbook-admin.php:100
+#, php-format
+msgid "Hello %s!"
+msgstr "Xin chào %s!"
+
+#: includes/shoppable-lookbook-admin.php:102
+#, php-format
+msgid "You are running %1$s %2$s"
+msgstr "Bạn đang dùng %1$s %2$s"
+
+#: includes/shoppable-lookbook-admin.php:113
+#: includes/pro__premium_only/gallery.php:383
+msgid "Are you sure you want to delete"
+msgstr "Bạn có chắc muốn xóa"
+
+#: includes/shoppable-lookbook-admin.php:116
+#: includes/pro__premium_only/gallery.php:386
+msgid "Cancel"
+msgstr "Hủy"
+
+#: includes/shoppable-lookbook-admin.php:117
+#: includes/pro__premium_only/gallery.php:387
+msgid "Yes, delete lookbook"
+msgstr "Có, xóa lookbook"
+
+#: includes/shoppable-lookbook-admin.php:120
+#: includes/pro__premium_only/gallery.php:390
+msgid "Deleting..."
+msgstr "Đang xóa..."
+
+#: includes/shoppable-lookbook-admin.php:121
+#: includes/pro__premium_only/gallery.php:391
+msgid "Deleted..."
+msgstr "Đã xóa..."
+
+#: includes/shoppable-lookbook-admin.php:122
+#: includes/shoppable-lookbook-admin.php:369
+#: includes/shoppable-lookbook-admin.php:804
+#: includes/pro__premium_only/gallery.php:474
+msgid "Loading..."
+msgstr "Đang tải..."
+
+#: includes/shoppable-lookbook-admin.php:123
+#: includes/pro__premium_only/gallery.php:392
+msgid "Failed..."
+msgstr "Thất bại..."
+
+#: includes/shoppable-lookbook-admin.php:127
+#: includes/pro__premium_only/gallery.php:397
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: includes/shoppable-lookbook-admin.php:129
+#: includes/pro__premium_only/gallery.php:398
+#: includes/pro__premium_only/gallery.php:516
+msgid "Import"
+msgstr "Nhập"
+
+#: includes/shoppable-lookbook-admin.php:135
+msgid "No image hotspots yet."
+msgstr "Chưa có Image Hotspot nào."
+
+#: includes/shoppable-lookbook-admin.php:135
+msgid "Create your first image hotspots"
+msgstr "Tạo Image Hotspot đầu tiên của bạn"
+
+#: includes/shoppable-lookbook-admin.php:157
+#, php-format
+msgid "%d marker points to a missing product"
+msgid_plural "%d markers point to missing products"
+msgstr[0] "%d marker trỏ tới sản phẩm không còn tồn tại"
+
+#: includes/shoppable-lookbook-admin.php:161
+#, php-format
+msgid "%d product is out of stock"
+msgid_plural "%d products are out of stock"
+msgstr[0] "%d sản phẩm đã hết hàng"
+
+#: includes/shoppable-lookbook-admin.php:175
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#: includes/shoppable-lookbook-admin.php:176
+#: includes/pro__premium_only/gallery.php:425
+msgid "Export"
+msgstr "Xuất"
+
+#: includes/shoppable-lookbook-admin.php:177
+#: includes/pro__premium_only/gallery.php:426
+msgid "Delete"
+msgstr "Xóa"
+
+#: includes/shoppable-lookbook-admin.php:180
+#: includes/shoppable-lookbook-admin.php:403
+#: includes/shoppable-lookbook-admin.php:836
+#: includes/pro__premium_only/gallery.php:429
+#: includes/pro__premium_only/gallery.php:545
+msgid "Copied to clipboard"
+msgstr "Đã sao chép vào clipboard"
+
+#: includes/shoppable-lookbook-admin.php:288
+msgid "Lookbook not found."
+msgstr "Không tìm thấy lookbook."
+
+#: includes/shoppable-lookbook-admin.php:357
+#, php-format
+msgid ""
+"%d marker points to a product that no longer exists and will not be shown."
+msgid_plural ""
+"%d markers point to products that no longer exist and will not be shown."
+msgstr[0] ""
+"%d marker trỏ tới sản phẩm không còn tồn tại và sẽ không được hiển thị."
+
+#: includes/shoppable-lookbook-admin.php:361
+#, php-format
+msgid "%d linked product is out of stock."
+msgid_plural "%d linked products are out of stock."
+msgstr[0] "%d sản phẩm được liên kết đã hết hàng."
+
+#: includes/shoppable-lookbook-admin.php:363
+msgid "Product check:"
+msgstr "Kiểm tra sản phẩm:"
+
+#: includes/shoppable-lookbook-admin.php:370
+#: includes/shoppable-lookbook-admin.php:805
+#: includes/pro__premium_only/gallery.php:475
+msgid "Saving..."
+msgstr "Đang lưu..."
+
+#: includes/shoppable-lookbook-admin.php:371
+#: includes/shoppable-lookbook-admin.php:806
+#: includes/pro__premium_only/gallery.php:476
+msgid "Saved..."
+msgstr "Đã lưu..."
+
+#: includes/shoppable-lookbook-admin.php:376
+#: includes/shoppable-lookbook-admin.php:811
+msgid "Change Image"
+msgstr "Đổi ảnh"
+
+#: includes/shoppable-lookbook-admin.php:390
+#: includes/shoppable-lookbook-admin.php:819
+msgid "Click anywhere on the image to add a marker"
+msgstr "Bấm vào bất kỳ đâu trên ảnh để thêm marker"
+
+#: includes/shoppable-lookbook-admin.php:393
+msgid "Image Hotspot Settings"
+msgstr "Cài đặt Image Hotspot"
+
+#: includes/shoppable-lookbook-admin.php:401
+#: includes/shoppable-lookbook-admin.php:834
+#: includes/pro__premium_only/gallery.php:543
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/shoppable-lookbook-admin.php:405
+#: includes/shoppable-lookbook-admin.php:838
+msgid "Hotspot List"
+msgstr "Danh sách Hotspot"
+
+#: includes/shoppable-lookbook-admin.php:407
+#: includes/shoppable-lookbook-admin.php:840
+msgid "Box"
+msgstr "Hộp"
+
+#: includes/shoppable-lookbook-admin.php:410
+#: includes/shoppable-lookbook-admin.php:843
+msgid "Box Style"
+msgstr "Kiểu hộp"
+
+#: includes/shoppable-lookbook-admin.php:415
+#: includes/shoppable-lookbook-admin.php:848
+msgid "Inline"
+msgstr "Inline"
+
+#: includes/shoppable-lookbook-admin.php:423
+#: includes/shoppable-lookbook-admin.php:856
+msgid "Pad"
+msgstr "Pad"
+
+#: includes/shoppable-lookbook-admin.php:431
+#: includes/shoppable-lookbook-admin.php:864
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/shoppable-lookbook-admin.php:439
+#: includes/shoppable-lookbook-admin.php:872
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/shoppable-lookbook-admin.php:447
+#: includes/shoppable-lookbook-admin.php:880
+msgid "Bottom"
+msgstr "Dưới cùng"
+
+#: includes/shoppable-lookbook-admin.php:454
+#: includes/shoppable-lookbook-admin.php:887
+msgid "Box Corner"
+msgstr "Bo góc hộp"
+
+#: includes/shoppable-lookbook-admin.php:454
+#: includes/shoppable-lookbook-admin.php:887
+msgid ""
+"Rounds the corners of the box and its thumbnail. Switching Box Style "
+"suggests a matching value (Instagram: 5, Tag: 50) — drag the slider to fine-"
+"tune."
+msgstr ""
+"Bo tròn góc của hộp và ảnh thu nhỏ. Khi đổi Kiểu hộp sẽ gợi ý giá trị phù "
+"hợp (Instagram: 5, Tag: 50) — kéo thanh trượt để tinh chỉnh."
+
+#: includes/shoppable-lookbook-admin.php:459
+#: includes/shoppable-lookbook-admin.php:892
+msgid "Box Color"
+msgstr "Màu hộp"
+
+#: includes/shoppable-lookbook-admin.php:464
+#: includes/shoppable-lookbook-admin.php:543
+#: includes/shoppable-lookbook-admin.php:897
+#: includes/shoppable-lookbook-admin.php:968
+msgid "Light"
+msgstr "Sáng"
+
+#: includes/shoppable-lookbook-admin.php:472
+#: includes/shoppable-lookbook-admin.php:551
+#: includes/shoppable-lookbook-admin.php:904
+#: includes/shoppable-lookbook-admin.php:975
+msgid "Dark"
+msgstr "Tối"
+
+#: includes/shoppable-lookbook-admin.php:480
+#: includes/shoppable-lookbook-admin.php:911
+msgid "Yellow"
+msgstr "Vàng"
+
+#: includes/shoppable-lookbook-admin.php:488
+#: includes/shoppable-lookbook-admin.php:918
+msgid "Blue"
+msgstr "Xanh dương"
+
+#: includes/shoppable-lookbook-admin.php:496
+#: includes/shoppable-lookbook-admin.php:925
+msgid "Green"
+msgstr "Xanh lá"
+
+#: includes/shoppable-lookbook-admin.php:504
+#: includes/shoppable-lookbook-admin.php:932
+msgid "Rose"
+msgstr "Hồng"
+
+#: includes/shoppable-lookbook-admin.php:512
+#: includes/shoppable-lookbook-admin.php:939
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+#: includes/shoppable-lookbook-admin.php:520
+#: includes/shoppable-lookbook-admin.php:946
+msgid "Custom Color"
+msgstr "Màu tùy chỉnh"
+
+#: includes/shoppable-lookbook-admin.php:524
+#: includes/shoppable-lookbook-admin.php:950
+msgid "Opacity"
+msgstr "Độ mờ"
+
+#: includes/shoppable-lookbook-admin.php:530
+#: includes/shoppable-lookbook-admin.php:956
+msgid "Content Color"
+msgstr "Màu nội dung"
+
+#: includes/shoppable-lookbook-admin.php:530
+#: includes/shoppable-lookbook-admin.php:956
+msgid ""
+"Color of the product name, price, close icon, preview link and Add to Cart "
+"button inside the box. Auto picks a readable color for the chosen box color."
+msgstr ""
+"Màu của tên sản phẩm, giá, nút đóng, liên kết xem trước và nút Thêm vào giỏ "
+"bên trong hộp. Tự động sẽ chọn màu dễ đọc theo màu hộp."
+
+#: includes/shoppable-lookbook-admin.php:535
+#: includes/shoppable-lookbook-admin.php:961
+msgid "Auto"
+msgstr "Tự động"
+
+#: includes/shoppable-lookbook-admin.php:554
+#: includes/shoppable-lookbook-admin.php:557
+#: includes/shoppable-lookbook-admin.php:977
+#: includes/shoppable-lookbook-admin.php:980
+msgid "Marker"
+msgstr "Marker"
+
+#: includes/shoppable-lookbook-admin.php:609
+#: includes/shoppable-lookbook-admin.php:1055
+msgid "Marker Animation"
+msgstr "Hiệu ứng marker"
+
+#: includes/shoppable-lookbook-admin.php:614
+#: includes/shoppable-lookbook-admin.php:768
+#: includes/shoppable-lookbook-admin.php:1060
+#: includes/shoppable-lookbook-admin.php:1190
+#: includes/pro__premium_only/product-list.php:88
+msgid "None"
+msgstr "Không"
+
+#: includes/shoppable-lookbook-admin.php:621
+#: includes/shoppable-lookbook-admin.php:1067
+msgid "Pulse"
+msgstr "Pulse"
+
+#: includes/shoppable-lookbook-admin.php:628
+#: includes/shoppable-lookbook-admin.php:1074
+msgid "Beat"
+msgstr "Beat"
+
+#: includes/shoppable-lookbook-admin.php:635
+#: includes/shoppable-lookbook-admin.php:1081
+msgid "Bounce"
+msgstr "Bounce"
+
+#: includes/shoppable-lookbook-admin.php:642
+#: includes/shoppable-lookbook-admin.php:1049
+msgid "Marker Color"
+msgstr "Màu marker"
+
+#: includes/shoppable-lookbook-admin.php:648
+#: includes/shoppable-lookbook-admin.php:1044
+msgid "Marker Size"
+msgstr "Kích thước marker"
+
+#: includes/shoppable-lookbook-admin.php:654
+msgid "Custom Marker"
+msgstr "Marker tùy chỉnh"
+
+#: includes/shoppable-lookbook-admin.php:654
+msgid "Image PNG or SVG"
+msgstr "Ảnh PNG hoặc SVG"
+
+#: includes/shoppable-lookbook-admin.php:657
+#: includes/shoppable-lookbook-admin.php:1035
+msgid "Upload"
+msgstr "Tải lên"
+
+#: includes/shoppable-lookbook-admin.php:658
+#: includes/shoppable-lookbook-admin.php:1036
+msgid "Remove"
+msgstr "Gỡ bỏ"
+
+#: includes/shoppable-lookbook-admin.php:662
+#: includes/shoppable-lookbook-admin.php:1084
+#: includes/pro__premium_only/gallery.php:551
+msgid "Display"
+msgstr "Hiển thị"
+
+#: includes/shoppable-lookbook-admin.php:665
+#: includes/shoppable-lookbook-admin.php:1087
+msgid "Photo Width"
+msgstr "Chiều rộng ảnh"
+
+#: includes/shoppable-lookbook-admin.php:665
+#: includes/shoppable-lookbook-admin.php:1087
+msgid "Full width"
+msgstr "Toàn bộ chiều rộng"
+
+#: includes/shoppable-lookbook-admin.php:665
+#: includes/shoppable-lookbook-admin.php:1087
+msgid ""
+"Caps how wide the main photo can grow on the frontend. Drag to 0 for no "
+"limit (full width of its container)."
+msgstr ""
+"Giới hạn chiều rộng tối đa của ảnh chính trên frontend. Kéo về 0 để không "
+"giới hạn (rộng hết khung chứa)."
+
+#: includes/shoppable-lookbook-admin.php:671
+#: includes/shoppable-lookbook-admin.php:1093
+msgid "Show Price"
+msgstr "Hiện giá"
+
+#: includes/shoppable-lookbook-admin.php:676
+#: includes/shoppable-lookbook-admin.php:693
+#: includes/shoppable-lookbook-admin.php:1098
+#: includes/shoppable-lookbook-admin.php:1115
+#: includes/pro__premium_only/quick-view.php:51
+msgid "No"
+msgstr "Không"
+
+#: includes/shoppable-lookbook-admin.php:683
+#: includes/shoppable-lookbook-admin.php:700
+#: includes/shoppable-lookbook-admin.php:1105
+#: includes/shoppable-lookbook-admin.php:1122
+#: includes/pro__premium_only/quick-view.php:58
+msgid "Yes"
+msgstr "Có"
+
+#: includes/shoppable-lookbook-admin.php:688
+#: includes/shoppable-lookbook-admin.php:1110
+msgid "Add to Cart"
+msgstr "Thêm vào giỏ"
+
+#: includes/shoppable-lookbook-admin.php:708
+#: includes/shoppable-lookbook-admin.php:1130
+msgid "Open Marker On"
+msgstr "Mở marker khi"
+
+#: includes/shoppable-lookbook-admin.php:708
+#: includes/shoppable-lookbook-admin.php:1130
+msgid ""
+"Open All: every box opens on load (visitors can close them). Open First: the "
+"first box opens on load. Accordion: one box is always open — opening another "
+"closes it."
+msgstr ""
+"Mở tất cả: mọi hộp mở khi tải trang (khách có thể đóng). Mở hộp đầu: hộp đầu "
+"tiên mở khi tải trang. Accordion: luôn có một hộp mở — mở hộp khác sẽ đóng "
+"hộp hiện tại."
+
+#: includes/shoppable-lookbook-admin.php:713
+#: includes/shoppable-lookbook-admin.php:1135
+msgid "Click"
+msgstr "Bấm chuột"
+
+#: includes/shoppable-lookbook-admin.php:720
+#: includes/shoppable-lookbook-admin.php:1142
+msgid "Hover"
+msgstr "Di chuột"
+
+#: includes/shoppable-lookbook-admin.php:727
+#: includes/shoppable-lookbook-admin.php:1149
+msgid "Open All"
+msgstr "Mở tất cả"
+
+#: includes/shoppable-lookbook-admin.php:734
+#: includes/shoppable-lookbook-admin.php:1156
+msgid "Open First"
+msgstr "Mở hộp đầu"
+
+#: includes/shoppable-lookbook-admin.php:741
+#: includes/shoppable-lookbook-admin.php:1163
+msgid "Accordion"
+msgstr "Accordion"
+
+#: includes/shoppable-lookbook-admin.php:746
+#: includes/shoppable-lookbook-admin.php:1168
+msgid "Mobile Display"
+msgstr "Hiển thị trên di động"
+
+#: includes/shoppable-lookbook-admin.php:746
+#: includes/shoppable-lookbook-admin.php:1168
+msgid ""
+"Bottom sheet: the box slides up from the bottom of the screen, full width. "
+"Compact: the box opens next to its marker like on desktop, sized down for "
+"mobile."
+msgstr ""
+"Bottom sheet: hộp trượt lên từ cạnh dưới màn hình, rộng toàn màn. Thu gọn: "
+"hộp mở cạnh marker như trên desktop, thu nhỏ cho di động."
+
+#: includes/shoppable-lookbook-admin.php:751
+#: includes/shoppable-lookbook-admin.php:1173
+msgid "Bottom sheet"
+msgstr "Bottom sheet"
+
+#: includes/shoppable-lookbook-admin.php:758
+#: includes/shoppable-lookbook-admin.php:1180
+msgid "Compact (desktop-style)"
+msgstr "Thu gọn (kiểu desktop)"
+
+#: includes/shoppable-lookbook-admin.php:763
+#: includes/shoppable-lookbook-admin.php:1185
+msgid "Show Sidebar"
+msgstr "Hiện sidebar"
+
+#: includes/shoppable-lookbook-admin.php:775
+#: includes/shoppable-lookbook-admin.php:1197
+#: includes/pro__premium_only/product-list.php:89
+msgid "Left"
+msgstr "Trái"
+
+#: includes/shoppable-lookbook-admin.php:782
+#: includes/shoppable-lookbook-admin.php:1204
+#: includes/pro__premium_only/product-list.php:90
+msgid "Right"
+msgstr "Phải"
+
+#: includes/shoppable-lookbook-admin.php:788
+#: includes/shoppable-lookbook-admin.php:1210
+#: includes/pro__premium_only/gallery.php:626
+msgid "Save"
+msgstr "Lưu"
+
+#: includes/shoppable-lookbook-admin.php:822
+msgid "or drag & drop an image here"
+msgstr "hoặc kéo & thả ảnh vào đây"
+
+#: includes/shoppable-lookbook-admin.php:826
+#: includes/pro__premium_only/gallery.php:530
+msgid "Lookbook Settings"
+msgstr "Cài đặt Lookbook"
+
+#: includes/shoppable-lookbook-admin.php:1032
+msgid "Marker Image"
+msgstr "Ảnh marker"
+
+#: includes/shoppable-lookbook-admin.php:1040
+msgid "PNG or SVG. Leave empty to use an icon above."
+msgstr "PNG hoặc SVG. Để trống để dùng icon ở trên."
+
+#: includes/pro__premium_only/quick-view.php:46
+msgid "Quick View"
+msgstr "Xem nhanh"
+
+#: includes/pro__premium_only/quick-view.php:82
+#: includes/pro__premium_only/quick-view.php:85
+msgid "Quick view"
+msgstr "Xem nhanh"
+
+#: includes/pro__premium_only/quick-view.php:127
+msgid "Loading…"
+msgstr "Đang tải…"
+
+#: includes/pro__premium_only/quick-view.php:128
+msgid "Could not load the product."
+msgstr "Không thể tải sản phẩm."
+
+#: includes/pro__premium_only/quick-view.php:129
+#: includes/shoppable-lookbook-frontend.php:411
+msgid "Close"
+msgstr "Đóng"
+
+#: includes/pro__premium_only/quick-view.php:132
+#: includes/pro__premium_only/quick-view.php:213
+#: includes/pro__premium_only/quick-view.php:246
+msgid "Could not add this product to the cart."
+msgstr "Không thể thêm sản phẩm này vào giỏ hàng."
+
+#: includes/pro__premium_only/quick-view.php:187
+msgid "View full details"
+msgstr "Xem chi tiết đầy đủ"
+
+#: includes/pro__premium_only/quick-view.php:230
+msgid "Product not found."
+msgstr "Không tìm thấy sản phẩm."
+
+#: includes/pro__premium_only/quick-view.php:234
+msgid "Please choose an option first."
+msgstr "Vui lòng chọn một tùy chọn trước."
+
+#: includes/pro__premium_only/quick-view.php:240
+msgid "This product cannot be added to the cart right now."
+msgstr "Sản phẩm này hiện không thể thêm vào giỏ hàng."
+
+#: includes/pro__premium_only/gallery.php:199
+msgid "Slide — classic"
+msgstr "Trượt — cổ điển"
+
+#: includes/pro__premium_only/gallery.php:199
+msgid "Slides swipe across edge to edge, one at a time."
+msgstr "Từng ảnh trượt hết chiều ngang, một ảnh mỗi lần."
+
+#: includes/pro__premium_only/gallery.php:200
+msgid "Fade — cross-dissolve"
+msgstr "Mờ dần — hòa tan"
+
+#: includes/pro__premium_only/gallery.php:200
+msgid "Slides dissolve into each other in place. Minimal, editorial."
+msgstr "Các ảnh hòa tan vào nhau tại chỗ. Tối giản, mang phong cách tạp chí."
+
+#: includes/pro__premium_only/gallery.php:201
+msgid "Coverflow — 3D"
+msgstr "Coverflow — 3D"
+
+#: includes/pro__premium_only/gallery.php:201
+msgid ""
+"The active photo sits large and flat; neighbors tilt away in 3D on either "
+"side."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:202
+msgid "Peek — neighbors visible"
+msgstr "Hé lộ — thấy ảnh bên cạnh"
+
+#: includes/pro__premium_only/gallery.php:202
+msgid ""
+"The active photo is large with the next/previous photo peeking in at the "
+"edges."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:203
+msgid "Cards — stacked deck"
+msgstr "Thẻ bài — chồng lên nhau"
+
+#: includes/pro__premium_only/gallery.php:203
+msgid ""
+"Photos stack like a card deck; the front card slides away to reveal the next."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:214
+#: includes/pro__premium_only/gallery.php:229
+#: includes/pro__premium_only/product-list.php:114
+msgid "1:1"
+msgstr "1:1"
+
+#: includes/pro__premium_only/gallery.php:215
+#: includes/pro__premium_only/gallery.php:230
+#: includes/pro__premium_only/product-list.php:115
+msgid "4:3"
+msgstr "4:3"
+
+#: includes/pro__premium_only/gallery.php:216
+#: includes/pro__premium_only/gallery.php:231
+#: includes/pro__premium_only/product-list.php:116
+msgid "3:4"
+msgstr "3:4"
+
+#: includes/pro__premium_only/gallery.php:217
+msgid "16:9"
+msgstr "16:9"
+
+#: includes/pro__premium_only/gallery.php:218
+msgid "9:16"
+msgstr "9:16"
+
+#: includes/pro__premium_only/gallery.php:266
+#: includes/pro__premium_only/gallery.php:267
+#: includes/pro__premium_only/gallery.php:396
+#: includes/pro__premium_only/analytics.php:784
+msgid "Lookbooks"
+msgstr "Lookbook"
+
+#: includes/pro__premium_only/gallery.php:319
+#: includes/pro__premium_only/gallery.php:711
+msgid "Please enter a lookbook name."
+msgstr "Vui lòng nhập tên lookbook."
+
+#: includes/pro__premium_only/gallery.php:320
+msgid "Could not save the lookbook. Please try again."
+msgstr "Không thể lưu lookbook. Vui lòng thử lại."
+
+#: includes/pro__premium_only/gallery.php:321
+#: includes/pro__premium_only/gallery.php:652
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: includes/pro__premium_only/gallery.php:403
+msgid "No lookbooks yet."
+msgstr "Chưa có lookbook nào."
+
+#: includes/pro__premium_only/gallery.php:403
+msgid "Create your first lookbook"
+msgstr "Tạo lookbook đầu tiên của bạn"
+
+#: includes/pro__premium_only/gallery.php:412
+#: includes/pro__premium_only/analytics.php:625
+#: includes/pro__premium_only/analytics.php:789
+#: includes/shoppable-lookbook-init.php:98
+msgid "Lookbook"
+msgstr "Lookbook"
+
+#: includes/pro__premium_only/gallery.php:482
+msgid "Back to Lookbooks"
+msgstr "Quay lại Lookbook"
+
+#: includes/pro__premium_only/gallery.php:483
+msgid "Edit Lookbook"
+msgstr "Chỉnh sửa Lookbook"
+
+#: includes/pro__premium_only/gallery.php:501
+msgid "Add Image Hotspots to include. Drag to reorder."
+msgstr "Thêm Image Hotspot vào lookbook. Kéo để sắp xếp lại."
+
+#: includes/pro__premium_only/gallery.php:511
+msgid "-- Choose from Image Hotspots --"
+msgstr "-- Chọn từ Image Hotspot --"
+
+#: includes/pro__premium_only/gallery.php:518
+msgid "or"
+msgstr "hoặc"
+
+#: includes/pro__premium_only/gallery.php:520
+msgid "Add New Image Hotspot"
+msgstr "Thêm Image Hotspot mới"
+
+#: includes/pro__premium_only/gallery.php:522
+msgid "Save the lookbook first to enable this."
+msgstr "Hãy lưu lookbook trước để bật tính năng này."
+
+#: includes/pro__premium_only/gallery.php:522
+#: includes/shoppable-lookbook-init.php:115
+msgid "New Image Hotspot"
+msgstr "Image Hotspot mới"
+
+#: includes/pro__premium_only/gallery.php:537
+msgid "e.g. Spring collection"
+msgstr "vd: Bộ sưu tập Xuân"
+
+#: includes/pro__premium_only/gallery.php:553
+msgid "Carousel (slider)"
+msgstr "Carousel (trượt)"
+
+#: includes/pro__premium_only/gallery.php:554
+msgid "Flipbook (magazine)"
+msgstr "Flipbook (tạp chí)"
+
+#: includes/pro__premium_only/gallery.php:555
+msgid "Grid"
+msgstr "Lưới"
+
+#: includes/pro__premium_only/gallery.php:556
+msgid "Masonry"
+msgstr "Masonry"
+
+#: includes/pro__premium_only/gallery.php:562
+msgid "Book Size"
+msgstr "Kích thước sách"
+
+#: includes/pro__premium_only/gallery.php:562
+msgid "Photos that do not match the page shape are centered on the page."
+msgstr "Ảnh không khớp khổ trang sẽ được canh giữa trên trang."
+
+#: includes/pro__premium_only/gallery.php:564
+msgid "Portrait — like a magazine"
+msgstr "Dọc — như quyển tạp chí"
+
+#: includes/pro__premium_only/gallery.php:565
+msgid "Landscape — like a photo album"
+msgstr "Ngang — như album ảnh"
+
+#: includes/pro__premium_only/gallery.php:568
+#: includes/pro__premium_only/gallery.php:594
+msgid "Photo Fit"
+msgstr "Hiển thị ảnh"
+
+#: includes/pro__premium_only/gallery.php:568
+msgid ""
+"Full crops photos to fill the page; markers follow the visible part "
+"automatically."
+msgstr ""
+"Full sẽ cắt ảnh để phủ kín trang; marker tự bám theo phần ảnh hiển thị."
+
+#: includes/pro__premium_only/gallery.php:570
+msgid "Fit — show the whole photo"
+msgstr "Vừa trang — hiện nguyên ảnh"
+
+#: includes/pro__premium_only/gallery.php:571
+msgid "Full — cover the page edge to edge"
+msgstr "Full — phủ kín trang"
+
+#: includes/pro__premium_only/gallery.php:580
+msgid "Style"
+msgstr "Kiểu chuyển"
+
+#: includes/pro__premium_only/gallery.php:580
+msgid "How slides move as visitors browse the carousel."
+msgstr "Cách các ảnh di chuyển khi khách duyệt carousel."
+
+#: includes/pro__premium_only/gallery.php:587
+#: includes/pro__premium_only/product-list.php:138
+msgid "Items per view"
+msgstr "Số mục mỗi lượt"
+
+#: includes/pro__premium_only/gallery.php:587
+msgid ""
+"How many photos show side by side per page. Only applies to the Slide style."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:591
+#, php-format
+msgid "%d image"
+msgid_plural "%d images"
+msgstr[0] "%d ảnh"
+
+#: includes/pro__premium_only/gallery.php:594
+msgid "Fit adds empty space on the sides if the photo doesn't match the frame."
+msgstr "Vừa ảnh sẽ để trống 2 bên nếu ảnh không khớp tỷ lệ khung."
+
+#: includes/pro__premium_only/gallery.php:596
+msgid "Full — crop to fill the frame"
+msgstr "Đầy khung — cắt cho vừa khung"
+
+#: includes/pro__premium_only/gallery.php:597
+msgid "Fit — show the whole photo, centered"
+msgstr "Vừa ảnh — hiện nguyên ảnh, canh giữa"
+
+#: includes/pro__premium_only/gallery.php:600
+#: includes/pro__premium_only/gallery.php:614
+msgid "Size"
+msgstr "Kích thước"
+
+#: includes/pro__premium_only/gallery.php:600
+msgid "The same frame size is used for every photo in the carousel."
+msgstr "Mọi ảnh trong carousel dùng chung một kích thước khung."
+
+#: includes/pro__premium_only/gallery.php:603
+msgid "Autoplay slides"
+msgstr "Tự động chuyển slide"
+
+#: includes/pro__premium_only/gallery.php:604
+msgid "Prev / next arrows"
+msgstr "Mũi tên trước / sau"
+
+#: includes/pro__premium_only/gallery.php:605
+msgid "Navigation dots"
+msgstr "Chấm điều hướng"
+
+#: includes/pro__premium_only/gallery.php:606
+msgid "Speed (ms)"
+msgstr "Tốc độ (ms)"
+
+#: includes/pro__premium_only/gallery.php:617
+msgid "Columns"
+msgstr "Số cột"
+
+#: includes/pro__premium_only/gallery.php:621
+msgid "Gap (px)"
+msgstr "Khoảng cách (px)"
+
+#: includes/pro__premium_only/gallery.php:627
+msgid "Save the lookbook first to preview."
+msgstr "Hãy lưu lookbook trước để xem trước."
+
+#: includes/pro__premium_only/gallery.php:700
+#: includes/pro__premium_only/gallery.php:792
+#: includes/pro__premium_only/gallery.php:814
+#: includes/pro__premium_only/gallery.php:836
+#: includes/pro__premium_only/gallery.php:882
+#: includes/shoppable-lookbook-list.php:47
+#: includes/shoppable-lookbook-init.php:22
+#: includes/shoppable-lookbook-search.php:22
+msgid "You are not allowed to do this."
+msgstr "Bạn không có quyền thực hiện thao tác này."
+
+#: includes/pro__premium_only/gallery.php:892
+#: includes/shoppable-lookbook-init.php:764
+msgid "This is not a valid lookbook export file."
+msgstr "Đây không phải là tệp xuất lookbook hợp lệ."
+
+#: includes/pro__premium_only/gallery.php:908
+msgid "None of the image hotspots in this file could be imported."
+msgstr "Không thể nhập bất kỳ image hotspot nào trong tệp này."
+
+#: includes/pro__premium_only/gallery.php:914
+#: includes/shoppable-lookbook-init.php:667
+msgid "Imported lookbook"
+msgstr "Lookbook đã nhập"
+
+#: includes/pro__premium_only/gallery.php:935
+#, php-format
+msgid "%d image hotspot could not be imported (missing image)."
+msgid_plural "%d image hotspots could not be imported (missing image)."
+msgstr[0] "%d image hotspot không thể nhập (thiếu ảnh)."
+
+#: includes/pro__premium_only/gallery.php:1026
+#: includes/pro__premium_only/gallery.php:1046
+#: includes/pro__premium_only/gallery.php:1099
+#: includes/pro__premium_only/gallery.php:1106
+#: includes/pro__premium_only/gallery.php:1137
+#: includes/pro__premium_only/gallery.php:1144
+msgid "Shoppable Gallery"
+msgstr "Shoppable Gallery"
+
+#: includes/pro__premium_only/gallery.php:1053
+msgid "Select a gallery"
+msgstr "Chọn một gallery"
+
+#: includes/pro__premium_only/gallery.php:1107
+#: includes/pro__premium_only/gallery.php:1145
+msgid "Select a gallery to display"
+msgstr "Chọn gallery để hiển thị"
+
+#: includes/pro__premium_only/multi-image.php:207
+#: includes/pro__premium_only/product-list.php:262
+#: includes/pro__premium_only/product-list.php:279
+msgid "Previous"
+msgstr "Trước"
+
+#: includes/pro__premium_only/multi-image.php:208
+#: includes/pro__premium_only/product-list.php:263
+#: includes/pro__premium_only/product-list.php:283
+msgid "Next"
+msgstr "Sau"
+
+#: includes/pro__premium_only/multi-image.php:216
+#, php-format
+msgid "Go to slide %d"
+msgstr "Đến slide %d"
+
+#: includes/pro__premium_only/multi-image.php:265
+#, php-format
+msgid "Go to page %d"
+msgstr "Đến trang %d"
+
+#: includes/pro__premium_only/product-list.php:91
+msgid "Below"
+msgstr "Bên dưới"
+
+#: includes/pro__premium_only/product-list.php:96
+msgid "Shop the Look"
+msgstr "Shop the Look"
+
+#: includes/pro__premium_only/product-list.php:100
+msgid "Product List"
+msgstr "Danh sách sản phẩm"
+
+#: includes/pro__premium_only/product-list.php:100
+msgid ""
+"Shows every tagged product as a shoppable list beside the image, or as a "
+"carousel below it. Left/Right scroll after the chosen number of items; Below "
+"shows up to 6 per view."
+msgstr ""
+"Hiển thị mọi sản phẩm được gắn thẻ dưới dạng danh sách mua sắm bên cạnh ảnh, "
+"hoặc carousel bên dưới. Trái/Phải cuộn sau số mục đã chọn; Bên dưới hiển thị "
+"tối đa 6 mục mỗi lượt."
+
+#: includes/pro__premium_only/product-list.php:126
+msgid "Thumbnail"
+msgstr "Ảnh thu nhỏ"
+
+#: includes/pro__premium_only/product-list.php:142
+msgid ""
+"Shows just a total price and an \"Add all to cart\" button below the image — "
+"no individual product cards."
+msgstr ""
+"Chỉ hiển thị tổng giá và nút \"Thêm tất cả vào giỏ\" bên dưới ảnh — không có "
+"thẻ sản phẩm riêng lẻ."
+
+#: includes/pro__premium_only/product-page.php:105
+#: includes/pro__premium_only/shop-the-look.php:81
+msgid "Shop the look"
+msgstr "Shop the look"
+
+#: includes/pro__premium_only/analytics.php:152
+#: includes/pro__premium_only/analytics.php:614
+msgid "Lookbook Analytics"
+msgstr "Thống kê Lookbook"
+
+#: includes/pro__premium_only/analytics.php:153
+msgid "Analytics"
+msgstr "Thống kê"
+
+#: includes/pro__premium_only/analytics.php:171
+msgid "Last 7 days"
+msgstr "7 ngày qua"
+
+#: includes/pro__premium_only/analytics.php:172
+msgid "Last 30 days"
+msgstr "30 ngày qua"
+
+#: includes/pro__premium_only/analytics.php:173
+msgid "Last 90 days"
+msgstr "90 ngày qua"
+
+#: includes/pro__premium_only/analytics.php:174
+msgid "Last 12 months"
+msgstr "12 tháng qua"
+
+#: includes/pro__premium_only/analytics.php:175
+msgid "All time"
+msgstr "Toàn thời gian"
+
+#: includes/pro__premium_only/analytics.php:446
+msgid "No change"
+msgstr "Không đổi"
+
+#: includes/pro__premium_only/analytics.php:453
+#, php-format
+msgid "%s%%"
+msgstr "%s%%"
+
+#: includes/pro__premium_only/analytics.php:455
+#, php-format
+msgid "%s pts"
+msgstr "%s điểm"
+
+#: includes/pro__premium_only/analytics.php:457
+msgid "vs previous period"
+msgstr "so với kỳ trước"
+
+#: includes/pro__premium_only/analytics.php:567
+#: includes/pro__premium_only/analytics.php:649
+#: includes/pro__premium_only/analytics.php:695
+#: includes/pro__premium_only/analytics.php:790
+msgid "Impressions"
+msgstr "Lượt hiển thị"
+
+#: includes/pro__premium_only/analytics.php:573
+#: includes/pro__premium_only/analytics.php:650
+#: includes/pro__premium_only/analytics.php:696
+msgid "Marker opens"
+msgstr "Lượt mở marker"
+
+#: includes/pro__premium_only/analytics.php:579
+#: includes/pro__premium_only/analytics.php:651
+#: includes/pro__premium_only/analytics.php:697
+msgid "Product clicks"
+msgstr "Lượt bấm sản phẩm"
+
+#: includes/pro__premium_only/analytics.php:585
+#: includes/pro__premium_only/analytics.php:652
+#: includes/pro__premium_only/analytics.php:698
+#: includes/pro__premium_only/analytics.php:743
+#: includes/pro__premium_only/analytics.php:793
+#: includes/shoppable-lookbook-frontend.php:38
+msgid "Add to cart"
+msgstr "Thêm vào giỏ"
+
+#: includes/pro__premium_only/analytics.php:606
+#: includes/pro__premium_only/analytics.php:682
+#, php-format
+msgid "Week of %s"
+msgstr "Tuần của %s"
+
+#: includes/pro__premium_only/analytics.php:619
+msgid "Date range"
+msgstr "Khoảng thời gian"
+
+#: includes/pro__premium_only/analytics.php:627
+msgid "All lookbooks"
+msgstr "Tất cả lookbook"
+
+#: includes/pro__premium_only/analytics.php:638
+msgid "No data for this period"
+msgstr "Không có dữ liệu trong khoảng thời gian này"
+
+#: includes/pro__premium_only/analytics.php:639
+msgid ""
+"Stats appear here once visitors interact with your published lookbooks. Try "
+"a wider date range, or embed a lookbook with the shortcode and share the "
+"page."
+msgstr ""
+"Thống kê sẽ hiển thị khi khách truy cập tương tác với lookbook đã xuất bản. "
+"Hãy thử khoảng thời gian rộng hơn, hoặc nhúng lookbook bằng shortcode và "
+"chia sẻ trang."
+
+#: includes/pro__premium_only/analytics.php:653
+#: includes/pro__premium_only/analytics.php:794
+msgid "Open rate"
+msgstr "Tỷ lệ mở"
+
+#: includes/pro__premium_only/analytics.php:654
+#: includes/pro__premium_only/analytics.php:744
+msgid "Cart rate"
+msgstr "Tỷ lệ thêm giỏ"
+
+#: includes/pro__premium_only/analytics.php:662
+msgid "Activity"
+msgstr "Hoạt động"
+
+#: includes/pro__premium_only/analytics.php:669
+msgid "Daily activity chart. The same data is available in the table below."
+msgstr "Biểu đồ hoạt động theo ngày. Dữ liệu tương tự có trong bảng bên dưới."
+
+#: includes/pro__premium_only/analytics.php:672
+msgid "View data table"
+msgstr "Xem bảng dữ liệu"
+
+#: includes/pro__premium_only/analytics.php:674
+msgid "Date"
+msgstr "Ngày"
+
+#: includes/pro__premium_only/analytics.php:701
+msgid "Conversion funnel"
+msgstr "Phễu chuyển đổi"
+
+#: includes/pro__premium_only/analytics.php:711
+#, php-format
+msgid "%s%% of previous step"
+msgstr "%s%% so với bước trước"
+
+#: includes/pro__premium_only/analytics.php:731
+msgid "Top products"
+msgstr "Sản phẩm hàng đầu"
+
+#: includes/pro__premium_only/analytics.php:733
+msgid "No product interactions in this period."
+msgstr "Không có tương tác sản phẩm trong khoảng thời gian này."
+
+#: includes/pro__premium_only/analytics.php:741
+#: includes/pro__premium_only/analytics.php:791
+msgid "Opens"
+msgstr "Lượt mở"
+
+#: includes/pro__premium_only/analytics.php:742
+#: includes/pro__premium_only/analytics.php:792
+msgid "Clicks"
+msgstr "Lượt bấm"
+
+#: includes/pro__premium_only/analytics.php:786
+msgid "No lookbook activity in this period."
+msgstr "Không có hoạt động lookbook trong khoảng thời gian này."
+
+#: includes/pro__premium_only/shop-the-look.php:78
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d mục"
+
+#: includes/pro__premium_only/shop-the-look.php:85
+msgid "Add all to cart"
+msgstr "Thêm tất cả vào giỏ"
+
+#: includes/pro__premium_only/shop-the-look.php:143
+msgid "Added to cart"
+msgstr "Đã thêm vào giỏ"
+
+#: includes/pro__premium_only/shop-the-look.php:144
+#: includes/pro__premium_only/shop-the-look.php:197
+#: includes/pro__premium_only/shop-the-look.php:216
+#: includes/pro__premium_only/shop-the-look.php:260
+msgid "Could not add the products."
+msgstr "Không thể thêm sản phẩm."
+
+#: includes/pro__premium_only/shop-the-look.php:259
+#, php-format
+msgid "Choose options for: %s"
+msgstr "Chọn tùy chọn cho: %s"
+
+#: includes/pro__premium_only/shop-the-look.php:276
+#, php-format
+msgid "%1$d item added. Choose options for: %2$s"
+msgid_plural "%1$d items added. Choose options for: %2$s"
+msgstr[0] "Đã thêm %1$d mục. Chọn tùy chọn cho: %2$s"
+
+#: includes/shoppable-lookbook-init.php:110
+msgid "Image Hotspots"
+msgstr "Image Hotspot"
+
+#: includes/shoppable-lookbook-init.php:610
+#, php-format
+msgid "%s (Copy)"
+msgstr "%s (Bản sao)"
+
+#: includes/shoppable-lookbook-init.php:685
+msgid "The lookbook image could not be imported."
+msgstr "Không thể nhập ảnh của lookbook."
+
+#: includes/shoppable-lookbook-init.php:716
+msgid "Export is a Pro feature."
+msgstr "Xuất là tính năng Pro."
+
+#: includes/shoppable-lookbook-init.php:755
+msgid "Import is a Pro feature."
+msgstr "Nhập là tính năng Pro."
+
+#: includes/shoppable-lookbook-init.php:870
+msgid "You are not allowed to upload SVG files."
+msgstr "Bạn không có quyền tải lên tệp SVG."
+
+#: includes/shoppable-lookbook-init.php:883
+msgid "This SVG could not be sanitized and was rejected."
+msgstr "Tệp SVG này không thể được làm sạch và đã bị từ chối."
+
+#: includes/shoppable-lookbook-init.php:991
+msgid ""
+"WooCommerce is not active. You can still create lookbooks with custom links, "
+"but product markers require WooCommerce."
+msgstr ""
+"WooCommerce chưa được kích hoạt. Bạn vẫn có thể tạo lookbook với liên kết "
+"tùy chỉnh, nhưng marker sản phẩm cần WooCommerce."
+
+#: includes/shoppable-lookbook-init.php:992
+msgid "Return to Plugins"
+msgstr "Quay lại trang Plugin"
+
+#: includes/shoppable-lookbook-frontend.php:386
+#, php-format
+msgid "View: %s"
+msgstr "Xem: %s"
+
+#: plugins/gutenberg/js/shoppable-lookbook-gutenberg.js:86
+#: assets/pro__premium_only/js/shoppable-gallery-gutenberg.js:73
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: plugins/gutenberg/js/shoppable-lookbook-gutenberg.js:101
+msgid "Select a lookbook to display."
+msgstr "Chọn lookbook để hiển thị."
+
+#: assets/pro__premium_only/js/shoppable-gallery-gutenberg.js:88
+msgid "Select a gallery to display."
+msgstr "Chọn gallery để hiển thị."
+
+#~ msgid "Image Size"
+#~ msgstr "Kích thước ảnh"
+
+#~ msgid "Square 1:1"
+#~ msgstr "Vuông 1:1"
+
+#~ msgid "Landscape 4:3"
+#~ msgstr "Ngang 4:3"
+
+#~ msgid "Portrait 3:4"
+#~ msgstr "Dọc 3:4"
+
+#~ msgid "Landscape 16:9"
+#~ msgstr "Ngang 16:9"
+
+#~ msgid "Portrait 9:16"
+#~ msgstr "Dọc 9:16"
+
+#~ msgid "Frame Width"
+#~ msgstr "Chiều rộng khung"
+
+#~ msgid "Frame Height"
+#~ msgstr "Chiều cao khung"
+
+#~ msgid ""
+#~ "The frame shape as a ratio, e.g. 4 and 3 for a 4:3 frame. The same frame "
+#~ "size is used for every photo."
+#~ msgstr ""
+#~ "Hình dạng khung theo tỷ lệ, ví dụ 4 và 3 cho khung 4:3. Mọi ảnh dùng "
+#~ "chung một kích thước khung."
+
+#~ msgid "Uniform — all slides equal, crop to match"
+#~ msgstr "Đồng đều — các ảnh cùng cỡ, cắt cho khớp"
+
+#~ msgid "Auto — natural size per photo, centered"
+#~ msgstr "Tự động — mỗi ảnh giữ tỷ lệ gốc, canh giữa"
+
+#~ msgid "Edit Hotspots"
+#~ msgstr "Chỉnh sửa Hotspot"

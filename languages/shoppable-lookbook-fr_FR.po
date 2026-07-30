@@ -1,0 +1,1385 @@
+# fr_FR translation for Shoppable Lookbook.
+# Copyright (C) 2026 Douple
+# This file is distributed under the GPLv2 or later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Shoppable Lookbook 1.8.0\n"
+"Report-Msgid-Bugs-To: https://douple.net\n"
+"POT-Creation-Date: 2026-07-29 16:37+0700\n"
+"PO-Revision-Date: 2026-07-21 17:00+0700\n"
+"Last-Translator: Douple <support@douple.net>\n"
+"Language-Team: Douple <support@douple.net>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: shoppable-lookbook\n"
+
+#: inc/init.php:62 inc/init.php:125
+#: includes/pro__premium_only/quick-view.php:130
+#: includes/pro__premium_only/shop-the-look.php:142
+msgid "Adding…"
+msgstr "Ajout en cours…"
+
+#: inc/init.php:63 inc/init.php:126
+#: includes/pro__premium_only/quick-view.php:131
+msgid "Added ✓"
+msgstr "Ajouté ✓"
+
+#: inc/init.php:88
+msgid "Select a product"
+msgstr "Sélectionner un produit"
+
+#: inc/init.php:89 includes/shoppable-lookbook-admin.php:257
+msgid "Search a product..."
+msgstr "Rechercher un produit..."
+
+#: inc/init.php:90 includes/shoppable-lookbook-admin.php:821
+msgid "Select Image"
+msgstr "Sélectionner une image"
+
+#: inc/init.php:91 includes/shoppable-lookbook-admin.php:254
+msgid "Add a link"
+msgstr "Ajouter un lien"
+
+#: inc/init.php:92 includes/shoppable-lookbook-admin.php:256
+#: includes/pro__premium_only/analytics.php:740
+msgid "Product"
+msgstr "Produit"
+
+#: inc/init.php:93 includes/shoppable-lookbook-admin.php:256
+msgid "Custom Link"
+msgstr "Lien personnalisé"
+
+#: inc/init.php:94 includes/shoppable-lookbook-admin.php:259
+msgid "Link URL (https://...)"
+msgstr "URL du lien (https://...)"
+
+#: inc/init.php:95 includes/shoppable-lookbook-admin.php:260
+#: includes/shoppable-lookbook-admin.php:397
+#: includes/shoppable-lookbook-admin.php:830
+#: includes/pro__premium_only/gallery.php:536
+msgid "Title"
+msgstr "Titre"
+
+#: inc/init.php:96 includes/shoppable-lookbook-admin.php:261
+msgid "Price (optional)"
+msgstr "Prix (facultatif)"
+
+#: inc/init.php:97 includes/shoppable-lookbook-admin.php:262
+msgid "Select image"
+msgstr "Sélectionner une image"
+
+#: inc/init.php:98 includes/shoppable-lookbook-admin.php:263
+msgid "Open in new tab"
+msgstr "Ouvrir dans un nouvel onglet"
+
+#: inc/init.php:99 includes/shoppable-lookbook-admin.php:264
+msgid "Apply link"
+msgstr "Appliquer le lien"
+
+#: inc/init.php:100
+msgid "Please enter a link URL."
+msgstr "Veuillez saisir l’URL du lien."
+
+#: inc/init.php:101 includes/shoppable-lookbook-admin.php:789
+#: includes/shoppable-lookbook-admin.php:1211
+#: includes/pro__premium_only/gallery.php:322
+#: includes/pro__premium_only/gallery.php:627
+msgid "Preview"
+msgstr "Aperçu"
+
+#: inc/init.php:102
+msgid "Could not duplicate the lookbook."
+msgstr "Impossible de dupliquer le lookbook."
+
+#: inc/init.php:103 includes/pro__premium_only/gallery.php:323
+#: includes/pro__premium_only/gallery.php:929
+#: includes/shoppable-lookbook-init.php:704
+msgid "Could not import the lookbook."
+msgstr "Impossible d’importer le lookbook."
+
+#: inc/init.php:104
+msgid "No markers yet. Click on the image to add one."
+msgstr "Aucun marqueur pour l’instant. Cliquez sur l’image pour en ajouter un."
+
+#: inc/init.php:105
+msgid "(no link yet)"
+msgstr "(pas encore de lien)"
+
+#: plugins/gutenberg/gutenberg-init.php:32
+msgid "Douple"
+msgstr "Douple"
+
+#: plugins/elementor/elementor-widget.php:68
+#: includes/shoppable-lookbook-list.php:55
+msgid "Select a lookbook"
+msgstr "Sélectionner un lookbook"
+
+#: plugins/wpbakery/wpbakery-init.php:47 plugins/wpbakery/wpbakery-init.php:54
+#: plugins/fusionbuilder/fusionbuilder-init.php:48
+#: plugins/fusionbuilder/fusionbuilder-init.php:56
+#: includes/shoppable-lookbook-init.php:97
+msgid "Shoppable Lookbook"
+msgstr "Shoppable Lookbook"
+
+#: plugins/wpbakery/wpbakery-init.php:55
+#: plugins/fusionbuilder/fusionbuilder-init.php:57
+msgid "Select a lookbook to display"
+msgstr "Sélectionnez un lookbook à afficher"
+
+#: includes/shoppable-lookbook-admin.php:50
+msgid "More info"
+msgstr "Plus d’infos"
+
+#: includes/shoppable-lookbook-admin.php:84
+msgid "Back to Lookbook"
+msgstr "Retour au lookbook"
+
+#: includes/shoppable-lookbook-admin.php:88
+msgid "Back"
+msgstr "Retour"
+
+#: includes/shoppable-lookbook-admin.php:100
+#, php-format
+msgid "Hello %s!"
+msgstr "Bonjour %s !"
+
+#: includes/shoppable-lookbook-admin.php:102
+#, php-format
+msgid "You are running %1$s %2$s"
+msgstr "Vous utilisez %1$s %2$s"
+
+#: includes/shoppable-lookbook-admin.php:113
+#: includes/pro__premium_only/gallery.php:383
+msgid "Are you sure you want to delete"
+msgstr "Voulez-vous vraiment supprimer"
+
+#: includes/shoppable-lookbook-admin.php:116
+#: includes/pro__premium_only/gallery.php:386
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/shoppable-lookbook-admin.php:117
+#: includes/pro__premium_only/gallery.php:387
+msgid "Yes, delete lookbook"
+msgstr "Oui, supprimer le lookbook"
+
+#: includes/shoppable-lookbook-admin.php:120
+#: includes/pro__premium_only/gallery.php:390
+msgid "Deleting..."
+msgstr "Suppression..."
+
+#: includes/shoppable-lookbook-admin.php:121
+#: includes/pro__premium_only/gallery.php:391
+msgid "Deleted..."
+msgstr "Supprimé..."
+
+#: includes/shoppable-lookbook-admin.php:122
+#: includes/shoppable-lookbook-admin.php:369
+#: includes/shoppable-lookbook-admin.php:804
+#: includes/pro__premium_only/gallery.php:474
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: includes/shoppable-lookbook-admin.php:123
+#: includes/pro__premium_only/gallery.php:392
+msgid "Failed..."
+msgstr "Échec..."
+
+#: includes/shoppable-lookbook-admin.php:127
+#: includes/pro__premium_only/gallery.php:397
+msgid "Add New"
+msgstr "Ajouter"
+
+#: includes/shoppable-lookbook-admin.php:129
+#: includes/pro__premium_only/gallery.php:398
+#: includes/pro__premium_only/gallery.php:516
+msgid "Import"
+msgstr "Importer"
+
+#: includes/shoppable-lookbook-admin.php:135
+msgid "No image hotspots yet."
+msgstr "Aucun Image Hotspot pour le moment."
+
+#: includes/shoppable-lookbook-admin.php:135
+msgid "Create your first image hotspots"
+msgstr "Créez votre premier Image Hotspot"
+
+#: includes/shoppable-lookbook-admin.php:157
+#, php-format
+msgid "%d marker points to a missing product"
+msgid_plural "%d markers point to missing products"
+msgstr[0] "%d marqueur pointe vers un produit introuvable"
+msgstr[1] "%d marqueurs pointent vers des produits introuvables"
+
+#: includes/shoppable-lookbook-admin.php:161
+#, php-format
+msgid "%d product is out of stock"
+msgid_plural "%d products are out of stock"
+msgstr[0] "%d produit est en rupture de stock"
+msgstr[1] "%d produits sont en rupture de stock"
+
+#: includes/shoppable-lookbook-admin.php:175
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: includes/shoppable-lookbook-admin.php:176
+#: includes/pro__premium_only/gallery.php:425
+msgid "Export"
+msgstr "Exporter"
+
+#: includes/shoppable-lookbook-admin.php:177
+#: includes/pro__premium_only/gallery.php:426
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/shoppable-lookbook-admin.php:180
+#: includes/shoppable-lookbook-admin.php:403
+#: includes/shoppable-lookbook-admin.php:836
+#: includes/pro__premium_only/gallery.php:429
+#: includes/pro__premium_only/gallery.php:545
+msgid "Copied to clipboard"
+msgstr "Copié dans le presse-papiers"
+
+#: includes/shoppable-lookbook-admin.php:288
+msgid "Lookbook not found."
+msgstr "Lookbook introuvable."
+
+#: includes/shoppable-lookbook-admin.php:357
+#, php-format
+msgid ""
+"%d marker points to a product that no longer exists and will not be shown."
+msgid_plural ""
+"%d markers point to products that no longer exist and will not be shown."
+msgstr[0] ""
+"%d marqueur pointe vers un produit qui n’existe plus et ne sera pas affiché."
+msgstr[1] ""
+"%d marqueurs pointent vers des produits qui n’existent plus et ne seront pas "
+"affichés."
+
+#: includes/shoppable-lookbook-admin.php:361
+#, php-format
+msgid "%d linked product is out of stock."
+msgid_plural "%d linked products are out of stock."
+msgstr[0] "%d produit lié est en rupture de stock."
+msgstr[1] "%d produits liés sont en rupture de stock."
+
+#: includes/shoppable-lookbook-admin.php:363
+msgid "Product check:"
+msgstr "Vérification des produits :"
+
+#: includes/shoppable-lookbook-admin.php:370
+#: includes/shoppable-lookbook-admin.php:805
+#: includes/pro__premium_only/gallery.php:475
+msgid "Saving..."
+msgstr "Enregistrement..."
+
+#: includes/shoppable-lookbook-admin.php:371
+#: includes/shoppable-lookbook-admin.php:806
+#: includes/pro__premium_only/gallery.php:476
+msgid "Saved..."
+msgstr "Enregistré..."
+
+#: includes/shoppable-lookbook-admin.php:376
+#: includes/shoppable-lookbook-admin.php:811
+msgid "Change Image"
+msgstr "Changer l’image"
+
+#: includes/shoppable-lookbook-admin.php:390
+#: includes/shoppable-lookbook-admin.php:819
+msgid "Click anywhere on the image to add a marker"
+msgstr "Cliquez n’importe où sur l’image pour ajouter un marqueur"
+
+#: includes/shoppable-lookbook-admin.php:393
+msgid "Image Hotspot Settings"
+msgstr "Réglages de l’Image Hotspot"
+
+#: includes/shoppable-lookbook-admin.php:401
+#: includes/shoppable-lookbook-admin.php:834
+#: includes/pro__premium_only/gallery.php:543
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/shoppable-lookbook-admin.php:405
+#: includes/shoppable-lookbook-admin.php:838
+msgid "Hotspot List"
+msgstr "Liste des hotspots"
+
+#: includes/shoppable-lookbook-admin.php:407
+#: includes/shoppable-lookbook-admin.php:840
+msgid "Box"
+msgstr "Boîte"
+
+#: includes/shoppable-lookbook-admin.php:410
+#: includes/shoppable-lookbook-admin.php:843
+msgid "Box Style"
+msgstr "Style de boîte"
+
+#: includes/shoppable-lookbook-admin.php:415
+#: includes/shoppable-lookbook-admin.php:848
+msgid "Inline"
+msgstr "Inline"
+
+#: includes/shoppable-lookbook-admin.php:423
+#: includes/shoppable-lookbook-admin.php:856
+msgid "Pad"
+msgstr "Pad"
+
+#: includes/shoppable-lookbook-admin.php:431
+#: includes/shoppable-lookbook-admin.php:864
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/shoppable-lookbook-admin.php:439
+#: includes/shoppable-lookbook-admin.php:872
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/shoppable-lookbook-admin.php:447
+#: includes/shoppable-lookbook-admin.php:880
+msgid "Bottom"
+msgstr "Bas"
+
+#: includes/shoppable-lookbook-admin.php:454
+#: includes/shoppable-lookbook-admin.php:887
+msgid "Box Corner"
+msgstr "Coins de la boîte"
+
+#: includes/shoppable-lookbook-admin.php:454
+#: includes/shoppable-lookbook-admin.php:887
+msgid ""
+"Rounds the corners of the box and its thumbnail. Switching Box Style "
+"suggests a matching value (Instagram: 5, Tag: 50) — drag the slider to fine-"
+"tune."
+msgstr ""
+"Arrondit les coins de la boîte et de sa miniature. Changer de style de boîte "
+"suggère une valeur adaptée (Instagram : 5, Tag : 50) — ajustez avec le "
+"curseur."
+
+#: includes/shoppable-lookbook-admin.php:459
+#: includes/shoppable-lookbook-admin.php:892
+msgid "Box Color"
+msgstr "Couleur de la boîte"
+
+#: includes/shoppable-lookbook-admin.php:464
+#: includes/shoppable-lookbook-admin.php:543
+#: includes/shoppable-lookbook-admin.php:897
+#: includes/shoppable-lookbook-admin.php:968
+msgid "Light"
+msgstr "Clair"
+
+#: includes/shoppable-lookbook-admin.php:472
+#: includes/shoppable-lookbook-admin.php:551
+#: includes/shoppable-lookbook-admin.php:904
+#: includes/shoppable-lookbook-admin.php:975
+msgid "Dark"
+msgstr "Sombre"
+
+#: includes/shoppable-lookbook-admin.php:480
+#: includes/shoppable-lookbook-admin.php:911
+msgid "Yellow"
+msgstr "Jaune"
+
+#: includes/shoppable-lookbook-admin.php:488
+#: includes/shoppable-lookbook-admin.php:918
+msgid "Blue"
+msgstr "Bleu"
+
+#: includes/shoppable-lookbook-admin.php:496
+#: includes/shoppable-lookbook-admin.php:925
+msgid "Green"
+msgstr "Vert"
+
+#: includes/shoppable-lookbook-admin.php:504
+#: includes/shoppable-lookbook-admin.php:932
+msgid "Rose"
+msgstr "Rose"
+
+#: includes/shoppable-lookbook-admin.php:512
+#: includes/shoppable-lookbook-admin.php:939
+msgid "Custom"
+msgstr "Personnalisée"
+
+#: includes/shoppable-lookbook-admin.php:520
+#: includes/shoppable-lookbook-admin.php:946
+msgid "Custom Color"
+msgstr "Couleur personnalisée"
+
+#: includes/shoppable-lookbook-admin.php:524
+#: includes/shoppable-lookbook-admin.php:950
+msgid "Opacity"
+msgstr "Opacité"
+
+#: includes/shoppable-lookbook-admin.php:530
+#: includes/shoppable-lookbook-admin.php:956
+msgid "Content Color"
+msgstr "Couleur du contenu"
+
+#: includes/shoppable-lookbook-admin.php:530
+#: includes/shoppable-lookbook-admin.php:956
+msgid ""
+"Color of the product name, price, close icon, preview link and Add to Cart "
+"button inside the box. Auto picks a readable color for the chosen box color."
+msgstr ""
+"Couleur du nom du produit, du prix, de l’icône de fermeture, du lien "
+"d’aperçu et du bouton Ajouter au panier dans la boîte. Auto choisit une "
+"couleur lisible selon la couleur de la boîte."
+
+#: includes/shoppable-lookbook-admin.php:535
+#: includes/shoppable-lookbook-admin.php:961
+msgid "Auto"
+msgstr "Auto"
+
+#: includes/shoppable-lookbook-admin.php:554
+#: includes/shoppable-lookbook-admin.php:557
+#: includes/shoppable-lookbook-admin.php:977
+#: includes/shoppable-lookbook-admin.php:980
+msgid "Marker"
+msgstr "Marqueur"
+
+#: includes/shoppable-lookbook-admin.php:609
+#: includes/shoppable-lookbook-admin.php:1055
+msgid "Marker Animation"
+msgstr "Animation du marqueur"
+
+#: includes/shoppable-lookbook-admin.php:614
+#: includes/shoppable-lookbook-admin.php:768
+#: includes/shoppable-lookbook-admin.php:1060
+#: includes/shoppable-lookbook-admin.php:1190
+#: includes/pro__premium_only/product-list.php:88
+msgid "None"
+msgstr "Aucun"
+
+#: includes/shoppable-lookbook-admin.php:621
+#: includes/shoppable-lookbook-admin.php:1067
+msgid "Pulse"
+msgstr "Pulse"
+
+#: includes/shoppable-lookbook-admin.php:628
+#: includes/shoppable-lookbook-admin.php:1074
+msgid "Beat"
+msgstr "Beat"
+
+#: includes/shoppable-lookbook-admin.php:635
+#: includes/shoppable-lookbook-admin.php:1081
+msgid "Bounce"
+msgstr "Bounce"
+
+#: includes/shoppable-lookbook-admin.php:642
+#: includes/shoppable-lookbook-admin.php:1049
+msgid "Marker Color"
+msgstr "Couleur du marqueur"
+
+#: includes/shoppable-lookbook-admin.php:648
+#: includes/shoppable-lookbook-admin.php:1044
+msgid "Marker Size"
+msgstr "Taille du marqueur"
+
+#: includes/shoppable-lookbook-admin.php:654
+msgid "Custom Marker"
+msgstr "Marqueur personnalisé"
+
+#: includes/shoppable-lookbook-admin.php:654
+msgid "Image PNG or SVG"
+msgstr "Image PNG ou SVG"
+
+#: includes/shoppable-lookbook-admin.php:657
+#: includes/shoppable-lookbook-admin.php:1035
+msgid "Upload"
+msgstr "Téléverser"
+
+#: includes/shoppable-lookbook-admin.php:658
+#: includes/shoppable-lookbook-admin.php:1036
+msgid "Remove"
+msgstr "Retirer"
+
+#: includes/shoppable-lookbook-admin.php:662
+#: includes/shoppable-lookbook-admin.php:1084
+#: includes/pro__premium_only/gallery.php:551
+msgid "Display"
+msgstr "Affichage"
+
+#: includes/shoppable-lookbook-admin.php:665
+#: includes/shoppable-lookbook-admin.php:1087
+msgid "Photo Width"
+msgstr "Largeur de la photo"
+
+#: includes/shoppable-lookbook-admin.php:665
+#: includes/shoppable-lookbook-admin.php:1087
+msgid "Full width"
+msgstr "Pleine largeur"
+
+#: includes/shoppable-lookbook-admin.php:665
+#: includes/shoppable-lookbook-admin.php:1087
+msgid ""
+"Caps how wide the main photo can grow on the frontend. Drag to 0 for no "
+"limit (full width of its container)."
+msgstr ""
+"Limite la largeur maximale de la photo principale sur le site. Glissez à 0 "
+"pour aucune limite (pleine largeur du conteneur)."
+
+#: includes/shoppable-lookbook-admin.php:671
+#: includes/shoppable-lookbook-admin.php:1093
+msgid "Show Price"
+msgstr "Afficher le prix"
+
+#: includes/shoppable-lookbook-admin.php:676
+#: includes/shoppable-lookbook-admin.php:693
+#: includes/shoppable-lookbook-admin.php:1098
+#: includes/shoppable-lookbook-admin.php:1115
+#: includes/pro__premium_only/quick-view.php:51
+msgid "No"
+msgstr "Non"
+
+#: includes/shoppable-lookbook-admin.php:683
+#: includes/shoppable-lookbook-admin.php:700
+#: includes/shoppable-lookbook-admin.php:1105
+#: includes/shoppable-lookbook-admin.php:1122
+#: includes/pro__premium_only/quick-view.php:58
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/shoppable-lookbook-admin.php:688
+#: includes/shoppable-lookbook-admin.php:1110
+msgid "Add to Cart"
+msgstr "Ajouter au panier"
+
+#: includes/shoppable-lookbook-admin.php:708
+#: includes/shoppable-lookbook-admin.php:1130
+msgid "Open Marker On"
+msgstr "Ouvrir le marqueur au"
+
+#: includes/shoppable-lookbook-admin.php:708
+#: includes/shoppable-lookbook-admin.php:1130
+msgid ""
+"Open All: every box opens on load (visitors can close them). Open First: the "
+"first box opens on load. Accordion: one box is always open — opening another "
+"closes it."
+msgstr ""
+"Tout ouvrir : toutes les boîtes s’ouvrent au chargement (les visiteurs "
+"peuvent les fermer). Ouvrir la première : la première boîte s’ouvre au "
+"chargement. Accordéon : une boîte est toujours ouverte — en ouvrir une autre "
+"ferme la précédente."
+
+#: includes/shoppable-lookbook-admin.php:713
+#: includes/shoppable-lookbook-admin.php:1135
+msgid "Click"
+msgstr "Clic"
+
+#: includes/shoppable-lookbook-admin.php:720
+#: includes/shoppable-lookbook-admin.php:1142
+msgid "Hover"
+msgstr "Survol"
+
+#: includes/shoppable-lookbook-admin.php:727
+#: includes/shoppable-lookbook-admin.php:1149
+msgid "Open All"
+msgstr "Tout ouvrir"
+
+#: includes/shoppable-lookbook-admin.php:734
+#: includes/shoppable-lookbook-admin.php:1156
+msgid "Open First"
+msgstr "Ouvrir la première"
+
+#: includes/shoppable-lookbook-admin.php:741
+#: includes/shoppable-lookbook-admin.php:1163
+msgid "Accordion"
+msgstr "Accordéon"
+
+#: includes/shoppable-lookbook-admin.php:746
+#: includes/shoppable-lookbook-admin.php:1168
+msgid "Mobile Display"
+msgstr "Affichage mobile"
+
+#: includes/shoppable-lookbook-admin.php:746
+#: includes/shoppable-lookbook-admin.php:1168
+msgid ""
+"Bottom sheet: the box slides up from the bottom of the screen, full width. "
+"Compact: the box opens next to its marker like on desktop, sized down for "
+"mobile."
+msgstr ""
+"Bottom sheet : la boîte glisse depuis le bas de l’écran, pleine largeur. "
+"Compact : la boîte s’ouvre à côté de son marqueur comme sur ordinateur, "
+"réduite pour mobile."
+
+#: includes/shoppable-lookbook-admin.php:751
+#: includes/shoppable-lookbook-admin.php:1173
+msgid "Bottom sheet"
+msgstr "Bottom sheet"
+
+#: includes/shoppable-lookbook-admin.php:758
+#: includes/shoppable-lookbook-admin.php:1180
+msgid "Compact (desktop-style)"
+msgstr "Compact (style ordinateur)"
+
+#: includes/shoppable-lookbook-admin.php:763
+#: includes/shoppable-lookbook-admin.php:1185
+msgid "Show Sidebar"
+msgstr "Afficher la barre latérale"
+
+#: includes/shoppable-lookbook-admin.php:775
+#: includes/shoppable-lookbook-admin.php:1197
+#: includes/pro__premium_only/product-list.php:89
+msgid "Left"
+msgstr "Gauche"
+
+#: includes/shoppable-lookbook-admin.php:782
+#: includes/shoppable-lookbook-admin.php:1204
+#: includes/pro__premium_only/product-list.php:90
+msgid "Right"
+msgstr "Droite"
+
+#: includes/shoppable-lookbook-admin.php:788
+#: includes/shoppable-lookbook-admin.php:1210
+#: includes/pro__premium_only/gallery.php:626
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/shoppable-lookbook-admin.php:822
+msgid "or drag & drop an image here"
+msgstr "ou glissez-déposez une image ici"
+
+#: includes/shoppable-lookbook-admin.php:826
+#: includes/pro__premium_only/gallery.php:530
+msgid "Lookbook Settings"
+msgstr "Réglages du lookbook"
+
+#: includes/shoppable-lookbook-admin.php:1032
+msgid "Marker Image"
+msgstr "Image du marqueur"
+
+#: includes/shoppable-lookbook-admin.php:1040
+msgid "PNG or SVG. Leave empty to use an icon above."
+msgstr "PNG ou SVG. Laissez vide pour utiliser une icône ci-dessus."
+
+#: includes/pro__premium_only/quick-view.php:46
+msgid "Quick View"
+msgstr "Aperçu rapide"
+
+#: includes/pro__premium_only/quick-view.php:82
+#: includes/pro__premium_only/quick-view.php:85
+msgid "Quick view"
+msgstr "Aperçu rapide"
+
+#: includes/pro__premium_only/quick-view.php:127
+msgid "Loading…"
+msgstr "Chargement…"
+
+#: includes/pro__premium_only/quick-view.php:128
+msgid "Could not load the product."
+msgstr "Impossible de charger le produit."
+
+#: includes/pro__premium_only/quick-view.php:129
+#: includes/shoppable-lookbook-frontend.php:411
+msgid "Close"
+msgstr "Fermer"
+
+#: includes/pro__premium_only/quick-view.php:132
+#: includes/pro__premium_only/quick-view.php:213
+#: includes/pro__premium_only/quick-view.php:246
+msgid "Could not add this product to the cart."
+msgstr "Impossible d'ajouter ce produit au panier."
+
+#: includes/pro__premium_only/quick-view.php:187
+msgid "View full details"
+msgstr "Voir tous les détails"
+
+#: includes/pro__premium_only/quick-view.php:230
+msgid "Product not found."
+msgstr "Produit introuvable."
+
+#: includes/pro__premium_only/quick-view.php:234
+msgid "Please choose an option first."
+msgstr "Veuillez d'abord choisir une option."
+
+#: includes/pro__premium_only/quick-view.php:240
+msgid "This product cannot be added to the cart right now."
+msgstr "Ce produit ne peut pas être ajouté au panier pour le moment."
+
+#: includes/pro__premium_only/gallery.php:199
+msgid "Slide — classic"
+msgstr "Diapositive — classique"
+
+#: includes/pro__premium_only/gallery.php:199
+msgid "Slides swipe across edge to edge, one at a time."
+msgstr "Les diapositives défilent d'un bord à l'autre, une à la fois."
+
+#: includes/pro__premium_only/gallery.php:200
+msgid "Fade — cross-dissolve"
+msgstr "Fondu — fondu enchaîné"
+
+#: includes/pro__premium_only/gallery.php:200
+msgid "Slides dissolve into each other in place. Minimal, editorial."
+msgstr ""
+"Les diapositives se fondent l'une dans l'autre sur place. Minimaliste et "
+"éditorial."
+
+#: includes/pro__premium_only/gallery.php:201
+msgid "Coverflow — 3D"
+msgstr "Coverflow — 3D"
+
+#: includes/pro__premium_only/gallery.php:201
+msgid ""
+"The active photo sits large and flat; neighbors tilt away in 3D on either "
+"side."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:202
+msgid "Peek — neighbors visible"
+msgstr "Aperçu — voisins visibles"
+
+#: includes/pro__premium_only/gallery.php:202
+msgid ""
+"The active photo is large with the next/previous photo peeking in at the "
+"edges."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:203
+msgid "Cards — stacked deck"
+msgstr "Cartes — pile empilée"
+
+#: includes/pro__premium_only/gallery.php:203
+msgid ""
+"Photos stack like a card deck; the front card slides away to reveal the next."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:214
+#: includes/pro__premium_only/gallery.php:229
+#: includes/pro__premium_only/product-list.php:114
+msgid "1:1"
+msgstr "1:1"
+
+#: includes/pro__premium_only/gallery.php:215
+#: includes/pro__premium_only/gallery.php:230
+#: includes/pro__premium_only/product-list.php:115
+msgid "4:3"
+msgstr "4:3"
+
+#: includes/pro__premium_only/gallery.php:216
+#: includes/pro__premium_only/gallery.php:231
+#: includes/pro__premium_only/product-list.php:116
+msgid "3:4"
+msgstr "3:4"
+
+#: includes/pro__premium_only/gallery.php:217
+msgid "16:9"
+msgstr "16:9"
+
+#: includes/pro__premium_only/gallery.php:218
+msgid "9:16"
+msgstr "9:16"
+
+#: includes/pro__premium_only/gallery.php:266
+#: includes/pro__premium_only/gallery.php:267
+#: includes/pro__premium_only/gallery.php:396
+#: includes/pro__premium_only/analytics.php:784
+msgid "Lookbooks"
+msgstr "Lookbooks"
+
+#: includes/pro__premium_only/gallery.php:319
+#: includes/pro__premium_only/gallery.php:711
+msgid "Please enter a lookbook name."
+msgstr "Veuillez saisir un nom de lookbook."
+
+#: includes/pro__premium_only/gallery.php:320
+msgid "Could not save the lookbook. Please try again."
+msgstr "Impossible d’enregistrer le lookbook. Veuillez réessayer."
+
+#: includes/pro__premium_only/gallery.php:321
+#: includes/pro__premium_only/gallery.php:652
+msgid "Edit"
+msgstr "Modifier"
+
+#: includes/pro__premium_only/gallery.php:403
+msgid "No lookbooks yet."
+msgstr "Aucun lookbook pour l’instant."
+
+#: includes/pro__premium_only/gallery.php:403
+msgid "Create your first lookbook"
+msgstr "Créez votre premier lookbook"
+
+#: includes/pro__premium_only/gallery.php:412
+#: includes/pro__premium_only/analytics.php:625
+#: includes/pro__premium_only/analytics.php:789
+#: includes/shoppable-lookbook-init.php:98
+msgid "Lookbook"
+msgstr "Lookbook"
+
+#: includes/pro__premium_only/gallery.php:482
+msgid "Back to Lookbooks"
+msgstr "Retour aux lookbooks"
+
+#: includes/pro__premium_only/gallery.php:483
+msgid "Edit Lookbook"
+msgstr "Modifier le lookbook"
+
+#: includes/pro__premium_only/gallery.php:501
+msgid "Add Image Hotspots to include. Drag to reorder."
+msgstr "Ajoutez les Image Hotspots à inclure. Faites glisser pour réordonner."
+
+#: includes/pro__premium_only/gallery.php:511
+msgid "-- Choose from Image Hotspots --"
+msgstr "-- Choisir parmi les Image Hotspots --"
+
+#: includes/pro__premium_only/gallery.php:518
+msgid "or"
+msgstr "ou"
+
+#: includes/pro__premium_only/gallery.php:520
+msgid "Add New Image Hotspot"
+msgstr "Ajouter un nouvel Image Hotspot"
+
+#: includes/pro__premium_only/gallery.php:522
+msgid "Save the lookbook first to enable this."
+msgstr "Enregistrez d’abord le lookbook pour activer ceci."
+
+#: includes/pro__premium_only/gallery.php:522
+#: includes/shoppable-lookbook-init.php:115
+msgid "New Image Hotspot"
+msgstr "Nouvel Image Hotspot"
+
+#: includes/pro__premium_only/gallery.php:537
+msgid "e.g. Spring collection"
+msgstr "ex. Collection printemps"
+
+#: includes/pro__premium_only/gallery.php:553
+msgid "Carousel (slider)"
+msgstr "Carrousel (slider)"
+
+#: includes/pro__premium_only/gallery.php:554
+msgid "Flipbook (magazine)"
+msgstr "Flipbook (magazine)"
+
+#: includes/pro__premium_only/gallery.php:555
+msgid "Grid"
+msgstr "Grille"
+
+#: includes/pro__premium_only/gallery.php:556
+msgid "Masonry"
+msgstr "Masonry"
+
+#: includes/pro__premium_only/gallery.php:562
+msgid "Book Size"
+msgstr "Format du livre"
+
+#: includes/pro__premium_only/gallery.php:562
+msgid "Photos that do not match the page shape are centered on the page."
+msgstr ""
+"Les photos qui ne correspondent pas au format de la page sont centrées sur "
+"la page."
+
+#: includes/pro__premium_only/gallery.php:564
+msgid "Portrait — like a magazine"
+msgstr "Portrait — comme un magazine"
+
+#: includes/pro__premium_only/gallery.php:565
+msgid "Landscape — like a photo album"
+msgstr "Paysage — comme un album photo"
+
+#: includes/pro__premium_only/gallery.php:568
+#: includes/pro__premium_only/gallery.php:594
+msgid "Photo Fit"
+msgstr "Ajustement de la photo"
+
+#: includes/pro__premium_only/gallery.php:568
+msgid ""
+"Full crops photos to fill the page; markers follow the visible part "
+"automatically."
+msgstr ""
+"Plein recadre les photos pour remplir la page ; les marqueurs suivent "
+"automatiquement la partie visible."
+
+#: includes/pro__premium_only/gallery.php:570
+msgid "Fit — show the whole photo"
+msgstr "Ajuster — afficher toute la photo"
+
+#: includes/pro__premium_only/gallery.php:571
+msgid "Full — cover the page edge to edge"
+msgstr "Plein — couvrir la page bord à bord"
+
+#: includes/pro__premium_only/gallery.php:580
+msgid "Style"
+msgstr "Style"
+
+#: includes/pro__premium_only/gallery.php:580
+msgid "How slides move as visitors browse the carousel."
+msgstr ""
+"Comment les diapositives se déplacent lorsque les visiteurs parcourent le "
+"carrousel."
+
+#: includes/pro__premium_only/gallery.php:587
+#: includes/pro__premium_only/product-list.php:138
+msgid "Items per view"
+msgstr "Éléments par vue"
+
+#: includes/pro__premium_only/gallery.php:587
+msgid ""
+"How many photos show side by side per page. Only applies to the Slide style."
+msgstr ""
+
+#: includes/pro__premium_only/gallery.php:591
+#, php-format
+msgid "%d image"
+msgid_plural "%d images"
+msgstr[0] "%d image"
+msgstr[1] "%d images"
+
+#: includes/pro__premium_only/gallery.php:594
+msgid "Fit adds empty space on the sides if the photo doesn't match the frame."
+msgstr ""
+"Ajuster ajoute un espace vide sur les côtés si la photo ne correspond pas au "
+"cadre."
+
+#: includes/pro__premium_only/gallery.php:596
+msgid "Full — crop to fill the frame"
+msgstr "Plein — recadre pour remplir le cadre"
+
+#: includes/pro__premium_only/gallery.php:597
+msgid "Fit — show the whole photo, centered"
+msgstr "Ajuster — affiche toute la photo, centrée"
+
+#: includes/pro__premium_only/gallery.php:600
+#: includes/pro__premium_only/gallery.php:614
+msgid "Size"
+msgstr "Taille"
+
+#: includes/pro__premium_only/gallery.php:600
+msgid "The same frame size is used for every photo in the carousel."
+msgstr ""
+"La même taille de cadre est utilisée pour toutes les photos du carrousel."
+
+#: includes/pro__premium_only/gallery.php:603
+msgid "Autoplay slides"
+msgstr "Lecture automatique"
+
+#: includes/pro__premium_only/gallery.php:604
+msgid "Prev / next arrows"
+msgstr "Flèches précédent / suivant"
+
+#: includes/pro__premium_only/gallery.php:605
+msgid "Navigation dots"
+msgstr "Points de navigation"
+
+#: includes/pro__premium_only/gallery.php:606
+msgid "Speed (ms)"
+msgstr "Vitesse (ms)"
+
+#: includes/pro__premium_only/gallery.php:617
+msgid "Columns"
+msgstr "Colonnes"
+
+#: includes/pro__premium_only/gallery.php:621
+msgid "Gap (px)"
+msgstr "Espacement (px)"
+
+#: includes/pro__premium_only/gallery.php:627
+msgid "Save the lookbook first to preview."
+msgstr "Enregistrez d’abord le lookbook pour prévisualiser."
+
+#: includes/pro__premium_only/gallery.php:700
+#: includes/pro__premium_only/gallery.php:792
+#: includes/pro__premium_only/gallery.php:814
+#: includes/pro__premium_only/gallery.php:836
+#: includes/pro__premium_only/gallery.php:882
+#: includes/shoppable-lookbook-list.php:47
+#: includes/shoppable-lookbook-init.php:22
+#: includes/shoppable-lookbook-search.php:22
+msgid "You are not allowed to do this."
+msgstr "Vous n’êtes pas autorisé à faire cela."
+
+#: includes/pro__premium_only/gallery.php:892
+#: includes/shoppable-lookbook-init.php:764
+msgid "This is not a valid lookbook export file."
+msgstr "Ceci n’est pas un fichier d’export de lookbook valide."
+
+#: includes/pro__premium_only/gallery.php:908
+msgid "None of the image hotspots in this file could be imported."
+msgstr "Aucun des image hotspots de ce fichier n’a pu être importé."
+
+#: includes/pro__premium_only/gallery.php:914
+#: includes/shoppable-lookbook-init.php:667
+msgid "Imported lookbook"
+msgstr "Lookbook importé"
+
+#: includes/pro__premium_only/gallery.php:935
+#, php-format
+msgid "%d image hotspot could not be imported (missing image)."
+msgid_plural "%d image hotspots could not be imported (missing image)."
+msgstr[0] "%d image hotspot n’a pas pu être importé (image manquante)."
+msgstr[1] "%d image hotspots n’ont pas pu être importés (images manquantes)."
+
+#: includes/pro__premium_only/gallery.php:1026
+#: includes/pro__premium_only/gallery.php:1046
+#: includes/pro__premium_only/gallery.php:1099
+#: includes/pro__premium_only/gallery.php:1106
+#: includes/pro__premium_only/gallery.php:1137
+#: includes/pro__premium_only/gallery.php:1144
+msgid "Shoppable Gallery"
+msgstr "Shoppable Gallery"
+
+#: includes/pro__premium_only/gallery.php:1053
+msgid "Select a gallery"
+msgstr "Sélectionner une galerie"
+
+#: includes/pro__premium_only/gallery.php:1107
+#: includes/pro__premium_only/gallery.php:1145
+msgid "Select a gallery to display"
+msgstr "Sélectionnez une galerie à afficher"
+
+#: includes/pro__premium_only/multi-image.php:207
+#: includes/pro__premium_only/product-list.php:262
+#: includes/pro__premium_only/product-list.php:279
+msgid "Previous"
+msgstr "Précédent"
+
+#: includes/pro__premium_only/multi-image.php:208
+#: includes/pro__premium_only/product-list.php:263
+#: includes/pro__premium_only/product-list.php:283
+msgid "Next"
+msgstr "Suivant"
+
+#: includes/pro__premium_only/multi-image.php:216
+#, php-format
+msgid "Go to slide %d"
+msgstr "Aller à la diapositive %d"
+
+#: includes/pro__premium_only/multi-image.php:265
+#, php-format
+msgid "Go to page %d"
+msgstr "Aller à la page %d"
+
+#: includes/pro__premium_only/product-list.php:91
+msgid "Below"
+msgstr "En dessous"
+
+#: includes/pro__premium_only/product-list.php:96
+msgid "Shop the Look"
+msgstr "Shop the Look"
+
+#: includes/pro__premium_only/product-list.php:100
+msgid "Product List"
+msgstr "Liste de produits"
+
+#: includes/pro__premium_only/product-list.php:100
+msgid ""
+"Shows every tagged product as a shoppable list beside the image, or as a "
+"carousel below it. Left/Right scroll after the chosen number of items; Below "
+"shows up to 6 per view."
+msgstr ""
+"Affiche chaque produit tagué sous forme de liste achetable à côté de "
+"l’image, ou de carrousel en dessous. Gauche/Droite défilent après le nombre "
+"d’éléments choisi ; En dessous affiche jusqu’à 6 par vue."
+
+#: includes/pro__premium_only/product-list.php:126
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: includes/pro__premium_only/product-list.php:142
+msgid ""
+"Shows just a total price and an \"Add all to cart\" button below the image — "
+"no individual product cards."
+msgstr ""
+"Affiche seulement un prix total et un bouton « Tout ajouter au panier » sous "
+"l’image — sans fiches produit individuelles."
+
+#: includes/pro__premium_only/product-page.php:105
+#: includes/pro__premium_only/shop-the-look.php:81
+msgid "Shop the look"
+msgstr "Shop the look"
+
+#: includes/pro__premium_only/analytics.php:152
+#: includes/pro__premium_only/analytics.php:614
+msgid "Lookbook Analytics"
+msgstr "Statistiques du lookbook"
+
+#: includes/pro__premium_only/analytics.php:153
+msgid "Analytics"
+msgstr "Statistiques"
+
+#: includes/pro__premium_only/analytics.php:171
+msgid "Last 7 days"
+msgstr "7 derniers jours"
+
+#: includes/pro__premium_only/analytics.php:172
+msgid "Last 30 days"
+msgstr "30 derniers jours"
+
+#: includes/pro__premium_only/analytics.php:173
+msgid "Last 90 days"
+msgstr "90 derniers jours"
+
+#: includes/pro__premium_only/analytics.php:174
+msgid "Last 12 months"
+msgstr "12 derniers mois"
+
+#: includes/pro__premium_only/analytics.php:175
+msgid "All time"
+msgstr "Depuis le début"
+
+#: includes/pro__premium_only/analytics.php:446
+msgid "No change"
+msgstr "Aucun changement"
+
+#: includes/pro__premium_only/analytics.php:453
+#, php-format
+msgid "%s%%"
+msgstr "%s %%"
+
+#: includes/pro__premium_only/analytics.php:455
+#, php-format
+msgid "%s pts"
+msgstr "%s pts"
+
+#: includes/pro__premium_only/analytics.php:457
+msgid "vs previous period"
+msgstr "vs période précédente"
+
+#: includes/pro__premium_only/analytics.php:567
+#: includes/pro__premium_only/analytics.php:649
+#: includes/pro__premium_only/analytics.php:695
+#: includes/pro__premium_only/analytics.php:790
+msgid "Impressions"
+msgstr "Impressions"
+
+#: includes/pro__premium_only/analytics.php:573
+#: includes/pro__premium_only/analytics.php:650
+#: includes/pro__premium_only/analytics.php:696
+msgid "Marker opens"
+msgstr "Ouvertures de marqueur"
+
+#: includes/pro__premium_only/analytics.php:579
+#: includes/pro__premium_only/analytics.php:651
+#: includes/pro__premium_only/analytics.php:697
+msgid "Product clicks"
+msgstr "Clics sur produits"
+
+#: includes/pro__premium_only/analytics.php:585
+#: includes/pro__premium_only/analytics.php:652
+#: includes/pro__premium_only/analytics.php:698
+#: includes/pro__premium_only/analytics.php:743
+#: includes/pro__premium_only/analytics.php:793
+#: includes/shoppable-lookbook-frontend.php:38
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: includes/pro__premium_only/analytics.php:606
+#: includes/pro__premium_only/analytics.php:682
+#, php-format
+msgid "Week of %s"
+msgstr "Semaine du %s"
+
+#: includes/pro__premium_only/analytics.php:619
+msgid "Date range"
+msgstr "Période"
+
+#: includes/pro__premium_only/analytics.php:627
+msgid "All lookbooks"
+msgstr "Tous les lookbooks"
+
+#: includes/pro__premium_only/analytics.php:638
+msgid "No data for this period"
+msgstr "Aucune donnée pour cette période"
+
+#: includes/pro__premium_only/analytics.php:639
+msgid ""
+"Stats appear here once visitors interact with your published lookbooks. Try "
+"a wider date range, or embed a lookbook with the shortcode and share the "
+"page."
+msgstr ""
+"Les statistiques apparaîtront lorsque les visiteurs interagiront avec vos "
+"lookbooks publiés. Essayez une période plus large, ou intégrez un lookbook "
+"avec le shortcode et partagez la page."
+
+#: includes/pro__premium_only/analytics.php:653
+#: includes/pro__premium_only/analytics.php:794
+msgid "Open rate"
+msgstr "Taux d’ouverture"
+
+#: includes/pro__premium_only/analytics.php:654
+#: includes/pro__premium_only/analytics.php:744
+msgid "Cart rate"
+msgstr "Taux de panier"
+
+#: includes/pro__premium_only/analytics.php:662
+msgid "Activity"
+msgstr "Activité"
+
+#: includes/pro__premium_only/analytics.php:669
+msgid "Daily activity chart. The same data is available in the table below."
+msgstr ""
+"Graphique d’activité quotidienne. Les mêmes données sont disponibles dans le "
+"tableau ci-dessous."
+
+#: includes/pro__premium_only/analytics.php:672
+msgid "View data table"
+msgstr "Voir le tableau de données"
+
+#: includes/pro__premium_only/analytics.php:674
+msgid "Date"
+msgstr "Date"
+
+#: includes/pro__premium_only/analytics.php:701
+msgid "Conversion funnel"
+msgstr "Entonnoir de conversion"
+
+#: includes/pro__premium_only/analytics.php:711
+#, php-format
+msgid "%s%% of previous step"
+msgstr "%s %% de l’étape précédente"
+
+#: includes/pro__premium_only/analytics.php:731
+msgid "Top products"
+msgstr "Meilleurs produits"
+
+#: includes/pro__premium_only/analytics.php:733
+msgid "No product interactions in this period."
+msgstr "Aucune interaction produit sur cette période."
+
+#: includes/pro__premium_only/analytics.php:741
+#: includes/pro__premium_only/analytics.php:791
+msgid "Opens"
+msgstr "Ouvertures"
+
+#: includes/pro__premium_only/analytics.php:742
+#: includes/pro__premium_only/analytics.php:792
+msgid "Clicks"
+msgstr "Clics"
+
+#: includes/pro__premium_only/analytics.php:786
+msgid "No lookbook activity in this period."
+msgstr "Aucune activité de lookbook sur cette période."
+
+#: includes/pro__premium_only/shop-the-look.php:78
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d article"
+msgstr[1] "%d articles"
+
+#: includes/pro__premium_only/shop-the-look.php:85
+msgid "Add all to cart"
+msgstr "Tout ajouter au panier"
+
+#: includes/pro__premium_only/shop-the-look.php:143
+msgid "Added to cart"
+msgstr "Ajouté au panier"
+
+#: includes/pro__premium_only/shop-the-look.php:144
+#: includes/pro__premium_only/shop-the-look.php:197
+#: includes/pro__premium_only/shop-the-look.php:216
+#: includes/pro__premium_only/shop-the-look.php:260
+msgid "Could not add the products."
+msgstr "Impossible d’ajouter les produits."
+
+#: includes/pro__premium_only/shop-the-look.php:259
+#, php-format
+msgid "Choose options for: %s"
+msgstr "Choisissez les options pour : %s"
+
+#: includes/pro__premium_only/shop-the-look.php:276
+#, php-format
+msgid "%1$d item added. Choose options for: %2$s"
+msgid_plural "%1$d items added. Choose options for: %2$s"
+msgstr[0] "%1$d article ajouté. Choisissez les options pour : %2$s"
+msgstr[1] "%1$d articles ajoutés. Choisissez les options pour : %2$s"
+
+#: includes/shoppable-lookbook-init.php:110
+msgid "Image Hotspots"
+msgstr "Image Hotspots"
+
+#: includes/shoppable-lookbook-init.php:610
+#, php-format
+msgid "%s (Copy)"
+msgstr "%s (copie)"
+
+#: includes/shoppable-lookbook-init.php:685
+msgid "The lookbook image could not be imported."
+msgstr "L’image du lookbook n’a pas pu être importée."
+
+#: includes/shoppable-lookbook-init.php:716
+msgid "Export is a Pro feature."
+msgstr "L’export est une fonctionnalité Pro."
+
+#: includes/shoppable-lookbook-init.php:755
+msgid "Import is a Pro feature."
+msgstr "L’import est une fonctionnalité Pro."
+
+#: includes/shoppable-lookbook-init.php:870
+msgid "You are not allowed to upload SVG files."
+msgstr "Vous n’êtes pas autorisé à téléverser des fichiers SVG."
+
+#: includes/shoppable-lookbook-init.php:883
+msgid "This SVG could not be sanitized and was rejected."
+msgstr "Ce SVG n’a pas pu être assaini et a été rejeté."
+
+#: includes/shoppable-lookbook-init.php:991
+msgid ""
+"WooCommerce is not active. You can still create lookbooks with custom links, "
+"but product markers require WooCommerce."
+msgstr ""
+"WooCommerce n’est pas actif. Vous pouvez créer des lookbooks avec des liens "
+"personnalisés, mais les marqueurs produit nécessitent WooCommerce."
+
+#: includes/shoppable-lookbook-init.php:992
+msgid "Return to Plugins"
+msgstr "Retour aux extensions"
+
+#: includes/shoppable-lookbook-frontend.php:386
+#, php-format
+msgid "View: %s"
+msgstr "Vue : %s"
+
+#: plugins/gutenberg/js/shoppable-lookbook-gutenberg.js:86
+#: assets/pro__premium_only/js/shoppable-gallery-gutenberg.js:73
+msgid "Settings"
+msgstr "Réglages"
+
+#: plugins/gutenberg/js/shoppable-lookbook-gutenberg.js:101
+msgid "Select a lookbook to display."
+msgstr "Sélectionnez un lookbook à afficher."
+
+#: assets/pro__premium_only/js/shoppable-gallery-gutenberg.js:88
+msgid "Select a gallery to display."
+msgstr "Sélectionnez une galerie à afficher."
+
+#~ msgid "Image Size"
+#~ msgstr "Taille de l'image"
+
+#~ msgid "Square 1:1"
+#~ msgstr "Carré 1:1"
+
+#~ msgid "Landscape 4:3"
+#~ msgstr "Paysage 4:3"
+
+#~ msgid "Portrait 3:4"
+#~ msgstr "Portrait 3:4"
+
+#~ msgid "Landscape 16:9"
+#~ msgstr "Paysage 16:9"
+
+#~ msgid "Portrait 9:16"
+#~ msgstr "Portrait 9:16"
+
+#~ msgid "Frame Width"
+#~ msgstr "Largeur du cadre"
+
+#~ msgid "Frame Height"
+#~ msgstr "Hauteur du cadre"
+
+#~ msgid ""
+#~ "The frame shape as a ratio, e.g. 4 and 3 for a 4:3 frame. The same frame "
+#~ "size is used for every photo."
+#~ msgstr ""
+#~ "La forme du cadre sous forme de ratio, par ex. 4 et 3 pour un cadre 4:3. "
+#~ "La même taille de cadre est utilisée pour toutes les photos."
+
+#~ msgid "Uniform — all slides equal, crop to match"
+#~ msgstr "Uniforme — diapositives identiques, recadrées"
+
+#~ msgid "Auto — natural size per photo, centered"
+#~ msgstr "Auto — taille naturelle par photo, centrée"
+
+#~ msgid "Edit Hotspots"
+#~ msgstr "Modifier les hotspots"
