@@ -1,5 +1,5 @@
 === Shoppable Lookbook ===
-Contributors: douple
+Contributors: Douple
 Tags: woocommerce, shoppable images, photo tagging, lookbook, shoppable photos
 Requires at least: 5.0
 Tested up to: 7.0
@@ -125,8 +125,6 @@ No Freemius connection is required to use the free lookbook features.
 Human-readable source for plugin-owned JavaScript and CSS is included in this package under `assets/js/`, `assets/css/`, and `plugins/*/js|css/` (for example `shoppable-lookbook.js`, `lookbook-admin.js`, Gutenberg block scripts/styles).
 
 Public source repository: https://github.com/thiendo/Wordpress-Shoppable-Lookbook-Plugin
-
-See CONTRIBUTORS.md for project contributors.
 
 No build tools are required to review or modify the plugin-owned admin and frontend scripts and styles shipped in this free package.
 
