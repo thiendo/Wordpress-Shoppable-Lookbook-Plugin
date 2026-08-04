@@ -4,7 +4,7 @@ Tags: woocommerce, shoppable images, photo tagging, lookbook, shoppable photos
 Requires at least: 5.0
 Tested up to: 7.0
 Requires PHP: 7.0
-Stable tag: 1.8.1
+Stable tag: 1.8.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -86,16 +86,13 @@ Yes. Lookbooks render through a shortcode, so they work in any theme. Native int
 
 = How do I upgrade to Pro? =
 
-1. Purchase at https://douple.net/shoppable-lookbook/#pricing (or from **Lookbook → Upgrade / Pricing** in wp-admin).
-2. Complete Freemius checkout. Your license key is emailed to the address used at payment.
-3. In wp-admin go to **Lookbook → Account**, click **Activate License**, and paste the key.
-4. Confirm Pro features unlock (Quick View, Product List, galleries, analytics, etc.).
+Purchase Pro at https://douple.net/shoppable-lookbook/#pricing and install the Pro ZIP from your purchase email / Freemius customer portal. The free WordPress.org package does not include the Freemius SDK.
 
-If you checkout from inside the same site’s wp-admin, Freemius often activates the license automatically. Full guide: https://douple.net/shoppable-lookbook/docs.html
 
 = I bought Pro but the plugin still shows Free =
 
-Open **Lookbook → Account** and activate the license key from your Freemius purchase email. If the plan’s site limit is full, deactivate the license on an unused site first, then activate on this one.
+Install the Pro ZIP from your Freemius purchase (not only the free WordPress.org package), then activate with the license key from your purchase email.
+
 
 = What happens to my data if I deactivate or uninstall? =
 
@@ -103,22 +100,8 @@ Deactivating keeps all lookbooks intact. Deleting the plugin keeps data by defau
 
 = Does this plugin send data to third parties? =
 
-Lookbook content stays in your WordPress database. The bundled Freemius SDK may contact Freemius servers only after you opt in to usage tracking, or when you purchase / activate a Pro license. See **External services** below.
+No. Lookbook content stays in your WordPress database. This free package does not bundle Freemius or phone home.
 
-== External services ==
-
-This plugin optionally connects to **Freemius** (https://freemius.com/) for:
-
-* Optional opt-in usage tracking (skipped unless you explicitly agree on the Freemius connect screen)
-* Pro checkout, license activation / deactivation, and Pro plugin updates
-
-When those flows run, Freemius may receive data such as site URL, admin email / name (when provided), license key, plugin version, and basic WordPress / PHP environment info needed for licensing and support.
-
-* Freemius Terms of Service: https://freemius.com/terms/
-* Freemius Privacy Policy: https://freemius.com/privacy/
-* Freemius data practices: https://freemius.com/privacy/data-practices/
-
-No Freemius connection is required to use the free lookbook features.
 
 == Development ==
 
@@ -141,6 +124,11 @@ No build tools are required to review or modify the plugin-owned admin and front
 9. The lookbook overview — copy shortcodes, duplicate, export and spot broken products at a glance
 
 == Changelog ==
+
+= 1.8.2 =
+* Compliance: Free / wordpress.org package no longer ships the Freemius SDK (no plugin updater). Pro is a separate Freemius-sold ZIP.
+* Compliance: Free / wordpress.org package no longer ships the Freemius SDK (avoids plugin_updater_detected). Pro is distributed as a separate Freemius-sold ZIP.
+* Compliance: Contributors set to Douple; public GitHub README lists thiendo and Douple-net.
 
 = 1.8.1 =
 * Compliance: Renamed plugin display name to "Shoppable Lookbook" so it matches the folder/slug and Text Domain (avoids Plugin Check TextDomainMismatch from "&amp;" in the old name).

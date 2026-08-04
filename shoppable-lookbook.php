@@ -14,7 +14,7 @@
  * Plugin Name:       Shoppable Lookbook
  * Plugin URI:        https://douple.net/shoppable-lookbook/
  * Description:       Tag products on your photos to turn them into shoppable images. Supports drag & drop markers to mark your products.
- * Version:           1.8.1
+ * Version:           1.8.2
  * Author:            Douple
  * Author URI:        https://douple.net
  * License:           GPLv2 or later
@@ -36,7 +36,7 @@ if ( !defined('LA_LOOKBOOK_NAME') ) {
 }
 
 if ( !defined('LA_LOOKBOOK_VERSION') ) {
-    define('LA_LOOKBOOK_VERSION', '1.8.1');
+    define('LA_LOOKBOOK_VERSION', '1.8.2');
 }
 
 if ( !defined('LA_LOOKBOOK_TEXT_DOMAIN') ) {
@@ -52,9 +52,13 @@ if ( !defined('LA_LOOKBOOK_PLUGIN_PATH') ) {
 define('LA_LOOKBOOK_PLUGIN_URL', plugins_url() . '/' . basename(plugin_dir_path(__FILE__)));
 
 /**
- * Freemius SDK initialization.
+ * Freemius SDK initialization (premium / Freemius-distributed builds only).
+ *
+ * The wordpress.org / GitHub free package does NOT ship the freemius/ folder, so
+ * this block is skipped there — no remote updater, no opt-in phone-home. Pro is
+ * sold as a separate premium zip from douple.net / Freemius checkout.
  */
-if ( ! function_exists( 'sl_fs' ) ) {
+if ( file_exists( dirname( __FILE__ ) . '/freemius/start.php' ) && ! function_exists( 'sl_fs' ) ) {
     function sl_fs() {
         global $sl_fs;
 
@@ -63,24 +67,17 @@ if ( ! function_exists( 'sl_fs' ) ) {
 
             // This working copy is the PREMIUM codebase. Freemius automatically
             // flips is_premium to false (and strips every *__premium_only
-            // file/folder) when it generates the free wordpress.org build, so
-            // is_premium is always true here.
+            // file/folder) when it generates a free build from premium.
             $sl_fs = fs_dynamic_init( array(
                 'id'                  => '32876',
                 'slug'                => 'shoppable-lookbook',
                 'type'                => 'plugin',
                 'public_key'          => 'pk_b90cbbbbcd0f9d075609038bcd7af',
-                'is_premium'          => false,
+                'is_premium'          => true,
                 'has_addons'          => false,
                 'has_paid_plans'      => true,
-                // Marks the free wordpress.org package as Guideline-compliant.
-                // Freemius defaults this to true; keep it explicit so reviews
-                // (and our free zip builder) never lose the flag.
                 'is_org_compliant'    => true,
-                // Paste the security token from Freemius Developer Dashboard →
-                // SDK Integration (blocks accidental premium uploads to
-                // wordpress.org). Freemius and bin/build-free-zip.sh remove
-                // this key from the free package before submission.
+                // 'wp_org_gatekeeper' => 'PASTE_FROM_FREEMIUS_DASHBOARD',
                 'menu'                => array(
                     'slug'    => 'shoppable-lookbook',
                     'account' => true,
@@ -99,14 +96,11 @@ if ( ! function_exists( 'sl_fs' ) ) {
 }
 
 /**
- * Uninstall cleanup, wired through Freemius instead of a plugin uninstall.php.
+ * Uninstall cleanup.
  *
- * WordPress only runs ONE uninstall mechanism per plugin: if a plugin ships its
- * own uninstall.php, that file completely replaces any register_uninstall_hook()
- * callbacks — including the one Freemius registers internally to report the
- * uninstall event back to its servers and show the uninstall-reason survey. So
- * cleanup must go through Freemius's own `after_uninstall` action instead of a
- * separate uninstall.php (removed).
+ * When Freemius is present, hook via Freemius `after_uninstall` so its own
+ * uninstall survey still runs. When Freemius is absent (wordpress.org free
+ * package), use a normal uninstall hook instead.
  */
 function shoppablelookbook_uninstall_site() {
     global $wpdb;
@@ -137,7 +131,12 @@ function shoppablelookbook_after_uninstall() {
         shoppablelookbook_uninstall_site();
     }
 }
-sl_fs()->add_action( 'after_uninstall', 'shoppablelookbook_after_uninstall' );
+
+if ( function_exists( 'sl_fs' ) ) {
+    sl_fs()->add_action( 'after_uninstall', 'shoppablelookbook_after_uninstall' );
+} else {
+    register_uninstall_hook( __FILE__, 'shoppablelookbook_after_uninstall' );
+}
 
 /**
  * Defines the core plugin class
