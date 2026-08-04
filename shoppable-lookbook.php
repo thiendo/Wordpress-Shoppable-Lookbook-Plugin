@@ -11,10 +11,10 @@
  * @since             1.1.4
  * @package           Shoppable_Lookbook
  * @wordpress-plugin
- * Plugin Name:       Shoppable Lookbook &amp; Image Hotspot
+ * Plugin Name:       Shoppable Lookbook
  * Plugin URI:        https://douple.net/shoppable-lookbook/
  * Description:       Tag products on your photos to turn them into shoppable images. Supports drag & drop markers to mark your products.
- * Version:           1.8.0
+ * Version:           1.8.1
  * Author:            Douple
  * Author URI:        https://douple.net
  * License:           GPLv2 or later
@@ -32,11 +32,11 @@ if ( !defined('ABSPATH') ) {
 }
 
 if ( !defined('LA_LOOKBOOK_NAME') ) {
-    define('LA_LOOKBOOK_NAME', 'Shoppable Lookbook & Image Hotspot');
+    define('LA_LOOKBOOK_NAME', 'Shoppable Lookbook');
 }
 
 if ( !defined('LA_LOOKBOOK_VERSION') ) {
-    define('LA_LOOKBOOK_VERSION', '1.8.0');
+    define('LA_LOOKBOOK_VERSION', '1.8.1');
 }
 
 if ( !defined('LA_LOOKBOOK_TEXT_DOMAIN') ) {
@@ -66,15 +66,25 @@ if ( ! function_exists( 'sl_fs' ) ) {
             // file/folder) when it generates the free wordpress.org build, so
             // is_premium is always true here.
             $sl_fs = fs_dynamic_init( array(
-                'id'             => '32876',
-                'slug'           => 'shoppable-lookbook',
-                'type'           => 'plugin',
-                'public_key'     => 'pk_b90cbbbbcd0f9d075609038bcd7af',
-                'is_premium'     => false,
-                'has_addons'     => false,
-                'has_paid_plans' => true,
-                'menu'           => array(
+                'id'                  => '32876',
+                'slug'                => 'shoppable-lookbook',
+                'type'                => 'plugin',
+                'public_key'          => 'pk_b90cbbbbcd0f9d075609038bcd7af',
+                'is_premium'          => false,
+                'has_addons'          => false,
+                'has_paid_plans'      => true,
+                // Marks the free wordpress.org package as Guideline-compliant.
+                // Freemius defaults this to true; keep it explicit so reviews
+                // (and our free zip builder) never lose the flag.
+                'is_org_compliant'    => true,
+                // Paste the security token from Freemius Developer Dashboard →
+                // SDK Integration (blocks accidental premium uploads to
+                // wordpress.org). Freemius and bin/build-free-zip.sh remove
+                // this key from the free package before submission.
+                'menu'                => array(
                     'slug'    => 'shoppable-lookbook',
+                    'account' => true,
+                    'pricing' => true,
                     'contact' => false,
                     'support' => false,
                 ),

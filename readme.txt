@@ -1,107 +1,137 @@
-=== Shoppable Lookbook & Image Hotspot ===
+=== Shoppable Lookbook ===
 Contributors: douple
 Tags: woocommerce, shoppable images, photo tagging, lookbook, shoppable photos
 Requires at least: 5.0
 Tested up to: 7.0
 Requires PHP: 7.0
-Stable tag: 1.8.0
+Stable tag: 1.8.1
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Tag products on your photos to turn them into shoppable images and enhance the user experience.
 
 == Description ==
 
-Tag products on your photos to turn them into shoppable images and enhance the user experience. Supports drag & drop markers to help you mark your products easy.
+**Plugin URL:** https://douple.net/shoppable-lookbook/
+**Docs:** https://douple.net/shoppable-lookbook/docs.html
+**Demo:** https://douple.net/shoppable-lookbook/demo/
+**GitHub:** https://github.com/thiendo/Wordpress-Shoppable-Lookbook-Plugin
+**Support:** support@douple.net
+**Get Pro:** https://checkout.freemius.com/plugin/32876/plan/59385/
 
-[LANDING PAGE](https://douple.net/shoppable-lookbook/)
-[DEMO](https://douple.net/shoppable-lookbook/demo/)
-[BUY PRO](https://checkout.freemius.com/plugin/32876/plan/59385/)
-[DOCUMENTATION](https://douple.net/shoppable-lookbook/docs.html)
-[GITHUB](https://github.com/thiendo/Wordpress-Shoppable-Lookbook-Plugin)
+Tag products on your photos to turn them into shoppable images. Supports drag & drop markers so you can place products exactly where they appear in the photo.
 
-== FEATURES ==
+= Features =
 
-* Click anywhere on the image to create marker
-
-* Drag and drop marker to change the location as ease
-
-* Flexible configuration changes as color, style, on/off ...
-
-* Smart search and link product to marker
-
+* Click anywhere on the image to create a marker
+* Drag and drop markers to reposition them
+* Flexible styling — colour, size, icon, open on click / hover / auto
+* Smart product search and link products to markers (WooCommerce)
 * Link markers to any custom URL with a custom title, image and price (no WooCommerce required)
-
-* Optional AJAX "Add to cart" button on product markers
-
-* Fully translatable — ships with Spanish, German, French, Italian, Portuguese (Brazil), Japanese and Vietnamese translations (.pot template included)
-
+* Optional AJAX “Add to cart” button on product markers
+* Fully translatable — ships with Spanish, German, French, Italian, Portuguese (Brazil), Japanese and Vietnamese (.pot included)
 * Keyboard and screen-reader accessible markers
+* Shortcode plus Gutenberg and Elementor blocks
+* Create unlimited lookbooks
 
-* The plugins supports shortcode and some editors
+= Compatible with =
 
-* Create unlimited lookbook
-
-== COMPATIBLE WITH ==
-
-* Elementor – Top #1 WordPress page builder.
-
-* WPBakery Page Builder - Top #1 page builder selling on CodeCanyon. (PRO)
-
-* Visual Composer Page Builder.
-
-* Fusion Builder – Visually drag and drop content to create beautiful pages. (PRO)
-
-* Gutenberg - New editor Gutenberg from WordPress 5.0.
-
-* Classic Editor - Old WordPress editor to support shortcode.
+* Elementor
+* Gutenberg (block editor)
+* Classic Editor (shortcode)
+* WPBakery Page Builder (Pro)
+* Fusion Builder (Pro)
 
 = Premium features =
 
-More info about the premium version at [https://douple.net/shoppable-lookbook/](https://douple.net/shoppable-lookbook/) — or [buy it directly](https://checkout.freemius.com/plugin/32876/plan/59385/).
+More info at [https://douple.net/shoppable-lookbook/](https://douple.net/shoppable-lookbook/) — or [buy Pro](https://checkout.freemius.com/plugin/32876/plan/59385/).
 
-* **Product List** — show every tagged product as a shoppable list beside the image or a carousel below it, with variation selects and add-to-cart buttons
-
-* **Shop the Look** — an "Add all to cart" bar with live total that adds every product in the look to the cart in one click
-
-* **Quick View** — open a product modal straight from a marker, without leaving the page
-
-* **Multi-image Lookbook & Gallery Manager** — combine several lookbooks into one shoppable carousel or grid, managed from a dedicated Galleries screen
-
-* **Product page cross-sell** — automatically show the lookbooks containing the product being viewed on its WooCommerce product page
-
-* **Analytics** — a dashboard tracking impressions, marker opens, product clicks and add-to-cart events, with conversion funnel and top products
-
-* **Custom markers** — upload your own marker image (PNG/SVG, sanitized) instead of the built-in icons
-
-* **Advanced styling** — Tag and Bottom box styles, rounded box corners, custom box colour with auto-contrast text and box opacity
-
+* **Product List** — tagged products as a shoppable list or carousel, with variation selects and add-to-cart
+* **Shop the Look** — “Add all to cart” bar with live total
+* **Quick View** — product modal from a marker without leaving the page
+* **Multi-image Lookbook & Gallery Manager** — carousel, grid, masonry or flipbook
+* **Product page cross-sell** — lookbooks containing the viewed product
+* **Analytics** — impressions, marker opens, clicks, add-to-carts and conversion funnel
+* **Custom markers** — upload your own PNG/SVG (sanitized)
+* **Advanced styling** — Tag/Bottom box styles, corners, custom colour, opacity
 * **More marker animations** — beat and bounce (free keeps pulse)
-
-* **Advanced triggers** — open all boxes on load, open first, or accordion mode
-
-* **Bottom-sheet mobile display** — the marker box slides up as a native-feeling bottom sheet on phones (free uses the compact desktop-style box)
-
-* **Export / Import & duplicate workflows** — move lookbooks between sites as JSON
-
-* **WPBakery & Fusion Builder elements** — native page-builder integration (shortcode works everywhere in free)
+* **Advanced triggers** — open all, open first, or accordion
+* **Bottom-sheet mobile display**
+* **Export / Import & duplicate**
+* **WPBakery & Fusion Builder elements**
 
 = Requirements =
 
 * PHP 7.0 or higher
 * WordPress 5.0 or higher
-* WooCommerce 3.0 or higher (required to link products)
+* WooCommerce 3.0 or higher (required only to link WooCommerce products)
 
 == Installation ==
-Manual installation is easy and takes fewer than one minute.
 
-1. Download the plugin from wordpress.org, unpack it and upload the **[Shoppable-Lookbook]** folder to your **wp-content/plugins/** directory.
-2. Activate the plugin through the ‘Plugins‘ menu in WordPress.
-3. Go to your main **WordPress menu > Lookbooks** to start create lookbook.
+1. Upload the `shoppable-lookbook` folder to `/wp-content/plugins/`, or install from **Plugins → Add New**.
+2. Activate the plugin through the Plugins screen in WordPress.
+3. Go to **Lookbook → Image Hotspots** and create your first lookbook.
+4. Copy the shortcode (or use the Gutenberg / Elementor block) onto any page.
+5. Full documentation: https://douple.net/shoppable-lookbook/docs.html
 
-You’re done. Enjoy.
+== Frequently Asked Questions ==
+
+= Do I need WooCommerce? =
+
+Only for product markers. Without WooCommerce you can still tag photos with custom links (title, image, price and any URL).
+
+= Will it work with my theme and page builder? =
+
+Yes. Lookbooks render through a shortcode, so they work in any theme. Native integrations ship for Gutenberg and Elementor (free) plus WPBakery and Fusion Builder (Pro).
+
+= How do I upgrade to Pro? =
+
+1. Purchase at https://douple.net/shoppable-lookbook/#pricing (or from **Lookbook → Upgrade / Pricing** in wp-admin).
+2. Complete Freemius checkout. Your license key is emailed to the address used at payment.
+3. In wp-admin go to **Lookbook → Account**, click **Activate License**, and paste the key.
+4. Confirm Pro features unlock (Quick View, Product List, galleries, analytics, etc.).
+
+If you checkout from inside the same site’s wp-admin, Freemius often activates the license automatically. Full guide: https://douple.net/shoppable-lookbook/docs.html
+
+= I bought Pro but the plugin still shows Free =
+
+Open **Lookbook → Account** and activate the license key from your Freemius purchase email. If the plan’s site limit is full, deactivate the license on an unused site first, then activate on this one.
+
+= What happens to my data if I deactivate or uninstall? =
+
+Deactivating keeps all lookbooks intact. Deleting the plugin keeps data by default too — you can opt in to a full data wipe on uninstall from the plugin settings.
+
+= Does this plugin send data to third parties? =
+
+Lookbook content stays in your WordPress database. The bundled Freemius SDK may contact Freemius servers only after you opt in to usage tracking, or when you purchase / activate a Pro license. See **External services** below.
+
+== External services ==
+
+This plugin optionally connects to **Freemius** (https://freemius.com/) for:
+
+* Optional opt-in usage tracking (skipped unless you explicitly agree on the Freemius connect screen)
+* Pro checkout, license activation / deactivation, and Pro plugin updates
+
+When those flows run, Freemius may receive data such as site URL, admin email / name (when provided), license key, plugin version, and basic WordPress / PHP environment info needed for licensing and support.
+
+* Freemius Terms of Service: https://freemius.com/terms/
+* Freemius Privacy Policy: https://freemius.com/privacy/
+* Freemius data practices: https://freemius.com/privacy/data-practices/
+
+No Freemius connection is required to use the free lookbook features.
+
+== Development ==
+
+Human-readable source for plugin-owned JavaScript and CSS is included in this package under `assets/js/`, `assets/css/`, and `plugins/*/js|css/` (for example `shoppable-lookbook.js`, `lookbook-admin.js`, Gutenberg block scripts/styles).
+
+Public source repository: https://github.com/thiendo/Wordpress-Shoppable-Lookbook-Plugin
+
+See CONTRIBUTORS.md for project contributors.
+
+No build tools are required to review or modify the plugin-owned admin and frontend scripts and styles shipped in this free package.
 
 == Screenshots ==
+
 1. Shoppable image on the frontend — click a marker to open the product box with price and Add to cart
 2. The hotspot editor — click the photo to add markers, drag to reposition, style everything from the sidebar
 3. Product List (Pro) — every tagged product as a shoppable list beside the image, with variations and add-to-cart
@@ -113,6 +143,13 @@ You’re done. Enjoy.
 9. The lookbook overview — copy shortcodes, duplicate, export and spot broken products at a glance
 
 == Changelog ==
+
+= 1.8.1 =
+* Compliance: Renamed plugin display name to "Shoppable Lookbook" so it matches the folder/slug and Text Domain (avoids Plugin Check TextDomainMismatch from "&amp;" in the old name).
+* Compliance: Free / wordpress.org package now keeps human-readable JS/CSS (no terser minify-in-place) and documents the public source repository — matching Guideline 4 lessons from WhoChanged.
+* Compliance: Documented Freemius as an external service (terms + privacy) and added FAQ / Development sections to the readme.
+* Compliance: Freemius init now sets `is_org_compliant`; free zip builder strips `wp_org_gatekeeper` and Freemius SDK development tooling folders.
+* Compliance: Free build continues to strip Pro-only teaser UI (Guideline 5 Trialware) and all `__premium_only` modules.
 
 = 1.8.0 =
 * New (Pro): Flipbook "Book Size" — choose a portrait (magazine) or landscape (photo album) page shape; photos that do not match the page are centered on it instead of cropped, so markers always stay on their products.
@@ -285,3 +322,8 @@ Mar 18, 2020 - Version 1.0.1
 = 1.0.0 =
 Mar 15, 2020 – Version 1.0.0
 * Version 1.0.0 Initial Release
+
+== Upgrade Notice ==
+
+= 1.8.1 =
+WordPress.org compliance hardening for Freemius disclosure, human-readable free sources, and cleaner free packaging. Recommended before submitting or updating the free package.

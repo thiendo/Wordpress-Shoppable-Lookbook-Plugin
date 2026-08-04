@@ -1,1 +1,1922 @@
-button{transition:color .25s ease,background .25s ease,border-color .25s ease;outline:0}.lookbook-wrap{padding:20px 20px}.lookbook-wrap .widefat{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23b7bbc0' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5l6.5 6 6.5-6' stroke='%23b7bbc0' stroke-width='2' fill='none'/%3E%3C/svg%3E") no-repeat right 5px center;appearance:none;-webkit-appearance:none;-moz-appearance:none;font-size:12px;background-color:#2a2c2f;color:#b7bbc0;transition:color .2s ease}.lookbook-wrap .widefat:active,.lookbook-wrap .widefat:focus,.lookbook-wrap .widefat:hover{color:#fff}.action-opacity{content:'';width:100%;height:100%;background-color:rgba(0,0,0,.65);position:fixed;top:0;left:0;z-index:9000;display:none}.action-content{background:#2a2c2f;font-family:inherit;color:#fff;font-size:15px;width:400px;left:50%;top:50%;padding:30px 50px 50px;transform:translateX(-50%) translateY(-50%);position:fixed;z-index:9001;-webkit-box-shadow:0 10px 20px 0 rgba(0,0,0,.5);-moz-box-shadow:0 10px 20px 0 rgba(0,0,0,.5);box-shadow:0 10px 20px 0 rgba(0,0,0,.5)}.action-text{font-family:inherit;color:#fff;font-size:42px;left:50%;top:50%;transform:translateX(-50%) translateY(-50%);position:fixed;z-index:9001}.action-text .material-icons{font-size:34px}.action-content,.action-deleted,.action-deleting,.action-fail,.action-loading,.action-saved,.action-saving{display:none;padding:10px}.action-deleted .material-icons,.action-saved .material-icons{color:#00c851}.action-fail .material-icons-round{color:#e74c3c;font-size:34px}.action-content h5{color:#b7bbc0;font-weight:400;margin-bottom:40px}.action-content h5 strong{color:#fff}.action-content .action-buttons button{display:inline-block;width:48%;background-color:#3f444a;color:#b7bbc0;border:none;font-size:12px;line-height:18px;border-radius:4px;padding:10px 20px;cursor:pointer;cursor:hand;transition:background-color color .2s ease}.action-content .action-buttons button:first-child{margin-right:5px}.action-content .action-buttons button:hover{background-color:#ffb818;color:#fff;outline:0}.action-content .action-buttons button .dashicons{font-size:16px;height:16px;width:16px;margin-right:5px}.lookbook-toolbar{background:#202224;color:#777c80;padding:15px 0 20px}.lookbook-body{margin-top:30px;position:relative}.lookbook-body ul{display:flex;flex-wrap:wrap;gap:16px;margin:0;padding:0}.lookbook-body .attachment{float:none!important;width:calc(25% - 12px)!important;padding:0!important;margin:0!important}@media screen and (max-width:1200px){.lookbook-body .attachment{width:calc(33.333% - 11px)!important}}@media screen and (max-width:782px){.lookbook-body .attachment{width:calc(50% - 8px)!important}}@media screen and (max-width:480px){.lookbook-body .attachment{width:100%!important}}.lookbook-detail{margin-top:0;position:relative;display:grid;grid-template-columns:69% 31%}.lookbook-back{margin-right:30px}.lookbook-back,.lookbook-change{color:#777c80;text-decoration:none;font-weight:500;display:inline-block;line-height:12px;visibility:visible;opacity:1;transition:color visibility opacity .3s ease}.lookbook-change{color:#fff}.lookbook-change.hidden{opacity:0;visibility:hidden}.lookbook-back .material-icons-round,.lookbook-change .material-icons{margin-right:5px;vertical-align:middle}.lookbook-change .material-icons{font-size:18px}.lookbook-back:active,.lookbook-back:focus,.lookbook-back:hover,.lookbook-change:active,.lookbook-change:focus,.lookbook-change:hover{color:#ffb818;outline:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;border:none}.lookbook-foot{position:relative;height:54px;margin-bottom:12px}.lookbook-bar{background-color:#2a2c2f;color:#b7bbc0;text-align:left;font-weight:500;overflow:hidden;padding:12px 20px;transition:all .3s ease;position:relative;height:18px}.wp-core-ui .attachment:hover .lookbook-bar{background-color:#ffb818;color:#fff;height:100%}.lookbook_page_shoppable-lookbook-galleries .attachment:hover .lookbook-bar{background-color:var(--wp-admin-theme-color);color:#fff;height:100%}.lookbook-name{white-space:nowrap;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;overflow:hidden;width:85%;display:block}.lookbook-delete{color:rgba(255,255,255,.65);font-size:12px;position:absolute;right:10px;top:0;opacity:0;visibility:hidden;z-index:100;transition:opacity visibility .2s ease}.wp-core-ui .attachment:hover .lookbook-delete{opacity:1;visibility:visible}.lookbook-delete:hover{color:#fff}.lookbook-delete.dashicons-before:before{font-size:15px;line-height:42px}.lookbook-card-actions{position:absolute;right:10px;top:0;display:flex;gap:10px;opacity:0;visibility:hidden;z-index:100;transition:opacity .2s ease}.wp-core-ui .attachment:hover .lookbook-card-actions{opacity:1;visibility:visible}.lookbook-action{color:rgba(255,255,255,.65);font-size:12px;cursor:pointer}.lookbook-action:hover{color:#fff}.lookbook-action.dashicons-before:before{font-size:15px;line-height:42px}.lookbook-issue-badge{position:absolute;top:8px;right:8px;z-index:10;width:26px;height:26px;border-radius:50%;background:#b45309;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 6px rgba(0,0,0,.35);cursor:help}.lookbook-issue-badge.dashicons-before:before{font-size:16px;line-height:26px}.lookbook-bar input{width:100%;cursor:hand;cursor:pointer;margin-top:10px;font-size:12px;font-weight:400;border:none;background-color:rgba(255,255,255,.75);color:#555;min-height:26px;opacity:0;visibility:hidden;transition:all .3s ease}.lookbook-bar input:active,.lookbook-bar input:focus{outline:0;-webkit-box-shadow:0 0 0 1px #2a2c2f;-moz-box-shadow:0 0 0 1px #2a2c2f;box-shadow:0 0 0 1px #2a2c2f}.wp-core-ui .attachment:hover .lookbook-bar input{opacity:1;visibility:visible}.lookbook-bar input::selection{background:#ccc;color:#000}.lookbook-bar input::-moz-selection{background:#ccc;color:#000}.lookbook-copied{position:absolute;font-size:11px;background-color:rgba(0,0,0,.9);color:#fff;left:50%;transform:translateX(-50%);bottom:20px;opacity:0;visibility:hidden;padding:5px 10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;transition:all .3s ease}.lookbook-copied.active{bottom:42px;opacity:1;visibility:visible}#lit-frame{display:block;width:100%;height:100%;position:relative;top:0;left:0;padding:0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.lookbook-upload{background:rgba(50,52,56,.5);min-height:635px;border:3px dashed #777c80}#lit-frame.lit-dragover{border-color:#ffb818;background:rgba(255,184,24,.08);outline:3px dashed #ffb818;outline-offset:-3px}.lookbook-upload .lit-upload-hint{position:absolute;top:calc(50% + 36px);left:50%;transform:translateX(-50%);margin:0;color:#9aa0a5;font-size:12px;white-space:nowrap;pointer-events:none}#lit-frame:not(.lookbook-upload){width:-moz-fit-content;width:fit-content;max-width:100%;justify-self:center}#lit-frame:not(.lookbook-upload) #lit-photo{width:auto;height:auto;max-width:100%;max-height:88vh}.lookbook-upload button{position:absolute;z-index:1000;top:50%;left:50%;transform:translateX(-50%) translateY(-50%)}.lookbook-upload button{background-color:#ffb818;border:none;color:#fff;padding:10px 20px!important;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;font-weight:600;cursor:hand;cursor:pointer;-webkit-box-shadow:0 0 30px 0 rgba(0,0,0,.6);-moz-box-shadow:0 0 30px 0 rgba(0,0,0,.6);box-shadow:0 0 30px 0 rgba(0,0,0,.6);transition:background-color box-shadow .2s ease}.lookbook-upload button .material-icons{margin-right:5px;vertical-align:middle}.lookbook-upload button:hover{background-color:#dd9c09;outline:0;box-shadow:none;-webkit-box-shadow:0 0 30px 0 rgba(0,0,0,.3);-moz-box-shadow:0 0 30px 0 rgba(0,0,0,.3);box-shadow:0 0 30px 0 rgba(0,0,0,.3)}#lit-sidebar{display:block;position:absolute;top:0;right:0;background:#323438;color:#8e9296;width:30%;height:auto;vertical-align:top;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;z-index:2500;transition:top position .1s ease}#lit-sidebar.sticky{top:30px;position:fixed;width:23.1%}#lit-sidebar.disabled{position:absolute;top:0;width:28%;min-height:100%}#lit-sidebar.disabled::before{content:'';position:absolute;width:100%;height:100%;display:block;background:rgba(0,0,0,.6);z-index:9999}.lookbook-heading{background:#3f444a;color:#d7dbdf;font-size:14px;font-weight:600;padding:10px 15px 10px 15px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.lookbook-heading .lookbook-dashicon{margin-right:5px}.lookbook-settings{padding:20px 20px 40px}.row-shortcode{position:relative}#lit-photo{width:100%;height:100%;position:relative;display:block}.lit-marker{position:absolute;text-align:center;z-index:10}.lit-marker .lit-grab{position:relative;cursor:grabbing;font-size:var(--lb-marker-size, 26px);color:#000;z-index:100}.lit-marker .lit-grab-img{display:block;width:var(--lb-marker-size,26px);height:auto;-webkit-user-drag:none;user-select:none}.lit-marker .lit-grab.dark{color:#000;-webkit-text-shadow:0 0 10px rgba(255,255,255,0.5);-moz-text-shadow:0 0 10px rgba(255,255,255,0.5);text-shadow:0 0 10px rgba(255,255,255,.5)}.lit-marker .lit-grab.white{color:#fff;-webkit-text-shadow:0 0 10px rgba(0,0,0,0.5);-moz-text-shadow:0 0 10px rgba(0,0,0,0.5);text-shadow:0 0 10px rgba(0,0,0,.5)}.lit-marker .lit-grab.yellow{color:#ffb818;-webkit-text-shadow:0 0 10px rgba(0,0,0,0.5);-moz-text-shadow:0 0 10px rgba(0,0,0,0.5);text-shadow:0 0 10px rgba(0,0,0,.5)}.lit-marker .lit-shadow{position:absolute;z-index:88;color:#fff;font-size:28px;left:-2px;top:-2px;opacity:.7}.lit-marker .lit-shadow.dark{color:#fff}.lit-marker .lit-shadow.white{color:#000}.lit-marker .lit-box{width:260px;height:auto;position:absolute;padding:15px 0;z-index:999;opacity:0;visibility:hidden;transition:all 10ms ease .7s}.lit-marker .lit-box.active{opacity:1;visibility:visible;transition-delay:0s}.lit-marker .lit-box::before{content:"";width:100%;height:0;background:#fff;position:absolute;top:0;right:0;transition:height .5s cubic-bezier(.4, .4, 0, 1) .1s;z-index:0;-webkit-box-shadow:0 0 30px 0 rgba(0,0,0,.1);-moz-box-shadow:0 0 30px 0 rgba(0,0,0,.1);box-shadow:0 0 30px 0 rgba(0,0,0,.1)}.lit-marker .lit-box.active::before{height:100%}.lit-marker .lit-box .lit-form,.lit-marker .lit-box .lit-header{text-align:left;padding:0 15px;z-index:1;position:relative;opacity:0;visibility:hidden;transition:all .4s ease;transform:translateY(-10px)}.lit-marker .lit-box.active .lit-form,.lit-marker .lit-box.active .lit-header{opacity:1;visibility:visible;transform:translateY(0);transition-delay:0.3s}.lit-marker .lit-box .lit-header h5{font-family:inherit;font-size:15px;margin:0}.lit-marker .lit-close,.lit-marker .lit-less{width:15px;height:15px;font-size:15px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;background:rgba(0,0,0,.04);padding:5px;top:10px;right:12px;opacity:0;visibility:hidden;cursor:hand;cursor:pointer;text-decoration:none;transition:all .2s ease;position:absolute;z-index:1000}.lit-marker .lit-close:hover,.lit-marker .lit-less:hover{background:rgba(0,0,0,.1)}.lit-marker .lit-box.active .lit-close,.lit-marker .lit-less.active{opacity:1;visibility:visible;transition-delay:0.3s}.lit-marker .lit-box .lit-form{margin-top:10px}.lit-marker .lit-box .lit-form input{outline:0;padding:7px 10px 7px 30px;height:29px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background:#f9f9f9 url('../img/search.png') left 5px center no-repeat;background-size:auto 50%;color:#000;box-shadow:none;border:1px solid #ccc;width:100%}.lit-marker .lit-box .lit-form input::placeholder{font-size:12px}.lit-marker .lit-box .lit-form.lit-loading:before{content:'';display:inline-block;position:absolute;border:2px solid #e5e5e5;border-top:2px solid #3498db;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;width:8px;height:8px;float:right;right:20px;top:14px;z-index:100;-moz-animation:spin 2s linear infinite;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite}@-moz-keyframes spin{0%{-moz-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}100%{-moz-transform:rotate(0);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes spin{0%{-moz-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}100%{-moz-transform:rotate(0);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-moz-transform:rotate(0);-webkit-transform:rotate(0);transform:rotate(0)}100%{-moz-transform:rotate(0);-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.lit-result{position:absolute;background-color:#fff;width:230px;-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.1);-moz-box-shadow:0 0 20px 0 rgba(0,0,0,.1);box-shadow:0 0 20px 0 rgba(0,0,0,.1)}.lit-result a{font-family:inherit;font-size:11px;text-decoration:none;color:#000;line-height:25px;border-bottom:#eee 1px solid;display:block;width:210px;overflow:hidden;padding:3px 10px}.lit-result a:hover{background:#eee}.lit-result a img{width:25px;height:25px;margin-right:5px;float:left}.lit-selected{opacity:0;visibility:hidden;width:180px;height:0;background:0 0;line-height:30px;color:#000;font-size:10px;text-align:left;position:absolute;overflow:hidden;-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.1);-moz-box-shadow:0 0 20px 0 rgba(0,0,0,.1);box-shadow:0 0 20px 0 rgba(0,0,0,.1);transition:height .5s cubic-bezier(.4, .4, 0, 1) .1s;cursor:hand;cursor:pointer;transition:box-shadow .5s ease}.lit-selected:hover{-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.3);-moz-box-shadow:0 0 20px 0 rgba(0,0,0,.3);box-shadow:0 0 20px 0 rgba(0,0,0,.3)}.lit-selected::before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:#fff;z-index:0;opacity:var(--lit-bg-opacity, 1)}.lit-selected>*{position:relative;z-index:1}.lit-selected.dark{color:#fff}.lit-selected.dark::before{background:rgba(0,0,0,.8)}.lit-selected.yellow{color:#000}.lit-selected.yellow::before{background:#ffb818}.lit-product{display:flex;width:150px;white-space:nowrap;overflow:hidden}.lit-selected img{width:30px;height:30px;margin-right:5px}.lit-marker.active .lit-selected{opacity:1;visibility:visible;height:auto}.lit-cancel{position:absolute;z-index:10;right:0;top:0;line-height:30px;color:#000;font-size:15px;margin-top:5px;padding-left:5px;padding-right:5px;vertical-align:middle;opacity:.7;transition:opacity .5s ease}.dark .lit-cancel{background-color:transparent;color:#fff;opacity:.5}.yellow .lit-cancel{background-color:transparent;color:#000;opacity:.5}.dark .lit-cancel:hover,.lit-cancel:hover,.yellow .lit-cancel:hover{opacity:1}.form-heading{margin-bottom:10px;margin-top:15px}.form-row{display:block;margin-bottom:10px}.form-row input{background-color:#2a2c2f;color:#b7bbc0;font-size:12px;border:0;width:60%}.form-row select{vertical-align:middle;border:0}.form-row .input-label+select{width:60%}.form-row input:hover{color:#fff}.form-row input:active,.form-row input:focus{color:#fff;outline:0}.form-row input::selection{background:#b7bbc0}.form-row input::-moz-selection{background:#b7bbc0}.lookbookgallery-sidebar-inner .widefat{width:auto;box-sizing:border-box}.lit-sidebar .widefat,.lookbookgallery-settings-body .widefat{background-color:#2a2c2f;padding:0 22px 0 12px}.form-row input[type=checkbox]{width:20px;height:20px;border-radius:50%}.form-row input[type=checkbox]:checked::before{margin:0 0 0 -.1rem}.form-row .form-option{display:inline-flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center;width:auto;margin:0 14px 8px 0;vertical-align:top;font-size:10px}.form-row .form-option:last-child{margin-right:0}.form-row .form-option .material-icons{display:block}.form-row .form-option .image-radio.image1{width:74px}.form-row .input-label{width:80px;text-align:right;margin-right:15px;overflow:hidden;white-space:nowrap;display:inline-block}.lookbook-body .thumbnail{background-size:cover;background-repeat:no-repeat;background-position:center}.lookbook-body .thumbnail:active,.lookbook-body .thumbnail:focus,.lookbook-body .thumbnail:hover{outline:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.lookbook-body button,.lookbook-detail button{background-color:#3f444a;color:#d7dbdf;padding:10px 15px 10px 15px;transition:background-color .2s ease;border:none}.lookbook-body button:active,.lookbook-body button:focus,.lookbook-body button:hover,.lookbook-detail button:active,.lookbook-detail button:focus,.lookbook-detail button:hover{outline:0}.lookbook-detail .form-buttons{display:block;margin-top:20px;position:absolute;width:100%;bottom:0;margin-left:-20px}.lookbook-detail .form-buttons button{text-align:center;display:inline-block;width:49.5%;font-size:14px;line-height:14px;font-weight:500;background-color:#ffb818;color:#fff;cursor:hand;cursor:pointer}.lookbook-detail .form-buttons button:hover{background-color:#dd9c09;color:#fff}#lit-sidebar.disabled .form-buttons button{background:#3f444a}.lookbook-detail .form-buttons .material-icons{vertical-align:middle;font-size:18px}.lookbook-detail .form-buttons .dashicons-before:before{font-size:18px;width:18px;height:18px}.lookbook-detail .form-buttons .dashicons-before,.lookbook-detail .form-buttons .material-icons{margin-right:2px}.image-radio{position:relative;display:inline-block;cursor:hand;cursor:pointer;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border:3px solid transparent;margin-bottom:0;outline:0}.image-radio img{width:100%;height:auto;display:block;margin-bottom:5px}.image-radio img,.image-radio span{opacity:.8}.image-radio.image-radio-checked img,.image-radio.image-radio-checked span{opacity:1}.image-radio input[type=radio]{display:none}.image-radio-checked,.image-radio-checked .material-icons{color:#ffb818}.image-radio .material-select{position:absolute;display:none!important;color:#ffb818;top:-5px;right:-5px;font-size:14px;z-index:1000}.image-radio.color1 .material-select{top:-8px;right:-8px}.image-radio-checked .material-select{display:block!important}.image-radio .rectangle-dark,.image-radio .rectangle-white,.image-radio .rectangle-yellow{width:28px;height:16px;display:block;margin-bottom:5px}.image-radio .rectangle-dark{background-color:#000}.image-radio .rectangle-white{background-color:#fff}.image-radio .rectangle-yellow{background-color:#ffb818}.material-flip{-webkit-transform:scaleX(-1);transform:scaleX(-1)}#change-image{color:#fff;background-color:rgba(255,184,24,.7);position:absolute;top:0;left:0;padding:3px 8px;z-index:999;cursor:hand;cursor:pointer;transition:background-color .2s ease}#change-image:hover{background-color:#ffb818}#change-image .material-icons{vertical-align:middle;font-size:18px;line-height:26px}#change-image label{visibility:hidden;opacity:0;display:none;margin-left:5px;transition:opacity visibility .2s ease}#change-image:hover label{visibility:visible;opacity:1;display:inline-block}@media only screen and (max-width:1400px){.lookbook-detail .form-buttons button{width:49.3%}}@media only screen and (max-width:1277px){.lookbook-detail{grid-template-columns:70% 30%}#lit-sidebar{width:30%}.form-row .form-option{margin:0 10px 8px 0}.form-row .form-option .image-radio.image1{width:68px}.form-inline-group{gap:10px}.form-row .input-label{width:70px;margin-right:10px}.form-inline-group .form-col{flex:1;min-width:140px}}@media only screen and (max-width:1024px){.lookbook-detail{grid-template-columns:100%}#lit-sidebar,#lit-sidebar.disabled{position:relative;width:100%;margin-top:30px;top:0;z-index:1000}.lookbook-detail .form-buttons{position:fixed;bottom:0;left:0;margin-left:0}.lookbook-detail .form-buttons button{width:65%;float:right;border:1px solid #202224}.lookbook-detail .form-buttons button:last-child{width:35%;float:left;border-right:none}}@media only screen and (max-width:782px){.lookbook-wrap{margin-left:10px;margin-right:10px}.wrap h1.wp-heading-inline{font-size:20px}.action-text{font-size:32px}.action-text .material-icons{font-size:26px}.lookbook-settings{padding-bottom:40px}.lookbook-upload{min-height:300px}.lit-marker .lit-box{padding:12px 0}.lit-marker .lit-box .lit-form input{min-height:20px;padding:5px 10px 5px 30px}.lit-marker .lit-box .lit-header h5{font-size:14px}.lit-marker .lit-close,.lit-marker .lit-less{top:6px}.lookbook-wrap{padding:30px 15px}.wp-core-ui .attachment .lookbook-bar{background-color:#2a2c2f;color:#fff;height:100%}.lookbook_page_shoppable-lookbook-galleries .attachment .lookbook-bar{background-color:var(--wp-admin-theme-color);color:#fff;height:100%}.lookbook-bar input,.wp-core-ui .attachment .lookbook-card-actions{opacity:1;visibility:visible}.lookbook-foot{margin-bottom:20px}#lit-frame:not(.lookbook-upload){overflow-x:hidden}.form-inline-group .form-col{min-width:120px}}@media only screen and (max-width:560px){.lit-marker .lit-grab{font-size:22px}}@media only screen and (max-width:420px){.lookbook-grab{font-size:20px}}.lit-marker .lit-box .lit-pane-custom,.lit-marker .lit-box .lit-tabs{position:relative;z-index:1;padding:0 15px;opacity:0;visibility:hidden;transition:all .4s ease}.lit-marker .lit-box.active .lit-pane-custom,.lit-marker .lit-box.active .lit-tabs{opacity:1;visibility:visible;transition-delay:0.3s}.lit-tabs{display:flex;gap:4px;margin:0 0 10px;border-bottom:1px solid #e2e4e7}.lit-tabs .lit-tab{flex:1;background:0 0;border:0;border-bottom:2px solid transparent;padding:8px 6px;cursor:pointer;font-size:12px;font-weight:600;color:#50575e}.lit-tabs .lit-tab.active{color:#2271b1;border-bottom-color:#2271b1}.lit-pane-custom input[type=text],.lit-pane-custom input[type=url]{width:100%;margin:0 0 8px;box-sizing:border-box}.lit-custom-image-row{display:flex;align-items:center;gap:8px;margin:0 0 8px}.lit-custom-image-name{font-size:11px;color:#787c82;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:120px}.lit-custom-target-label{display:block;font-size:12px;margin:0 0 10px}.lit-custom-apply{width:100%}#lookbook-preview-overlay{display:none;position:fixed;inset:0;z-index:100000;background:rgba(0,0,0,.7);align-items:flex-start;justify-content:center;overflow:auto;padding:30px 20px;box-sizing:border-box}#lookbook-preview-overlay .lookbook-preview-inner{position:relative;background:#fff;width:100%;max-width:1040px;border-radius:8px;padding:0;box-shadow:0 10px 40px rgba(0,0,0,.4);margin:auto}#lookbook-preview-overlay .lookbook-preview-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px 14px 24px;border-bottom:1px solid #e5e5e5}#lookbook-preview-overlay .lookbook-preview-title{font-weight:600;font-size:14px;color:#1d2327;display:flex;align-items:center;gap:8px}#lookbook-preview-overlay .lookbook-preview-title .dashicons{color:#787c82}#lookbook-preview-overlay .lookbook-preview-close{width:32px;height:32px;border-radius:50%;border:0;background:#f0f0f1;color:#1d2327;font-size:20px;line-height:1;cursor:pointer;flex:0 0 auto;transition:background .15s ease}#lookbook-preview-overlay .lookbook-preview-close:hover{background:#dcdcde}#lookbook-preview-overlay .lookbook-preview-body{overflow:visible;padding:24px;display:grid;grid-template-columns:100%}#lookbook-preview-overlay .lookbook-preview-body>.shoppable-lookbook{justify-self:center;max-width:100%}.lookbook-body .attachment::after{content:none!important}.image-radio .rectangle-blue,.image-radio .rectangle-green,.image-radio .rectangle-rose{width:28px;height:16px;display:block;margin-bottom:5px}.image-radio .rectangle-blue{background-color:#2563eb}.image-radio .rectangle-green{background-color:#16a34a}.image-radio .rectangle-rose{background-color:#e84393}.lit-selected.blue{color:#fff}.lit-selected.blue::before{background:#2563eb}.lit-selected.green{color:#fff}.lit-selected.green::before{background:#16a34a}.lit-selected.rose{color:#fff}.lit-selected.rose::before{background:#e84393}.style-mock{display:block;width:100%;aspect-ratio:350/220;background:#9fb1c7;margin-bottom:5px;position:relative;overflow:hidden;border-radius:2px}.style-mock .sm-line,.style-mock .sm-pill,.style-mock .sm-thumb{position:absolute}.style-mock-tag .sm-pill{left:28%;top:42%;width:44%;height:16%;background:#fff;border-radius:20px}.image-radio .rectangle-custom{width:28px;height:16px;display:block;margin-bottom:5px;background:linear-gradient(135deg,#e74c3c 0,#f1c40f 35%,#2ecc71 65%,#3498db 100%)}.form-inline-group{display:flex;flex-wrap:wrap;gap:16px}.form-inline-group .form-col-wide{flex:1 1 100%}.form-inline-group .form-col{flex:1;min-width:0}.form-inline-group .form-col .form-option{width:auto;margin-left:0;margin-right:14px}.box-custom-color-wrap .wp-picker-container{margin-top:4px}.marker-image-bar{display:flex;align-items:center;gap:10px;margin-bottom:4px}.marker-image-preview img{max-width:40px;max-height:40px;display:block;background:rgba(255,255,255,.08);border-radius:4px;padding:2px}.marker-image-remove{color:#e35b5b!important;text-decoration:none;cursor:pointer}.marker-image-hint{font-size:11px;color:#777c80;margin:4px 0 0}.lb-hint{display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;margin-left:6px;border-radius:50%;background:rgba(255,255,255,.22);color:#fff;cursor:help;position:relative;vertical-align:middle;outline:0;transition:background .15s ease,color .15s ease}.lb-hint.lb-hint-open,.lb-hint:focus,.lb-hint:hover{background:var(--lb-accent,#ffb818);color:#1d1f23}.lb-hint .material-icons-round{font-size:13px}.lb-hint-tip{position:absolute;right:0;top:100%;margin-top:8px;width:230px;max-width:70vw;background:#16171a;color:#d7dbdf;font-size:11px;font-weight:400;text-align:left;line-height:1.5;white-space:normal;padding:8px 10px;border-radius:6px;box-shadow:0 4px 14px rgba(0,0,0,.45);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .15s ease;z-index:1001}.lb-hint.lb-hint-open .lb-hint-tip,.lb-hint:focus .lb-hint-tip,.lb-hint:hover .lb-hint-tip{opacity:1;visibility:visible;pointer-events:auto}.lit-grab-img{display:block;-webkit-user-drag:none;user-select:none}.lb-default{padding-bottom:4px}.lb-section{margin:0 -20px;border-bottom:1px solid #2a2c2f}.lb-section-head{display:flex;align-items:center;gap:8px;width:100%;border:0;border-top:1px solid rgba(0,0,0,.18);padding:11px 18px;margin:0;cursor:pointer;background:#3f444a;color:#b7bbc0;font-size:14px;font-weight:600;text-align:left;outline:0;transition:background .15s ease,color .15s ease}.lb-section-head:hover{color:#fff;background:#474d54}.lb-section-icon{font-size:18px;color:#b7bbc0}.lb-section-head:hover .lb-section-icon{color:#fff}.lb-section-title{flex:1}.lb-section-arrow{font-size:18px;opacity:.55;transition:transform .2s ease}.lb-section.open .lb-section-arrow{transform:rotate(180deg)}.lb-section-body{display:none;padding:16px 20px;background:0 0}.lb-inline-2{display:flex;gap:16px;align-items:flex-start}.lb-inline-2 .lb-col{flex:1;min-width:0}.boxradius-range,.markersize-range,.maxwidth-range,.opacity-range{-webkit-appearance:none;appearance:none;width:100%;height:6px;border-radius:6px;background:rgba(255,255,255,.18);outline:0;margin:14px 0 6px;cursor:pointer}.boxradius-range::-webkit-slider-thumb,.markersize-range::-webkit-slider-thumb,.maxwidth-range::-webkit-slider-thumb,.opacity-range::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:20px;height:20px;border-radius:50%;background:var(--lb-accent,#fff);border:3px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.5);cursor:pointer;margin-top:0}.boxradius-range::-moz-range-thumb,.markersize-range::-moz-range-thumb,.maxwidth-range::-moz-range-thumb,.opacity-range::-moz-range-thumb{width:20px;height:20px;border-radius:50%;background:var(--lb-accent,#fff);border:3px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.5);cursor:pointer;box-sizing:border-box}.boxradius-value,.markersize-value,.maxwidth-value,.opacity-value{display:inline-block;min-width:16px;text-align:center;color:#1d1f23;background:#ffb818;font-weight:700;font-size:11px;line-height:1.6;padding:0 7px;border-radius:10px}.lit-hint{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:200;display:inline-flex;align-items:center;gap:8px;max-width:calc(100% - 40px);box-sizing:border-box;background:rgba(26,28,31,.7);color:#fff;font-size:12px;font-weight:500;line-height:18px;text-align:center;padding:8px 22px;border-radius:30px;box-shadow:0 6px 20px rgba(0,0,0,.35);pointer-events:none;animation:litHintBounce 1.8s ease-in-out infinite}.lit-hint i{color:#ffb818;font-size:26px}@keyframes litHintBounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-5px)}}#lit-frame.lookbook-upload .lit-hint,#lit-frame:has(.lit-marker) .lit-hint{display:none}.lit-marker .lit-grab{border-radius:50%}#markers.lookbook-anim-pulse .lit-grab{animation:lbPulse 1.8s ease-out infinite}#markers.lookbook-anim-beat .lit-grab{animation:lbBeat 1.3s ease-in-out infinite}#markers.lookbook-anim-bounce .lit-grab{animation:lbBounce 1.5s ease infinite}.lb-pro-badge{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.5px;background:var(--wp-admin-theme-color);color:#fff;padding:1px 6px;border-radius:8px;vertical-align:middle;margin-left:4px}.lit-marker-list{margin:0;padding:2px 0}.lit-marker-item{display:flex;align-items:center;gap:10px;padding:6px 8px;margin:0 0 2px;border-radius:6px;cursor:pointer;transition:background .15s ease}.lit-marker-item:hover{background:rgba(255,255,255,.08)}.lit-marker-item-num{flex:0 0 20px;height:20px;border-radius:50%;background:rgba(255,255,255,.14);font-size:11px;font-weight:600;display:flex;align-items:center;justify-content:center}.lit-marker-item-thumb{width:28px;height:28px;border-radius:4px;object-fit:cover;flex:0 0 28px}.lit-marker-item-noimg{flex:0 0 28px;font-size:20px;text-align:center;opacity:.4}.lit-marker-item-name{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px}.lit-marker-item-remove{flex:0 0 auto;font-size:16px;opacity:0;cursor:pointer;transition:opacity .15s ease,color .15s ease}.lit-marker-item:hover .lit-marker-item-remove{opacity:.6}.lit-marker-item-remove:hover{opacity:1!important;color:#e74c3c}.lit-marker-list-empty{font-size:12px;opacity:.6;padding:4px 8px;margin:0}.lit-marker.lit-flash{z-index:300}.lit-marker.lit-flash::after{content:"";position:absolute;aspect-ratio:1/1;top:-12px;left:-12px;right:-12px;bottom:-12px;border:3px solid #ffb818;border-radius:50%;animation:lit-flash-pulse .7s ease-in-out 2;pointer-events:none}@keyframes lit-flash-pulse{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.35);opacity:.4}}.image-radio .rectangle-content-auto,.image-radio .rectangle-content-dark,.image-radio .rectangle-content-light{width:28px;height:16px;display:block;margin-bottom:5px;font-size:10px;line-height:14px;text-align:center;font-weight:600;border:1px solid #dcdcde;box-sizing:border-box}.image-radio .rectangle-content-auto{background:linear-gradient(135deg,#fff 49%,#1d2327 51%)}.image-radio .rectangle-content-light{background-color:#1d2327;color:#fff}.image-radio .rectangle-content-dark{background-color:#fff;color:#000}.lit-selected.lb-content-light{color:#fff!important}.lit-selected.lb-content-dark{color:#000!important}.lit-selected.lb-content-light .lit-cancel{color:#fff!important;background-color:transparent}.lit-selected.lb-content-dark .lit-cancel{color:#000!important;background-color:transparent}@media only screen and (max-width:1277px){.form-inline-group .form-col{min-width:120px}.lb-section-body{padding:16px}.lit-marker-item{padding:6px 2px}}.lb-locked{opacity:.55}.lb-locked .image-radio,.lb-locked .wp-picker-container,.lb-locked button,.lb-locked input{cursor:not-allowed!important}.lb-locked button,.lb-locked input{pointer-events:none}.lb-pro-badge-link{text-decoration:none;cursor:pointer;pointer-events:auto;opacity:1}.lb-pro-badge-link:hover{color:#fff;filter:brightness(1.15)}
+/**
+ * Admin styles
+ *
+ * @link       https://douple.net
+ * @since      1.1.4
+ * @package    Douple
+ * @author     Douple <support@douple.net>
+ */
+ 
+button {
+    transition: color .25s ease, background .25s ease, border-color .25s ease;
+    outline: none;
+}
+.lookbook-wrap {
+    padding: 20px 20px;
+}
+.lookbook-wrap .widefat {
+    background:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23b7bbc0' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5l6.5 6 6.5-6' stroke='%23b7bbc0' stroke-width='2' fill='none'/%3E%3C/svg%3E")
+        no-repeat right 5px center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 12px;
+    background-color: #2a2c2f;
+    color: #b7bbc0;
+    transition: color 0.2s ease;
+}
+.lookbook-wrap .widefat:hover, .lookbook-wrap .widefat:active, .lookbook-wrap .widefat:focus {
+    color: #FFF;
+}
+.action-opacity {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.65);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    display: none;
+}
+.action-content {
+    background: #2a2c2f;
+    font-family: inherit;
+    color: #FFF;
+    font-size: 15px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    padding: 30px 50px 50px;
+    transform: translateX(-50%) translateY(-50%);
+    position: fixed;
+    z-index: 9001;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.5);
+}
+.action-text {
+    font-family: inherit;
+    color: #FFF;
+    font-size: 42px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    position: fixed;
+    z-index: 9001;
+}
+.action-text .material-icons {
+    font-size: 34px;
+}
+.action-saving, .action-saved, .action-loading, .action-content, .action-deleting, .action-deleted, .action-fail {
+    display: none;
+    padding: 10px;
+}
+.action-saved .material-icons, .action-deleted .material-icons {
+    color: #00C851;
+}
+.action-fail .material-icons-round {
+    color: #e74c3c;
+    font-size: 34px;
+}
+.action-content h5 {
+    color: #b7bbc0;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.action-content h5 strong {
+    color: #FFF;
+}
+.action-content .action-buttons button {
+    display: inline-block;
+    width: 48%;
+    background-color: #3f444a;
+    color: #b7bbc0;
+    border: none;
+    font-size: 12px;
+    line-height: 18px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    cursor: hand;
+    transition: background-color color 0.2s ease;
+}
+.action-content .action-buttons button:first-child {
+    margin-right: 5px;
+}
+.action-content .action-buttons button:hover {
+    background-color: #ffb818;
+    color: #FFF;
+    outline: none;
+}
+.action-content .action-buttons button .dashicons {
+    font-size: 16px;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+/* .lookbook-wrap {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+} */
+.lookbook-toolbar {
+    background: #202224;
+    color: #777c80;;
+    padding: 15px 0 20px;
+}
+.lookbook-body {
+    margin-top: 30px;
+    position: relative;
+}
+/* Lookbook grid: flex layout instead of the core media "float:left" items. */
+.lookbook-body ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+.lookbook-body .attachment {
+    float: none !important;
+    width: calc(25% - 12px) !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+@media screen and (max-width: 1200px) {
+    .lookbook-body .attachment { width: calc(33.333% - 11px) !important; }
+}
+@media screen and (max-width: 782px) {
+    .lookbook-body .attachment { width: calc(50% - 8px) !important; }
+}
+@media screen and (max-width: 480px) {
+    .lookbook-body .attachment { width: 100% !important; }
+}
+.lookbook-detail {
+    margin-top: 0;
+    position: relative;
+    /* Canvas strip (left) + sidebar strip (right). The sidebar itself is
+       absolutely positioned; the first track just reserves its space and
+       gives the photo frame a region to centre in (justify-self below). */
+    display: grid;
+    grid-template-columns: 69% 31%;
+}
+.lookbook-back {
+    margin-right: 30px;
+}
+.lookbook-back, .lookbook-change {
+    color: #777c80;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    line-height: 12px;
+    visibility: visible;
+    opacity: 1;
+    transition: color visibility opacity 0.3s ease;
+}
+.lookbook-change {
+    color: #FFF;
+}
+.lookbook-change.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+.lookbook-back .material-icons-round, .lookbook-change .material-icons {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.lookbook-change .material-icons  {
+    font-size: 18px;
+}
+.lookbook-back:hover, .lookbook-back:active, .lookbook-back:focus, 
+.lookbook-change:hover, .lookbook-change:active, .lookbook-change:focus {
+    color: #ffb818;
+    outline: none;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+.lookbook-foot {
+    position: relative;
+    height: 54px;
+    margin-bottom: 12px;
+}
+.lookbook-bar {
+    background-color: #2a2c2f;
+    color: #b7bbc0;
+    text-align: left;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 12px 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    height: 18px;
+}
+.wp-core-ui .attachment:hover .lookbook-bar {
+    background-color: #ffb818;
+    color: #FFF;
+    height: 100%;
+}
+.lookbook_page_shoppable-lookbook-galleries .attachment:hover .lookbook-bar {
+    background-color: var(--wp-admin-theme-color);
+    color: #FFF;
+    height: 100%;
+}
+.lookbook-name {
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 85%;
+    display: block;
+}
+.lookbook-delete {
+    color: rgba(255,255,255,0.65);
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+    transition: opacity visibility 0.2s ease;
+}
+.wp-core-ui .attachment:hover .lookbook-delete {
+    opacity: 1;
+    visibility: visible;
+}
+.lookbook-delete:hover {
+    color: rgba(255,255,255,1);
+}
+.lookbook-delete.dashicons-before:before {
+    font-size: 15px;
+    line-height: 42px;
+}
+/* Card action icons (duplicate / export / delete) */
+.lookbook-card-actions {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    display: flex;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 100;
+    transition: opacity 0.2s ease;
+}
+.wp-core-ui .attachment:hover .lookbook-card-actions {
+    opacity: 1;
+    visibility: visible;
+}
+.lookbook-action {
+    color: rgba(255,255,255,0.65);
+    font-size: 12px;
+    cursor: pointer;
+}
+.lookbook-action:hover {
+    color: rgba(255,255,255,1);
+}
+.lookbook-action.dashicons-before:before {
+    font-size: 15px;
+    line-height: 42px;
+}
+/* Product issue badge on the card thumbnail */
+.lookbook-issue-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 10;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #b45309;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 6px rgba(0,0,0,.35);
+    cursor: help;
+}
+.lookbook-issue-badge.dashicons-before:before {
+    font-size: 16px;
+    line-height: 26px;
+}
+.lookbook-bar input {
+    width: 100%;
+    cursor: hand;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    background-color: rgba(255,255,255,0.75);
+    color: #555;
+    min-height: 26px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.lookbook-bar input:focus, .lookbook-bar input:active {
+    outline: none;
+    -webkit-box-shadow: 0 0 0 1px #2a2c2f;
+	-moz-box-shadow: 0 0 0 1px #2a2c2f;
+    box-shadow: 0 0 0 1px #2a2c2f;
+}
+.wp-core-ui .attachment:hover .lookbook-bar input {
+    opacity: 1;
+    visibility: visible;
+}
+.lookbook-bar input::selection{
+    background: #CCC;
+    color: #000;
+}
+.lookbook-bar input::-moz-selection{
+    background: #CCC;
+    color: #000;
+}
+.lookbook-copied {
+    position: absolute;
+    font-size: 11px;
+    background-color: rgba(0,0,0,.9);
+    color: #FFF;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.lookbook-copied.active {
+    bottom: 42px;
+    opacity: 1;
+    visibility: visible;
+}
+#lit-frame {
+/*    background: #323438;*/
+    display: block;
+    width: 100%; /* of the canvas grid track (.lookbook-detail) */
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.lookbook-upload {
+    background: rgba(50,52,56,.5);
+    min-height: 635px;
+    border: 3px dashed #777c80;
+}
+/* Dragging an image file over the frame (drop-to-upload, lookbook-admin.js). */
+#lit-frame.lit-dragover {
+    border-color: #ffb818;
+    background: rgba(255,184,24,.08);
+    outline: 3px dashed #ffb818;
+    outline-offset: -3px;
+}
+/* "or drag & drop" hint under the Select Image button (upload state only). */
+.lookbook-upload .lit-upload-hint {
+    position: absolute;
+    top: calc(50% + 36px);
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #9aa0a5;
+    font-size: 12px;
+    white-space: nowrap;
+    pointer-events: none;
+}
+/* A portrait photo at the full canvas width grows far past the screen —
+   size the canvas from the photo instead: cap the photo's height to the
+   viewport and let the frame shrink-wrap it, centred in the canvas strip.
+   Markers position against the frame, so the frame must hug the photo box
+   exactly; the empty upload state keeps its fixed-size dashed frame. */
+#lit-frame:not(.lookbook-upload) {
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: 100%;
+    justify-self: center;
+}
+#lit-frame:not(.lookbook-upload) #lit-photo {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 88vh;
+}
+.lookbook-upload button {
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.lookbook-upload button {
+    background-color: #ffb818;
+    border: none;
+    color: #FFF;
+    padding: 10px 20px !important;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: hand;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0 30px 0 rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0 30px 0 rgba(0,0,0,0.6);
+	box-shadow: 0px 0 30px 0 rgba(0,0,0,0.6);
+    transition: background-color box-shadow 0.2s ease;
+}
+.lookbook-upload button .material-icons {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.lookbook-upload button:hover {
+    background-color: #dd9c09;
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: 0px 0 30px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0 30px 0 rgba(0,0,0,0.3);
+	box-shadow: 0px 0 30px 0 rgba(0,0,0,0.3);
+}
+#lit-sidebar {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: #323438;
+    color: #8e9296;
+    width: 30%;
+/*
+    width: 23.1%;
+    top 86px;
+*/
+    height: auto;
+    vertical-align: top;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 2500;   
+    transition: top position 0.1s ease;
+}
+#lit-sidebar.sticky {
+    top: 30px;
+    position: fixed;
+    width: 23.1%;
+}
+#lit-sidebar.disabled {
+    position: absolute;
+    top: 0;
+    width: 28%;
+    min-height: 100%;
+}
+#lit-sidebar.disabled::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,.6);
+    z-index: 9999;
+}
+.lookbook-heading {
+    background: #3f444a;
+    color: #d7dbdf;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 15px 10px 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.lookbook-heading .lookbook-dashicon {
+    margin-right: 5px;
+}
+.lookbook-settings {
+    padding: 20px 20px 40px;
+}
+.row-shortcode {
+    position: relative;
+}
+#lit-photo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+.lit-marker {
+    position: absolute;
+/*
+    background: rgba(255,255,255,.9);
+    height: 28px;
+    width: 28px;
+*/
+    text-align: center;
+/*
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+*/
+    z-index: 10;
+}
+/*
+.lit-marker svg {
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.lit-marker>svg:hover {
+    cursor: grabbing;
+}
+*/
+.lit-marker .lit-grab {
+    position: relative;
+    cursor: grabbing;
+    font-size: var(--lb-marker-size, 26px);
+    color: #000;
+    z-index: 100;
+}
+.lit-marker .lit-grab-img {
+    display: block;
+    width: var(--lb-marker-size, 26px);
+    height: auto;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+.lit-marker .lit-grab.dark {
+    color: #000;
+    -webkit-text-shadow: 0 0 10px rgba(255,255,255,0.5);
+	-moz-text-shadow: 0 0 10px rgba(255,255,255,0.5);
+	text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+.lit-marker .lit-grab.white {
+    color: #FFF;
+    -webkit-text-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-moz-text-shadow: 0 0 10px rgba(0,0,0,0.5);
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.lit-marker .lit-grab.yellow {
+    color: #ffb818;
+    -webkit-text-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-moz-text-shadow: 0 0 10px rgba(0,0,0,0.5);
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.lit-marker .lit-shadow {
+    position: absolute;
+    z-index: 88;
+    color: #FFF;
+    font-size: 28px;
+    left: -2px;
+    top: -2px;
+    opacity: .7;
+}
+.lit-marker .lit-shadow.dark {
+    color: #FFF;
+}
+.lit-marker .lit-shadow.white {
+    color: #000;
+}
+.lit-marker .lit-box {
+    width: 260px;
+	height: auto;
+    position: absolute;
+/*	top: 35px;	*/
+	padding: 15px 0;
+	z-index: 999;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.01s ease 0.7s;
+}
+.lit-marker .lit-box.active {
+    opacity: 1;
+	visibility: visible;
+	transition-delay: 0s;
+}
+.lit-marker .lit-box::before {
+    content: "";
+	width: 100%;
+	height: 0;
+	background: #fff;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	transition: height 0.5s cubic-bezier(0.4, 0.4, 0.000, 1.0) 0.1s;
+	z-index: 0;
+	-webkit-box-shadow: 0px 0 30px 0 rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 0 30px 0 rgba(0,0,0,0.10);
+	box-shadow: 0px 0 30px 0 rgba(0,0,0,0.10);
+}
+.lit-marker .lit-box.active::before {
+    height: 100%;
+}
+.lit-marker .lit-box .lit-header, .lit-marker .lit-box .lit-form {
+    text-align: left;
+    padding: 0 15px;
+	z-index: 1;
+	position: relative;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.4s ease;
+	transform: translateY(-10px);
+}
+.lit-marker .lit-box.active .lit-header,  .lit-marker .lit-box.active .lit-form {
+    opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+	transition-delay: 0.3s;
+}
+.lit-marker .lit-box .lit-header h5 {
+    font-family: inherit;
+    font-size: 15px;
+    margin: 0;
+}
+.lit-marker .lit-close, .lit-marker .lit-less {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.04);
+    padding: 5px;
+    top: 10px;
+    right: 12px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: hand;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    position: absolute;
+    z-index: 1000;
+}
+.lit-marker .lit-close:hover, .lit-marker .lit-less:hover {
+    background: rgba(0,0,0,0.1);
+}
+.lit-marker .lit-box.active .lit-close, .lit-marker .lit-less.active {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.3s;
+}
+.lit-marker .lit-box .lit-form {
+    margin-top: 10px;
+}
+.lit-marker .lit-box .lit-form input {
+    outline: none;
+    padding: 7px 10px 7px 30px;
+    height: 29px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background: #F9F9F9 url('../img/search.png') left 5px center no-repeat;
+    background-size: auto 50%;
+    color: #000;
+    box-shadow: none;
+    border: 1px solid #CCC;
+    width: 100%;
+}
+.lit-marker .lit-box .lit-form input::placeholder {
+    font-size: 12px;
+}
+.lit-marker .lit-box .lit-form.lit-loading:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border: 2px solid #E5E5E5; /* Light grey */
+    border-top: 2px solid #3498db; /* Blue */
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    float: right;
+    right: 20px;
+    top: 14px;
+    z-index: 100;
+    -moz-animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-moz-keyframes spin {
+    0% { 
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); 
+    }
+    100% { 
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); 
+    }
+}
+@-webkit-keyframes spin {
+    0% { 
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); 
+    }
+    100% { 
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); 
+    }
+}
+@keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg); 
+    }
+    100% { 
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg); 
+    }
+}
+.lit-result {
+    position: absolute;
+    background-color: #FFF;
+    width: 230px;
+    -webkit-box-shadow: 0px 0 20px 0 rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 0 20px 0 rgba(0,0,0,0.10);
+	box-shadow: 0px 0 20px 0 rgba(0,0,0,0.10);
+}
+.lit-result a {
+    font-family: inherit;
+    font-size: 11px;
+    text-decoration: none;
+    color: #000;
+    line-height: 25px;
+    border-bottom: #EEE 1px solid;
+    display: block;
+    width: 210px;
+    overflow: hidden;
+    padding: 3px 10px;
+}
+.lit-result a:hover {
+    background: #EEE;
+}
+.lit-result a img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    float: left;
+}
+.lit-selected {
+    opacity: 0;
+    visibility: hidden;
+    width: 180px;
+    height: 0;
+/*    top: 35px;*/
+    background: transparent;
+    line-height: 30px;
+    color: #000;
+    font-size: 10px;
+    text-align: left;
+    position: absolute;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0 20px 0 rgba(0,0,0,0.10);
+	-moz-box-shadow: 0px 0 20px 0 rgba(0,0,0,0.10);
+	box-shadow: 0px 0 20px 0 rgba(0,0,0,0.10);
+    transition: height 0.5s cubic-bezier(0.4, 0.4, 0.000, 1.0) 0.1s;
+    cursor: hand;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+}
+.lit-selected:hover {
+/*    background: #EEE;*/
+    -webkit-box-shadow: 0px 0 20px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0 20px 0 rgba(0,0,0,0.3);
+	box-shadow: 0px 0 20px 0 rgba(0,0,0,0.3);
+}
+/* Background lives on a ::before layer so opacity affects only the colour,
+   not the chip content. */
+.lit-selected::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFF;
+    z-index: 0;
+    opacity: var(--lit-bg-opacity, 1);
+}
+.lit-selected > * {
+    position: relative;
+    z-index: 1;
+}
+.lit-selected.dark { color: #FFF; }
+.lit-selected.dark::before { background: rgba(0,0,0,.8); }
+.lit-selected.yellow { color: #000; }
+.lit-selected.yellow::before { background: #ffb818; }
+.lit-product {
+    display: flex;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.lit-selected img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+/*    display: inline-flex;*/
+}
+.lit-marker.active .lit-selected {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+}
+.lit-cancel {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    line-height: 30px;
+    color: #000;
+/*
+    width: 11px;
+    height: 11px;
+*/
+    font-size: 15px;
+   margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* background-color: #FFF; */
+    vertical-align: middle;
+    opacity: .7;
+    transition: opacity 0.5s ease;
+}
+.dark .lit-cancel {
+    background-color: transparent;
+    color: #FFF;
+    opacity: .5;
+}
+.yellow .lit-cancel {
+    background-color: transparent;
+    color: #000;
+    opacity: .5;
+}
+.lit-cancel:hover, .dark .lit-cancel:hover, .yellow .lit-cancel:hover {
+    opacity: 1;
+}
+.form-heading {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.form-row {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-row input {
+    background-color: #2a2c2f;
+    color: #b7bbc0;
+    font-size: 12px;
+    border: 0;
+    width: 60%;
+}
+.form-row select {
+    vertical-align: middle;
+    border: 0;
+}
+/* Inline "label + select" rows (e.g. Gallery Display type) match the width
+   of their "label + input" siblings (Title, Shortcode). */
+.form-row .input-label + select {
+    width: 60%;
+}
+.form-row input:hover {
+    color: #FFF;
+}
+.form-row input:focus, .form-row input:active {
+    color: #FFF;
+    outline: none;
+    /* -webkit-box-shadow: 0 0 0 1px #777c80;
+	-moz-box-shadow: 0 0 0 1px #777c80;
+    box-shadow: 0 0 0 1px #777c80; */
+}
+.form-row input::selection{
+    background: #b7bbc0;
+}
+.form-row input::-moz-selection{
+    background: #b7bbc0;
+}
+.lookbookgallery-sidebar-inner .widefat {
+	width: auto;
+	box-sizing: border-box;
+}
+.lit-sidebar .widefat, .lookbookgallery-settings-body .widefat {
+	background-color: #2a2c2f;
+	padding: 0 22px 0 12px;
+}
+.form-row input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.form-row input[type=checkbox]:checked::before {
+    margin: 0 0 0 -0.1rem;
+}
+.form-row .form-option {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: auto;
+    margin: 0 14px 8px 0;
+    vertical-align: top;
+    font-size: 10px;
+}
+.form-row .form-option:last-child {
+    margin-right: 0;
+}
+.form-row .form-option .material-icons {
+    display: block;
+}
+/* Box-style previews need a defined width since options are now auto-width. */
+.form-row .form-option .image-radio.image1 {
+    width: 74px;
+}
+.form-row .input-label {
+    width: 80px;
+    text-align: right;
+    margin-right: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+.lookbook-body .thumbnail {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lookbook-body .thumbnail:hover, .lookbook-body .thumbnail:focus, .lookbook-body .thumbnail:active {
+    outline: none;
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+    box-shadow: none;
+}
+.lookbook-body button, .lookbook-detail button {
+    background-color: #3f444a;
+    color: #d7dbdf;
+    padding: 10px 15px 10px 15px;
+    transition: background-color 0.2s ease;
+    border: none;
+}
+.lookbook-body button:hover, .lookbook-body button:active, .lookbook-body button:focus,  
+.lookbook-detail button:hover, .lookbook-detail button:active, .lookbook-detail button:focus {
+    outline: none;
+}
+.lookbook-detail .form-buttons {
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-left: -20px;
+}
+.lookbook-detail .form-buttons button {
+    text-align: center;
+    display: inline-block;
+    width: 49.5%;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    background-color: #ffb818;
+    color: #fff;
+    cursor: hand;
+    cursor: pointer;
+}
+.lookbook-detail .form-buttons button:hover {
+    background-color: #dd9c09;
+    color: #fff;
+}
+#lit-sidebar.disabled .form-buttons button {
+    background: #3f444a;
+}
+.lookbook-detail .form-buttons .material-icons {
+    vertical-align: middle;
+    font-size: 18px;
+}
+.lookbook-detail .form-buttons .dashicons-before:before {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+.lookbook-detail .form-buttons .material-icons, .lookbook-detail .form-buttons .dashicons-before {
+    margin-right: 2px;
+}
+.image-radio {
+    position: relative;
+    display: inline-block;
+    cursor: hand;
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 3px solid transparent;
+    margin-bottom: 0;
+    outline: 0;
+}
+.image-radio img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+.image-radio img, .image-radio span {
+    opacity: .8;
+}
+.image-radio.image-radio-checked img, .image-radio.image-radio-checked span {
+    opacity: 1;
+}
+.image-radio input[type="radio"] {
+    display: none;
+}
+/*
+.image1.image-radio-checked {
+    border-color: #ffb818;
+}
+*/
+.image-radio-checked, .image-radio-checked .material-icons {
+    color: #ffb818;
+}
+.image-radio .material-select {
+    position: absolute;
+    display: none !important;
+    color: #ffb818;
+    top: -5px;
+    right: -5px;
+    font-size: 14px;
+    z-index: 1000;
+}
+.image-radio.color1 .material-select {
+    top: -8px;
+    right: -8px;
+}
+.image-radio-checked .material-select {
+  display: block !important;
+}
+.image-radio .rectangle-dark, .image-radio .rectangle-white, .image-radio .rectangle-yellow {
+    width: 28px;
+    height: 16px;
+    display: block;
+/*    border: 3px solid;*/
+    margin-bottom: 5px;
+}
+.image-radio .rectangle-dark {
+    background-color: #000;
+/*    border-color: #000;*/
+}
+.image-radio .rectangle-white {
+    background-color: #FFF;
+/*    border-color: #FFF;*/
+}
+.image-radio .rectangle-yellow {
+    background-color: #ffb818;
+/*    border-color: #ffb818;*/
+}
+/*
+.color1.image-radio-checked span {
+    border-color: #ffb818;
+}
+.color1.image-radio-checked span.rectangle-yellow {
+    border-color: #ffd84f;
+}
+*/
+.material-flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#change-image {
+    color: #FFF;
+    background-color: rgba(255,184,24,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 8px;
+    z-index: 999;
+    cursor: hand;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+#change-image:hover {
+    background-color: rgba(255,184,24,1);
+}
+#change-image .material-icons {
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 26px;
+}
+#change-image label {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    margin-left: 5px;
+    transition: opacity visibility 0.2s ease;
+}
+#change-image:hover label {
+    visibility: visible;
+    opacity: 1;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1400px) {
+    .lookbook-detail .form-buttons button {
+        width: 49.3%;
+    }
+}
+@media only screen and (max-width: 1277px) {
+    .lookbook-detail {
+        grid-template-columns: 70% 30%;
+    }
+    #lit-sidebar {
+        width: 30%;
+    }
+    .form-row .form-option {
+        margin: 0 10px 8px 0;
+    }
+    .form-row .form-option .image-radio.image1 {
+        width: 68px;
+    }
+    .form-inline-group {
+        gap: 10px;
+    }
+    .form-row .input-label {
+        width: 70px;
+        margin-right: 10px;
+    }
+    .form-inline-group .form-col {
+        flex: 1;
+        min-width: 140px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .lookbook-detail {
+        grid-template-columns: 100%;
+    }
+    #lit-sidebar, #lit-sidebar.disabled {
+        position: relative;
+        width: 100%; 
+        margin-top: 30px;
+        top: 0;
+        z-index: 1000;
+    }
+    .lookbook-detail .form-buttons {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin-left: 0;
+    }
+    .lookbook-detail .form-buttons button {
+        width: 65%;
+        float: right;
+        border: 1px solid #202224;
+    }
+    .lookbook-detail .form-buttons button:last-child {
+        width: 35%;
+        float: left;
+        border-right: none;
+    }
+}
+@media only screen and (max-width: 782px) {
+    .lookbook-wrap {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wrap h1.wp-heading-inline {
+        font-size: 20px;
+    }
+    .action-text {
+        font-size: 32px;
+    }
+    .action-text .material-icons {
+        font-size: 26px;   
+    }
+    .lookbook-settings {
+        padding-bottom: 40px;
+    }
+    .lookbook-upload {
+        min-height: 300px;
+    }
+    .lit-marker .lit-box {
+        padding: 12px 0;
+    }
+    .lit-marker .lit-box .lit-form input {
+        min-height: 20px;
+        padding: 5px 10px 5px 30px;
+    }
+    .lit-marker .lit-box .lit-header h5 {
+        font-size: 14px;
+    }
+    .lit-marker .lit-close, .lit-marker .lit-less {
+        top: 6px;
+    }
+    .lookbook-wrap {
+        padding: 30px 15px;
+    }
+    .wp-core-ui .attachment .lookbook-bar {
+        background-color: #2a2c2f;
+        color: #FFF;
+        height: 100%;
+    }
+    .lookbook_page_shoppable-lookbook-galleries .attachment .lookbook-bar {
+        background-color: var(--wp-admin-theme-color);
+        color: #FFF;
+        height: 100%;
+    }
+    .wp-core-ui .attachment .lookbook-card-actions, .lookbook-bar input {
+        opacity: 1;
+        visibility: visible;
+    }
+    .lookbook-foot {
+        margin-bottom: 20px;
+    }
+    #lit-frame:not(.lookbook-upload) {
+        overflow-x: hidden;
+    }
+    .form-inline-group .form-col {
+        min-width: 120px;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .lit-marker .lit-grab {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .lookbook-grab { 
+        font-size: 20px;
+    }
+}
+/* Custom link editor: tabs + form (added in 1.2.0) */
+/* Lift the tabs + custom pane above the white .lit-box::before background
+   (which is absolutely positioned at z-index:0) and reveal them with the box. */
+.lit-marker .lit-box .lit-tabs,
+.lit-marker .lit-box .lit-pane-custom {
+    position: relative;
+    z-index: 1;
+    padding: 0 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+}
+.lit-marker .lit-box.active .lit-tabs,
+.lit-marker .lit-box.active .lit-pane-custom {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.3s;
+}
+.lit-tabs {
+    display: flex;
+    gap: 4px;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #e2e4e7;
+}
+.lit-tabs .lit-tab {
+    flex: 1;
+    background: none;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    padding: 8px 6px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    color: #50575e;
+}
+.lit-tabs .lit-tab.active {
+    color: #2271b1;
+    border-bottom-color: #2271b1;
+}
+.lit-pane-custom input[type="url"],
+.lit-pane-custom input[type="text"] {
+    width: 100%;
+    margin: 0 0 8px;
+    box-sizing: border-box;
+}
+.lit-custom-image-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 8px;
+}
+.lit-custom-image-name {
+    font-size: 11px;
+    color: #787c82;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 120px;
+}
+.lit-custom-target-label {
+    display: block;
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+.lit-custom-apply {
+    width: 100%;
+}
+
+/* Live preview overlay (added in 1.2.0) */
+#lookbook-preview-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 100000;
+    background: rgba(0, 0, 0, .7);
+    align-items: flex-start;
+    justify-content: center;
+    overflow: auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+#lookbook-preview-overlay .lookbook-preview-inner {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    max-width: 1040px;
+    border-radius: 8px;
+    padding: 0;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .4);
+    /* margin:auto = safe vertical centering that still scrolls when tall */
+    margin: auto;
+}
+#lookbook-preview-overlay .lookbook-preview-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 16px 14px 24px;
+    border-bottom: 1px solid #e5e5e5;
+}
+#lookbook-preview-overlay .lookbook-preview-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: #1d2327;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#lookbook-preview-overlay .lookbook-preview-title .dashicons {
+    color: #787c82;
+}
+#lookbook-preview-overlay .lookbook-preview-close {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 0;
+    background: #f0f0f1;
+    color: #1d2327;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    flex: 0 0 auto;
+    transition: background .15s ease;
+}
+#lookbook-preview-overlay .lookbook-preview-close:hover {
+    background: #dcdcde;
+}
+#lookbook-preview-overlay .lookbook-preview-body {
+    /* Keep marker boxes visible when they open past the photo edge. */
+    overflow: visible;
+    padding: 24px;
+    /* Single stretch column: block-like for gallery / product-list preview
+       payloads, but lets the direct lookbook child centre itself once the
+       preview JS gives it a measured width. */
+    display: grid;
+    grid-template-columns: 100%;
+}
+/* A portrait lookbook at the modal's full width scrolls far past the
+   screen — litSizePreviewPhoto() (lookbook-admin.js) measures the photo
+   and sets an inline width on this root so the photo tops out around 74%
+   of the viewport height. The ROOT is what shrinks (markers position
+   against it); the photo just fills it as usual. Scoped to the DIRECT
+   child only: gallery slides and product-list layouts size their photos
+   themselves. */
+#lookbook-preview-overlay .lookbook-preview-body > .shoppable-lookbook {
+    justify-self: center;
+    max-width: 100%;
+}
+
+/* WordPress core (media-views.css) adds an aria-label overlay via
+   ".attachment:not(:has(.filename))::after". Our lookbook list reuses the
+   "attachment" class only for the grid/hover styles, so neutralise that
+   empty label bar here. */
+.lookbook-body .attachment::after {
+    content: none !important;
+}
+
+/* ============================================================
+   Extra box colors + new style previews (added in 1.2.0)
+   ============================================================ */
+.image-radio .rectangle-blue,
+.image-radio .rectangle-green,
+.image-radio .rectangle-rose {
+    width: 28px;
+    height: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+.image-radio .rectangle-blue  { background-color: #2563eb; }
+.image-radio .rectangle-green { background-color: #16a34a; }
+.image-radio .rectangle-rose  { background-color: #e84393; }
+
+.lit-selected.blue  { color: #FFF; }
+.lit-selected.blue::before  { background: #2563eb; }
+.lit-selected.green { color: #FFF; }
+.lit-selected.green::before { background: #16a34a; }
+.lit-selected.rose  { color: #FFF; }
+.lit-selected.rose::before  { background: #e84393; }
+
+/* CSS-drawn previews for the Card / Tag box styles */
+.style-mock {
+    display: block;
+    width: 100%;
+    aspect-ratio: 350 / 220;
+    background: #9fb1c7;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+}
+.style-mock .sm-thumb,
+.style-mock .sm-line,
+.style-mock .sm-pill { position: absolute; }
+/* Tag: small centered white pill */
+.style-mock-tag .sm-pill { left: 28%; top: 42%; width: 44%; height: 16%; background: #fff; border-radius: 20px; }
+
+/* ============================================================
+   Gray + Custom swatches, inline group, opacity slider (1.2.1)
+   ============================================================ */
+.image-radio .rectangle-custom {
+    width: 28px;
+    height: 16px;
+    display: block;
+    margin-bottom: 5px;
+    background: linear-gradient(135deg, #e74c3c 0%, #f1c40f 35%, #2ecc71 65%, #3498db 100%);
+}
+
+/* Show Price / Add to Cart side by side */
+.form-inline-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+/* Full-width add-on block inside an inline group (e.g. Product List) */
+.form-inline-group .form-col-wide {
+    flex: 1 1 100%;
+}
+.form-inline-group .form-col {
+    flex: 1;
+    min-width: 0;
+}
+.form-inline-group .form-col .form-option {
+    width: auto;
+    margin-left: 0;
+    margin-right: 14px;
+}
+
+.box-custom-color-wrap .wp-picker-container { margin-top: 4px; }
+
+/* Custom marker image upload + size (added 1.2.4) */
+.marker-image-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 4px;
+}
+.marker-image-preview img {
+    max-width: 40px;
+    max-height: 40px;
+    display: block;
+    background: rgba(255,255,255,.08);
+    border-radius: 4px;
+    padding: 2px;
+}
+.marker-image-remove {
+    color: #e35b5b !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+.marker-image-hint {
+    font-size: 11px;
+    color: #777c80;
+    margin: 4px 0 0;
+}
+
+/* Inline "!" hint icon on a form-heading — hover (mouse) or click/tap /
+   keyboard focus (touch, a11y) reveals the tooltip instead of a permanent
+   paragraph under the field. */
+.lb-hint {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    margin-left: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,.22);
+    color: #fff;
+    cursor: help;
+    position: relative;
+    vertical-align: middle;
+    outline: none;
+    transition: background .15s ease, color .15s ease;
+}
+.lb-hint:hover,
+.lb-hint:focus,
+.lb-hint.lb-hint-open {
+    background: var(--lb-accent, #ffb818);
+    color: #1d1f23;
+}
+.lb-hint .material-icons-round {
+    font-size: 13px;
+}
+.lb-hint-tip {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    margin-top: 8px;
+    width: 230px;
+    max-width: 70vw;
+    background: #16171a;
+    color: #d7dbdf;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5;
+    /* Reset explicitly: white-space is inherited, and .hint often sits
+       nested inside a <label class="input-label"> which sets nowrap (so
+       the label's own short text never wraps at its fixed width) — without
+       this override the tooltip inherits that nowrap and its longer text
+       overflows sideways past its own box instead of wrapping. */
+    white-space: normal;
+    padding: 8px 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(0,0,0,.45);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity .15s ease;
+    /* Above the swatch "checked" badges (.image-radio .material-select is
+       z-index:1000) so the tooltip never renders underneath one. */
+    z-index: 1001;
+}
+.lb-hint:hover .lb-hint-tip,
+.lb-hint:focus .lb-hint-tip,
+.lb-hint.lb-hint-open .lb-hint-tip {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+.lit-grab-img {
+    display: block;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+/* ============================================================
+   Banded settings sections + modern controls (1.2.6)
+   ============================================================ */
+/* Default (always-visible) rows: Title + Shortcode */
+.lb-default {
+    padding-bottom: 4px;
+}
+
+/* Sections span the full sidebar width (the panel has 20px side padding). */
+.lb-section {
+    margin: 0 -20px;
+    border-bottom: 1px solid #2a2c2f;
+}
+.lb-section-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.18);
+    padding: 11px 18px;
+    margin: 0;
+    cursor: pointer;
+    background: #3f444a;
+    color: #b7bbc0;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    outline: none;
+    transition: background .15s ease, color .15s ease;
+}
+.lb-section-head:hover {
+    color: #fff;
+    background: #474d54;
+}
+.lb-section-icon {
+    font-size: 18px;
+    color: #b7bbc0;
+}
+.lb-section-head:hover .lb-section-icon { color: #fff; }
+.lb-section-title { flex: 1; }
+.lb-section-arrow {
+    font-size: 18px;
+    opacity: .55;
+    transition: transform .2s ease;
+}
+.lb-section.open .lb-section-arrow { transform: rotate(180deg); }
+.lb-section-body {
+    display: none;
+    padding: 16px 20px;
+    background: transparent;
+}
+
+/* Custom Color + Opacity inline */
+.lb-inline-2 {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+.lb-inline-2 .lb-col {
+    flex: 1;
+    min-width: 0;
+}
+
+/* All "input type=range" sliders share one look (filled track set via JS) */
+.opacity-range,
+.markersize-range,
+.maxwidth-range,
+.boxradius-range {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 6px;
+    background: rgba(255,255,255,.18);
+    outline: none;
+    margin: 14px 0 6px;
+    cursor: pointer;
+}
+.opacity-range::-webkit-slider-thumb,
+.markersize-range::-webkit-slider-thumb,
+.maxwidth-range::-webkit-slider-thumb,
+.boxradius-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--lb-accent, #fff);
+    border: 3px solid #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.5);
+    cursor: pointer;
+    /* centre the 26px thumb (20 + 2*3 border) on the 6px track */
+    margin-top: 0;
+}
+.opacity-range::-moz-range-thumb,
+.markersize-range::-moz-range-thumb,
+.maxwidth-range::-moz-range-thumb,
+.boxradius-range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--lb-accent, #fff);
+    border: 3px solid #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.5);
+    cursor: pointer;
+    box-sizing: border-box;
+}
+/* Value badge — same look for every slider's current-value pill */
+.opacity-value,
+.markersize-value,
+.maxwidth-value,
+.boxradius-value {
+    display: inline-block;
+    min-width: 16px;
+    text-align: center;
+    color: #1d1f23;
+    background: #ffb818;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 1.6;
+    padding: 0 7px;
+    border-radius: 10px;
+}
+
+/* Onboarding hint: "click the image to add a marker" (added 1.2.11) */
+.lit-hint {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    max-width: calc(100% - 40px);
+    box-sizing: border-box;
+    background: rgba(26,28,31,.7);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    padding: 8px 22px;
+    border-radius: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,.35);
+    pointer-events: none;
+    animation: litHintBounce 1.8s ease-in-out infinite;
+}
+.lit-hint i {
+    color: #ffb818;
+    font-size: 26px;
+}
+@keyframes litHintBounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50%      { transform: translateX(-50%) translateY(-5px); }
+}
+/* Hide before an image is chosen, or once at least one marker exists */
+#lit-frame.lookbook-upload .lit-hint,
+#lit-frame:has(.lit-marker) .lit-hint {
+    display: none;
+}
+
+/* Marker animation live preview in the editor (1.3.0) */
+.lit-marker .lit-grab { border-radius: 50%; }
+#markers.lookbook-anim-pulse .lit-grab { animation: lbPulse 1.8s ease-out infinite; }
+#markers.lookbook-anim-beat .lit-grab { animation: lbBeat 1.3s ease-in-out infinite; }
+#markers.lookbook-anim-bounce .lit-grab { animation: lbBounce 1.5s ease infinite; }
+
+/* PRO badge on premium settings (1.3.x) */
+.lb-pro-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    background: var(--wp-admin-theme-color);
+    color: #fff;
+    padding: 1px 6px;
+    border-radius: 8px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+/* ── Sidebar Hotspot List panel ─────────────────────────────────────────── */
+.lit-marker-list {
+    margin: 0;
+    padding: 2px 0;
+}
+.lit-marker-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 8px;
+    margin: 0 0 2px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+.lit-marker-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+.lit-marker-item-num {
+    flex: 0 0 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.14);
+    font-size: 11px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lit-marker-item-thumb {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    object-fit: cover;
+    flex: 0 0 28px;
+}
+.lit-marker-item-noimg {
+    flex: 0 0 28px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.4;
+}
+.lit-marker-item-name {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.lit-marker-item-remove {
+    flex: 0 0 auto;
+    font-size: 16px;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.15s ease, color 0.15s ease;
+}
+.lit-marker-item:hover .lit-marker-item-remove {
+    opacity: 0.6;
+}
+.lit-marker-item-remove:hover {
+    opacity: 1 !important;
+    color: #e74c3c;
+}
+.lit-marker-list-empty {
+    font-size: 12px;
+    opacity: 0.6;
+    padding: 4px 8px;
+    margin: 0;
+}
+/* Flash-highlight a marker picked from the list */
+.lit-marker.lit-flash {
+    z-index: 300;
+}
+.lit-marker.lit-flash::after {
+    content: "";
+    position: absolute;
+    aspect-ratio: 1 / 1;
+    top: -12px;
+    left: -12px;
+    right: -12px;
+    bottom: -12px;
+    border: 3px solid #ffb818;
+    border-radius: 50%;
+    animation: lit-flash-pulse 0.7s ease-in-out 2;
+    pointer-events: none;
+}
+@keyframes lit-flash-pulse {
+    0%, 100% { transform: scale(1);    opacity: 1; }
+    50%      { transform: scale(1.35); opacity: 0.4; }
+}
+
+/* ============================================================
+   Content Color (Box) — setting chips + editor chip preview
+   ============================================================ */
+.image-radio .rectangle-content-auto,
+.image-radio .rectangle-content-light,
+.image-radio .rectangle-content-dark {
+    width: 28px;
+    height: 16px;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid #dcdcde;
+    box-sizing: border-box;
+}
+.image-radio .rectangle-content-auto  { background: linear-gradient(135deg, #fff 49%, #1d2327 51%); }
+.image-radio .rectangle-content-light { background-color: #1d2327; color: #fff; }
+.image-radio .rectangle-content-dark  { background-color: #fff; color: #000; }
+
+/* Explicit content colour on the editor preview chip (mirrors the frontend
+   lb-content-* override; !important so it wins over every box-colour preset) */
+.lit-selected.lb-content-light { color: #FFF !important; }
+.lit-selected.lb-content-dark  { color: #000 !important; }
+.lit-selected.lb-content-light .lit-cancel { color: #FFF !important; background-color: transparent; }
+.lit-selected.lb-content-dark  .lit-cancel { color: #000 !important; background-color: transparent; }
+
+@media only screen and (max-width: 1277px) {
+    .form-inline-group .form-col {
+        min-width: 120px;
+    }
+    .lb-section-body {
+        padding: 16px;
+    }
+    .lit-marker-item {
+        padding: 6px 2px;
+    }
+}
+/* ── PRO locked controls (free / unlicensed) ───────────────────────────── */
+.lb-locked {
+    opacity: 0.55;
+}
+.lb-locked .image-radio,
+.lb-locked input,
+.lb-locked button,
+.lb-locked .wp-picker-container {
+    cursor: not-allowed !important;
+}
+.lb-locked input,
+.lb-locked button {
+    pointer-events: none;
+}
+.lb-pro-badge-link {
+    text-decoration: none;
+    cursor: pointer;
+    pointer-events: auto;
+    opacity: 1;
+}
+.lb-pro-badge-link:hover {
+    color: #fff;
+    filter: brightness(1.15);
+}

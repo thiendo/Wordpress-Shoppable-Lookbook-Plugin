@@ -166,7 +166,7 @@ function shoppablelookbook_page_list() {
             echo '<li data-id="'.esc_attr( $id ).'" class="attachment lookbook-'.esc_attr( $id ).'">
                     <div class="attachment-preview landscape">
                         <a class="thumbnail" href="'.esc_url( $edit_url ).'" style="background-image:url('.esc_url( $image_url ).')"></a>
-                        '.$issue_badge.'
+                        '.wp_kses_post( $issue_badge ).'
                     </div>
                     <div class="lookbook-foot">
                         <div class="lookbook-bar">
@@ -248,7 +248,7 @@ function shoppablelookbook_render_marker_editor( $i, $marker, $options, $markers
     $tab_custom  = $is_custom ? ' active' : '';
 
     echo '<div id="litmarker' . esc_attr( $i ) . '" class="lit-marker draggable ui-draggable ui-draggable-handle active" style="left: ' . esc_attr( $pos_left ) . '%; top: ' . esc_attr( $pos_top ) . '%;">'
-        . shoppablelookbook_marker_inner( $options, $markers, 'lit-grab' )
+        . wp_kses_post( shoppablelookbook_marker_inner( $options, $markers, 'lit-grab' ) )
         . '<div class="lit-selected ' . esc_attr( $options['boxcolor'] . $content_class ) . '" style="' . esc_attr( $lit_selected ) . '"><span class="lit-product">' . wp_kses_post( $thumb_html ) . esc_html( $display_name ) . '</span><i class="lit-cancel material-icons-round">clear</i></div>'
         . '<div class="lit-box" style="' . esc_attr( $lit_box ) . '">'
             . '<div class="lit-header"><h5>' . esc_html__( 'Add a link', 'shoppable-lookbook' ) . '</h5></div>'
@@ -371,9 +371,9 @@ function shoppablelookbook_page_edit($id) {
                 <div class="action-saved"><span class="material-icons">check_circle</span> '.esc_html__( 'Saved...', 'shoppable-lookbook' ).'</div>
             </div>
         </div>
-        <hr class="wp-header-end">'.$issue_notice.'
+        <hr class="wp-header-end">'.wp_kses_post( $issue_notice ).'
         <div class="lookbook-toolbar">
-            '.shoppablelookbook_back_link().' <a href="#" class="lookbook-change"><i class="material-icons">photo_size_select_actual</i> '.esc_html__( 'Change Image', 'shoppable-lookbook' ).'</a>
+            '.wp_kses_post( shoppablelookbook_back_link() ).' <a href="#" class="lookbook-change"><i class="material-icons">photo_size_select_actual</i> '.esc_html__( 'Change Image', 'shoppable-lookbook' ).'</a>
         </div>
         <div class="lookbook-detail">
             <div id="lit-frame">
@@ -402,9 +402,9 @@ function shoppablelookbook_page_edit($id) {
                         <input type="text" id="lookbook-shortcode" value="[shoppablelookbook id='.esc_attr( $id ).']" />
                         <div class="lookbook-copied">'.esc_html__( 'Copied to clipboard', 'shoppable-lookbook' ).'</div>
                     </div>
-                    </div>'.shoppablelookbook_section_open( __( 'Hotspot List', 'shoppable-lookbook' ), 'format_list_bulleted' ).'
+                    </div>'.wp_kses_post( shoppablelookbook_section_open( __( 'Hotspot List', 'shoppable-lookbook' ), 'format_list_bulleted' ) ).'
                     <ul id="lit-marker-list" class="lit-marker-list"></ul>
-                    '.shoppablelookbook_section_close().shoppablelookbook_section_open( __( 'Box', 'shoppable-lookbook' ), 'palette' ).'
+                    '.wp_kses_post( shoppablelookbook_section_close() ).wp_kses_post( shoppablelookbook_section_open( __( 'Box', 'shoppable-lookbook' ), 'palette' ) ).'
 
                     <div class="form-row">
                         <div class="form-heading">'.esc_html__( 'Box Style', 'shoppable-lookbook' ).'</div>
@@ -432,28 +432,8 @@ function shoppablelookbook_page_edit($id) {
                                 <i class="material-icons material-select hidden">check_circle</i>
                             </label>
                         </div>
-                        <div class="form-option">
-                            <label class="image-radio image1">
-                                <img class="img-responsive" src="'.esc_url( plugin_dir_url( __DIR__ ) . 'assets/img/style3.png' ).'" alt="Style 3" />
-                                <input type="radio" name="lookbook_layout" value="3" '.esc_attr( $layout[3] ).' />
-                                '.esc_html__( 'Tag', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                                <i class="material-icons material-select hidden">check_circle</i>
-                            </label>
-                        </div>
-                        <div class="form-option">
-                            <label class="image-radio image1">
-                                <img class="img-responsive" src="'.esc_url( plugin_dir_url( __DIR__ ) . 'assets/img/style4.png' ).'" alt="Style 4" />
-                                <input type="radio" name="lookbook_layout" value="4" '.esc_attr( $layout[4] ).' />
-                                '.esc_html__( 'Bottom', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                                <i class="material-icons material-select hidden">check_circle</i>
-                            </label>
-                        </div>
                     </div>
 
-                    <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Box Corner', 'shoppable-lookbook' ).' <span class="boxradius-value">'.esc_html( $options['boxradius'] ).'</span> px'.shoppablelookbook_pro_badge().shoppablelookbook_hint( __( 'Rounds the corners of the box and its thumbnail. Switching Box Style suggests a matching value (Instagram: 5, Tag: 50) — drag the slider to fine-tune.', 'shoppable-lookbook' ) ).'</div>
-                        <input type="range" name="lookbook_box_radius" min="0" max="60" step="1" value="'.esc_attr( $options['boxradius'] ).'" class="boxradius-range" />
-                    </div>
 
                     <div class="form-row">
                         <div class="form-heading">'.esc_html__( 'Box Color', 'shoppable-lookbook' ).'</div>
@@ -505,29 +485,11 @@ function shoppablelookbook_page_edit($id) {
                                 <i class="material-icons material-select hidden">check_circle</i>
                             </label>
                         </div>
-                        <div class="form-option">
-                            <label class="image-radio color1">
-                                <span class="rectangle-custom"></span>
-                                <input type="radio" name="lookbook_box_color" value="custom" '.esc_attr( $boxcolor['custom'] ).' />
-                                '.esc_html__( 'Custom', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                                <i class="material-icons material-select hidden">check_circle</i>
-                            </label>
-                        </div>
                     </div>
 
-                    <div class="form-row lb-inline-2">
-                        <div class="lb-col box-custom-color-wrap" style="'.( 'custom' === $color_key ? '' : 'display:none' ).'">
-                            <div class="form-heading">'.esc_html__( 'Custom Color', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'</div>
-                            <input type="text" name="lookbook_box_custom_color" value="'.esc_attr( $options['boxcustomcolor'] ).'" data-default-color="'.esc_attr( $options['boxcustomcolor'] ).'" class="box-custom-color" />
-                        </div>
-                        <div class="lb-col">
-                            <div class="form-heading">'.esc_html__( 'Opacity', 'shoppable-lookbook' ).' <span class="opacity-value">'.esc_html( $options['opacity'] ).'</span> %'.shoppablelookbook_pro_badge().'</div>
-                            <input type="range" name="lookbook_opacity" min="0" max="100" step="1" value="'.esc_attr( $options['opacity'] ).'" class="opacity-range" />
-                        </div>
-                    </div>
 
                     <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Content Color', 'shoppable-lookbook' ).shoppablelookbook_hint( __( 'Color of the product name, price, close icon, preview link and Add to Cart button inside the box. Auto picks a readable color for the chosen box color.', 'shoppable-lookbook' ) ).'</div>
+                        <div class="form-heading">'.esc_html__( 'Content Color', 'shoppable-lookbook' ).wp_kses_post( shoppablelookbook_hint( __( 'Color of the product name, price, close icon, preview link and Add to Cart button inside the box. Auto picks a readable color for the chosen box color.', 'shoppable-lookbook' ) ) ).'</div>
                         <div class="form-option">
                             <label class="image-radio content1">
                                 <span class="rectangle-content-auto" aria-hidden="true"></span>
@@ -551,7 +513,7 @@ function shoppablelookbook_page_edit($id) {
                                 '.esc_html__( 'Dark', 'shoppable-lookbook' ).'
                                 <i class="material-icons material-select hidden">check_circle</i>
                             </label>
-                        </div>                    </div>'.shoppablelookbook_settings_hook( 'box', $options ).shoppablelookbook_section_close().shoppablelookbook_section_open( __( 'Marker', 'shoppable-lookbook' ), 'place', true ).'
+                        </div>                    </div>'.wp_kses_post( shoppablelookbook_settings_hook( 'box', $options ) ).wp_kses_post( shoppablelookbook_section_close() ).wp_kses_post( shoppablelookbook_section_open( __( 'Marker', 'shoppable-lookbook' ), 'place', true ) ).'
 
                     <div class="form-row">
                         <div class="form-heading">'.esc_html__( 'Marker', 'shoppable-lookbook' ).'</div>
@@ -621,20 +583,6 @@ function shoppablelookbook_page_edit($id) {
                                 '.esc_html__( 'Pulse', 'shoppable-lookbook' ).'
                             </label>
                         </div>
-                        <div class="form-option">
-                            <label class="image-radio anim1">
-                                <i class="material-icons">favorite</i>
-                                <input type="radio" name="lookbook_animation" value="beat" '.esc_attr( $animation['beat'] ).' />
-                                '.esc_html__( 'Beat', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
-                        <div class="form-option">
-                            <label class="image-radio anim1">
-                                <i class="material-icons">height</i>
-                                <input type="radio" name="lookbook_animation" value="bounce" '.esc_attr( $animation['bounce'] ).' />
-                                '.esc_html__( 'Bounce', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
                     </div>
 
                     <div class="form-row form-inline-group">
@@ -650,19 +598,10 @@ function shoppablelookbook_page_edit($id) {
                         </div>
                     </div>
 
-                    <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Custom Marker', 'shoppable-lookbook' ).' ('.esc_html__( 'Image PNG or SVG', 'shoppable-lookbook' ).')'.shoppablelookbook_pro_badge().'</div>
-                        <div class="marker-image-bar">
-                            <span class="marker-image-preview">'.( $marker_image_url ? '<img src="'.esc_url( $marker_image_url ).'" alt="" />' : '' ).'</span>
-                            <button type="button" class="components-button marker-image-upload is-primary">'.esc_html__( 'Upload', 'shoppable-lookbook' ).'</button>
-                            <button type="button" class="button-link marker-image-remove" style="'.( $marker_image_url ? '' : 'display:none' ).'">'.esc_html__( 'Remove', 'shoppable-lookbook' ).'</button>
-                        </div>
-                        <input type="hidden" name="lookbook_marker_image" class="marker-image-id" value="'.esc_attr( $options['markerimage'] ).'" />
-                        <input type="hidden" class="marker-image-url" value="'.esc_url( $marker_image_url ).'" />
-                    </div>'.shoppablelookbook_settings_hook( 'marker', $options ).shoppablelookbook_section_close().shoppablelookbook_section_open( __( 'Display', 'shoppable-lookbook' ), 'visibility' ).'
+'.wp_kses_post( shoppablelookbook_settings_hook( 'marker', $options ) ).wp_kses_post( shoppablelookbook_section_close() ).wp_kses_post( shoppablelookbook_section_open( __( 'Display', 'shoppable-lookbook' ), 'visibility' ) ).'
 
                     <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Photo Width', 'shoppable-lookbook' ).' <span class="maxwidth-value">'.( $options['maxwidth'] ? esc_html( $options['maxwidth'] ) . ' px' : esc_html__( 'Full width', 'shoppable-lookbook' ) ).'</span>'.shoppablelookbook_hint( __( 'Caps how wide the main photo can grow on the frontend. Drag to 0 for no limit (full width of its container).', 'shoppable-lookbook' ) ).'</div>
+                        <div class="form-heading">'.esc_html__( 'Photo Width', 'shoppable-lookbook' ).' <span class="maxwidth-value">'.( $options['maxwidth'] ? esc_html( $options['maxwidth'] ) . ' px' : esc_html__( 'Full width', 'shoppable-lookbook' ) ).'</span>'.wp_kses_post( shoppablelookbook_hint( __( 'Caps how wide the main photo can grow on the frontend. Drag to 0 for no limit (full width of its container).', 'shoppable-lookbook' ) ) ).'</div>
                         <input type="range" name="lookbook_max_width" min="0" max="2000" step="10" value="'.esc_attr( $options['maxwidth'] ).'" class="maxwidth-range" />
                     </div>
 
@@ -701,11 +640,11 @@ function shoppablelookbook_page_edit($id) {
                                 </label>
                             </div>
                         </div>
-                        '.shoppablelookbook_settings_hook( 'display', $options ).'
+                        '.wp_kses_post( shoppablelookbook_settings_hook( 'display', $options ) ).'
                     </div>
 
                     <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Open Marker On', 'shoppable-lookbook' ).shoppablelookbook_hint( __( 'Open All: every box opens on load (visitors can close them). Open First: the first box opens on load. Accordion: one box is always open — opening another closes it.', 'shoppable-lookbook' ) ).'</div>
+                        <div class="form-heading">'.esc_html__( 'Open Marker On', 'shoppable-lookbook' ).wp_kses_post( shoppablelookbook_hint( __( 'Open All: every box opens on load (visitors can close them). Open First: the first box opens on load. Accordion: one box is always open — opening another closes it.', 'shoppable-lookbook' ) ) ).'</div>
                         <div class="form-option">
                             <label class="image-radio">
                                 <i class="material-icons">touch_app</i>
@@ -720,37 +659,10 @@ function shoppablelookbook_page_edit($id) {
                                 '.esc_html__( 'Hover', 'shoppable-lookbook' ).'
                             </label>
                         </div>
-                        <div class="form-option">
-                            <label class="image-radio">
-                                <i class="material-icons">visibility</i>
-                                <input type="radio" name="lookbook_trigger" value="openall" '.esc_attr( $trigger['openall'] ).' />
-                                '.esc_html__( 'Open All', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
-                        <div class="form-option">
-                            <label class="image-radio">
-                                <i class="material-icons">filter_1</i>
-                                <input type="radio" name="lookbook_trigger" value="openfirst" '.esc_attr( $trigger['openfirst'] ).' />
-                                '.esc_html__( 'Open First', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
-                        <div class="form-option">
-                            <label class="image-radio">
-                                <i class="material-icons">unfold_less</i>
-                                <input type="radio" name="lookbook_trigger" value="accordion" '.esc_attr( $trigger['accordion'] ).' />
-                                '.esc_html__( 'Accordion', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>                    </div>
+                    </div>
 
                     <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Mobile Display', 'shoppable-lookbook' ).shoppablelookbook_hint( __( 'Bottom sheet: the box slides up from the bottom of the screen, full width. Compact: the box opens next to its marker like on desktop, sized down for mobile.', 'shoppable-lookbook' ) ).'</div>
-                        <div class="form-option">
-                            <label class="image-radio">
-                                <i class="material-icons">vertical_align_bottom</i>
-                                <input type="radio" name="lookbook_mobilebox" value="sheet" '.esc_attr( $mobilebox['sheet'] ).' />
-                                '.esc_html__( 'Bottom sheet', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
+                        <div class="form-heading">'.esc_html__( 'Mobile Display', 'shoppable-lookbook' ).wp_kses_post( shoppablelookbook_hint( __( 'Bottom sheet: the box slides up from the bottom of the screen, full width. Compact: the box opens next to its marker like on desktop, sized down for mobile.', 'shoppable-lookbook' ) ) ).'</div>
                         <div class="form-option">
                             <label class="image-radio">
                                 <i class="material-icons">crop_free</i>
@@ -782,7 +694,7 @@ function shoppablelookbook_page_edit($id) {
                                 '.esc_html__( 'Right', 'shoppable-lookbook' ).'
                             </label>
                         </div>
-                    </div>'.shoppablelookbook_settings_hook( 'display_full', $options ).shoppablelookbook_section_close().'
+                    </div>'.wp_kses_post( shoppablelookbook_settings_hook( 'display_full', $options ) ).wp_kses_post( shoppablelookbook_section_close() ).'
 
                     <div class="form-buttons">
                         <button id="lookbook-submit" type="button" class="is-button"><i class="material-icons dashicons-before">save</i> '.esc_html__( 'Save', 'shoppable-lookbook' ).'</button>
@@ -808,7 +720,7 @@ function shoppablelookbook_page_new() {
         </div>
         <hr class="wp-header-end">
         <div class="lookbook-toolbar">
-            '.shoppablelookbook_back_link().' <a href="#" class="lookbook-change hidden"><i class="material-icons">photo_size_select_actual</i> '.esc_html__( 'Change Image', 'shoppable-lookbook' ).'</a>
+            '.wp_kses_post( shoppablelookbook_back_link() ).' <a href="#" class="lookbook-change hidden"><i class="material-icons">photo_size_select_actual</i> '.esc_html__( 'Change Image', 'shoppable-lookbook' ).'</a>
         </div>
         <div class="lookbook-detail">
             <div id="lit-frame" class="lookbook-upload">
@@ -835,9 +747,9 @@ function shoppablelookbook_page_new() {
                         <input type="text" id="lookbook-shortcode" value="" />
                         <div class="lookbook-copied">'.esc_html__( 'Copied to clipboard', 'shoppable-lookbook' ).'</div>
                     </div>
-                    </div>'.shoppablelookbook_section_open( __( 'Hotspot List', 'shoppable-lookbook' ), 'format_list_bulleted' ).'
+                    </div>'.wp_kses_post( shoppablelookbook_section_open( __( 'Hotspot List', 'shoppable-lookbook' ), 'format_list_bulleted' ) ).'
                     <ul id="lit-marker-list" class="lit-marker-list"></ul>
-                    '.shoppablelookbook_section_close().shoppablelookbook_section_open( __( 'Box', 'shoppable-lookbook' ), 'palette' ).'
+                    '.wp_kses_post( shoppablelookbook_section_close() ).wp_kses_post( shoppablelookbook_section_open( __( 'Box', 'shoppable-lookbook' ), 'palette' ) ).'
 
                     <div class="form-row">
                         <div class="form-heading">'.esc_html__( 'Box Style', 'shoppable-lookbook' ).'</div>
@@ -865,28 +777,8 @@ function shoppablelookbook_page_new() {
                                 <i class="material-icons material-select hidden">check_circle</i>
                             </label>
                         </div>
-                        <div class="form-option">
-                            <label class="image-radio image1">
-                                <img class="img-responsive" src="'.esc_url( plugin_dir_url( __DIR__ ) . 'assets/img/style3.png' ).'" alt="Style 3" />
-                                <input type="radio" name="lookbook_layout" value="3" />
-                                '.esc_html__( 'Tag', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                                <i class="material-icons material-select hidden">check_circle</i>
-                            </label>
-                        </div>
-                        <div class="form-option">
-                            <label class="image-radio image1">
-                                <img class="img-responsive" src="'.esc_url( plugin_dir_url( __DIR__ ) . 'assets/img/style4.png' ).'" alt="Style 4" />
-                                <input type="radio" name="lookbook_layout" value="4" />
-                                '.esc_html__( 'Bottom', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                                <i class="material-icons material-select hidden">check_circle</i>
-                            </label>
-                        </div>
                     </div>
 
-                    <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Box Corner', 'shoppable-lookbook' ).' (<span class="boxradius-value">0</span>px)'.shoppablelookbook_pro_badge().shoppablelookbook_hint( __( 'Rounds the corners of the box and its thumbnail. Switching Box Style suggests a matching value (Instagram: 5, Tag: 50) — drag the slider to fine-tune.', 'shoppable-lookbook' ) ).'</div>
-                        <input type="range" name="lookbook_box_radius" min="0" max="60" step="1" value="0" class="boxradius-range" />
-                    </div>
 
                     <div class="form-row">
                         <div class="form-heading">'.esc_html__( 'Box Color', 'shoppable-lookbook' ).'</div>
@@ -932,28 +824,11 @@ function shoppablelookbook_page_new() {
                                 '.esc_html__( 'Rose', 'shoppable-lookbook' ).'
                             </label>
                         </div>
-                        <div class="form-option">
-                            <label class="image-radio color1">
-                                <span class="rectangle-custom"></span>
-                                <input type="radio" name="lookbook_box_color" value="custom" />
-                                '.esc_html__( 'Custom', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
                     </div>
 
-                    <div class="form-row lb-inline-2">
-                        <div class="lb-col box-custom-color-wrap" style="display:none">
-                            <div class="form-heading">'.esc_html__( 'Custom Color', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'</div>
-                            <input type="text" name="lookbook_box_custom_color" value="" data-default-color="" class="box-custom-color" />
-                        </div>
-                        <div class="lb-col">
-                            <div class="form-heading">'.esc_html__( 'Opacity', 'shoppable-lookbook' ).' <span class="opacity-value">100</span>%'.shoppablelookbook_pro_badge().'</div>
-                            <input type="range" name="lookbook_opacity" min="0" max="100" step="1" value="100" class="opacity-range" />
-                        </div>
-                    </div>
 
                     <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Content Color', 'shoppable-lookbook' ).shoppablelookbook_hint( __( 'Color of the product name, price, close icon, preview link and Add to Cart button inside the box. Auto picks a readable color for the chosen box color.', 'shoppable-lookbook' ) ).'</div>
+                        <div class="form-heading">'.esc_html__( 'Content Color', 'shoppable-lookbook' ).wp_kses_post( shoppablelookbook_hint( __( 'Color of the product name, price, close icon, preview link and Add to Cart button inside the box. Auto picks a readable color for the chosen box color.', 'shoppable-lookbook' ) ) ).'</div>
                         <div class="form-option">
                             <label class="image-radio content1">
                                 <span class="rectangle-content-auto" aria-hidden="true"></span>
@@ -974,7 +849,7 @@ function shoppablelookbook_page_new() {
                                 <input type="radio" name="lookbook_content_color" value="dark" />
                                 '.esc_html__( 'Dark', 'shoppable-lookbook' ).'
                             </label>
-                        </div>                    </div>'.shoppablelookbook_settings_hook( 'box', $options ).shoppablelookbook_section_close().shoppablelookbook_section_open( __( 'Marker', 'shoppable-lookbook' ), 'place', true ).'
+                        </div>                    </div>'.wp_kses_post( shoppablelookbook_settings_hook( 'box', $options ) ).wp_kses_post( shoppablelookbook_section_close() ).wp_kses_post( shoppablelookbook_section_open( __( 'Marker', 'shoppable-lookbook' ), 'place', true ) ).'
 
                     <div class="form-row">
                         <div class="form-heading">'.esc_html__( 'Marker', 'shoppable-lookbook' ).'</div>
@@ -1028,17 +903,6 @@ function shoppablelookbook_page_new() {
                         </div>
                     </div>
 
-                    <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Marker Image', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'</div>
-                        <div class="marker-image-bar">
-                            <span class="marker-image-preview"></span>
-                            <button type="button" class="button marker-image-upload">'.esc_html__( 'Upload', 'shoppable-lookbook' ).'</button>
-                            <button type="button" class="button-link marker-image-remove" style="display:none">'.esc_html__( 'Remove', 'shoppable-lookbook' ).'</button>
-                        </div>
-                        <input type="hidden" name="lookbook_marker_image" class="marker-image-id" value="0" />
-                        <input type="hidden" class="marker-image-url" value="" />
-                        <p class="marker-image-hint">'.esc_html__( 'PNG or SVG. Leave empty to use an icon above.', 'shoppable-lookbook' ).'</p>
-                    </div>
 
                     <div class="form-row">
                         <div class="form-heading">'.esc_html__( 'Marker Size', 'shoppable-lookbook' ).' (<span class="markersize-value">30</span>px)</div>
@@ -1067,24 +931,10 @@ function shoppablelookbook_page_new() {
                                 '.esc_html__( 'Pulse', 'shoppable-lookbook' ).'
                             </label>
                         </div>
-                        <div class="form-option">
-                            <label class="image-radio anim1">
-                                <i class="material-icons">favorite</i>
-                                <input type="radio" name="lookbook_animation" value="beat" />
-                                '.esc_html__( 'Beat', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
-                        <div class="form-option">
-                            <label class="image-radio anim1">
-                                <i class="material-icons">height</i>
-                                <input type="radio" name="lookbook_animation" value="bounce" />
-                                '.esc_html__( 'Bounce', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
-                    </div>'.shoppablelookbook_settings_hook( 'marker', $options ).shoppablelookbook_section_close().shoppablelookbook_section_open( __( 'Display', 'shoppable-lookbook' ), 'visibility' ).'
+                    </div>'.wp_kses_post( shoppablelookbook_settings_hook( 'marker', $options ) ).wp_kses_post( shoppablelookbook_section_close() ).wp_kses_post( shoppablelookbook_section_open( __( 'Display', 'shoppable-lookbook' ), 'visibility' ) ).'
 
                     <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Photo Width', 'shoppable-lookbook' ).' <span class="maxwidth-value">'.esc_html__( 'Full width', 'shoppable-lookbook' ).'</span>'.shoppablelookbook_hint( __( 'Caps how wide the main photo can grow on the frontend. Drag to 0 for no limit (full width of its container).', 'shoppable-lookbook' ) ).'</div>
+                        <div class="form-heading">'.esc_html__( 'Photo Width', 'shoppable-lookbook' ).' <span class="maxwidth-value">'.esc_html__( 'Full width', 'shoppable-lookbook' ).'</span>'.wp_kses_post( shoppablelookbook_hint( __( 'Caps how wide the main photo can grow on the frontend. Drag to 0 for no limit (full width of its container).', 'shoppable-lookbook' ) ) ).'</div>
                         <input type="range" name="lookbook_max_width" min="0" max="2000" step="10" value="0" class="maxwidth-range" />
                     </div>
 
@@ -1123,11 +973,11 @@ function shoppablelookbook_page_new() {
                                 </label>
                             </div>
                         </div>
-                        '.shoppablelookbook_settings_hook( 'display', $options ).'
+                        '.wp_kses_post( shoppablelookbook_settings_hook( 'display', $options ) ).'
                     </div>
 
                     <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Open Marker On', 'shoppable-lookbook' ).shoppablelookbook_hint( __( 'Open All: every box opens on load (visitors can close them). Open First: the first box opens on load. Accordion: one box is always open — opening another closes it.', 'shoppable-lookbook' ) ).'</div>
+                        <div class="form-heading">'.esc_html__( 'Open Marker On', 'shoppable-lookbook' ).wp_kses_post( shoppablelookbook_hint( __( 'Open All: every box opens on load (visitors can close them). Open First: the first box opens on load. Accordion: one box is always open — opening another closes it.', 'shoppable-lookbook' ) ) ).'</div>
                         <div class="form-option">
                             <label class="image-radio">
                                 <i class="material-icons">touch_app</i>
@@ -1142,37 +992,10 @@ function shoppablelookbook_page_new() {
                                 '.esc_html__( 'Hover', 'shoppable-lookbook' ).'
                             </label>
                         </div>
-                        <div class="form-option">
-                            <label class="image-radio">
-                                <i class="material-icons">visibility</i>
-                                <input type="radio" name="lookbook_trigger" value="openall" />
-                                '.esc_html__( 'Open All', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
-                        <div class="form-option">
-                            <label class="image-radio">
-                                <i class="material-icons">filter_1</i>
-                                <input type="radio" name="lookbook_trigger" value="openfirst" />
-                                '.esc_html__( 'Open First', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
-                        <div class="form-option">
-                            <label class="image-radio">
-                                <i class="material-icons">unfold_less</i>
-                                <input type="radio" name="lookbook_trigger" value="accordion" />
-                                '.esc_html__( 'Accordion', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>                    </div>
+                    </div>
 
                     <div class="form-row">
-                        <div class="form-heading">'.esc_html__( 'Mobile Display', 'shoppable-lookbook' ).shoppablelookbook_hint( __( 'Bottom sheet: the box slides up from the bottom of the screen, full width. Compact: the box opens next to its marker like on desktop, sized down for mobile.', 'shoppable-lookbook' ) ).'</div>
-                        <div class="form-option">
-                            <label class="image-radio">
-                                <i class="material-icons">vertical_align_bottom</i>
-                                <input type="radio" name="lookbook_mobilebox" value="sheet" '.( shoppablelookbook_is_pro() ? 'checked' : '' ).' />
-                                '.esc_html__( 'Bottom sheet', 'shoppable-lookbook' ).shoppablelookbook_pro_badge().'
-                            </label>
-                        </div>
+                        <div class="form-heading">'.esc_html__( 'Mobile Display', 'shoppable-lookbook' ).wp_kses_post( shoppablelookbook_hint( __( 'Bottom sheet: the box slides up from the bottom of the screen, full width. Compact: the box opens next to its marker like on desktop, sized down for mobile.', 'shoppable-lookbook' ) ) ).'</div>
                         <div class="form-option">
                             <label class="image-radio">
                                 <i class="material-icons">crop_free</i>
@@ -1204,7 +1027,7 @@ function shoppablelookbook_page_new() {
                                 '.esc_html__( 'Right', 'shoppable-lookbook' ).'
                             </label>
                         </div>
-                    </div>'.shoppablelookbook_settings_hook( 'display_full', $options ).shoppablelookbook_section_close().'
+                    </div>'.wp_kses_post( shoppablelookbook_settings_hook( 'display_full', $options ) ).wp_kses_post( shoppablelookbook_section_close() ).'
 
                     <div class="form-buttons">
                         <button id="lookbook-submit" type="button" class="is-button"><i class="material-icons dashicons-before">save</i> '.esc_html__( 'Save', 'shoppable-lookbook' ).'</button>

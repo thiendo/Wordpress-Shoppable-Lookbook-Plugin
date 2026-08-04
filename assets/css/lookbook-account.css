@@ -1,1 +1,216 @@
-body.lookbook_page_shoppable-lookbook-account #wpbody-content .wrap h2.nav-tab-wrapper{border-color:#e2e4e7}body.lookbook_page_shoppable-lookbook-account .nav-tab{background:#f6f7f7;border-color:#e2e4e7;color:#646970}body.lookbook_page_shoppable-lookbook-account .nav-tab-active,body.lookbook_page_shoppable-lookbook-account .nav-tab:hover{background:#fff;color:#1d2327}body.lookbook_page_shoppable-lookbook-account #fs_account .has-sidebar,body.lookbook_page_shoppable-lookbook-account #fs_account .has-sidebar-content{margin:0!important;padding:0!important;float:none;width:auto}body.lookbook_page_shoppable-lookbook-account #fs_account .postbox{background:#fff;border:1px solid #e2e4e7;border-radius:8px;box-shadow:0 1px 2px rgba(0,0,0,.04);overflow:hidden;max-width:860px;position:relative}body.lookbook_page_shoppable-lookbook-account #fs_account .postbox h3{background:#f6f7f7;color:#1d2327;font-size:13px;font-weight:600;border-bottom:1px solid #e2e4e7;padding:14px 18px;margin:0 0 4px}body.lookbook_page_shoppable-lookbook-account #fs_account .postbox h3 .dashicons{color:var(--wp-admin-theme-color)}body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions{top:12px}body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions ul{font-size:0;line-height:0}body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li{margin-left:6px}body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li a{display:inline-block;font-size:11px;line-height:1;background:#f0f0f1;color:#646970;border-radius:999px;padding:6px 12px;transition:background .15s ease,color .15s ease}body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li a:hover{background:var(--wp-admin-theme-color);color:#fff}body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li a .dashicons{font-size:12px;width:12px;height:12px}body.lookbook_page_shoppable-lookbook-account .fs-key-value-table td,body.lookbook_page_shoppable-lookbook-account .fs-key-value-table th{color:#646970;border-bottom:1px solid #e2e4e7}body.lookbook_page_shoppable-lookbook-account .fs-key-value-table tr td:first-child nobr{color:#1d2327;font-weight:600}body.lookbook_page_shoppable-lookbook-account .fs-key-value-table tr.fs-odd{background:#f6f7f7}body.lookbook_page_shoppable-lookbook-account .fs-key-value-table code,body.lookbook_page_shoppable-lookbook-account .fs-key-value-table var{background:0 0;color:var(--wp-admin-theme-color);font-size:14px}body.lookbook_page_shoppable-lookbook-account .fs-key-value-table input[type=text]{background:#fff;border:1px solid #8c8f94;border-radius:4px;color:#1d2327;font-size:13px;box-shadow:none}body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat{background:#fff;border:1px solid #e2e4e7;color:#646970}body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat tfoot,body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat thead{background:#f6f7f7}body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat td,body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat th{color:#646970;border-color:#e2e4e7}body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat tr:nth-child(odd){background:#f6f7f7}body.lookbook_page_shoppable-lookbook-account #fs_sites .fs-scrollable-table .fs-table-body{border-color:#e2e4e7}body.lookbook_page_shoppable-lookbook-account #fs_account .button,body.lookbook_page_shoppable-lookbook-account #fs_account .button-secondary{background:#f6f7f7;border-color:#8c8f94;color:#2c3338;box-shadow:none;text-shadow:none}body.lookbook_page_shoppable-lookbook-account #fs_account .button-secondary:hover,body.lookbook_page_shoppable-lookbook-account #fs_account .button:hover{background:#f0f0f1;border-color:#646970;color:#1d2327}body.lookbook_page_shoppable-lookbook-account #fs_account .button-primary{background:var(--wp-admin-theme-color);border-color:var(--wp-admin-theme-color);color:#fff;font-weight:600}body.lookbook_page_shoppable-lookbook-account #fs_account .button-primary:hover{background:var(--wp-admin-theme-color-darker-10);border-color:var(--wp-admin-theme-color-darker-10);color:#fff}body.lookbook_page_shoppable-lookbook-account .button-upgrade{display:inline-flex!important;align-items:center;gap:4px}body.lookbook_page_shoppable-lookbook-account .button-upgrade .dashicons{font-size:16px;width:16px;height:16px;margin:0;line-height:1.2}@media screen and (max-width:960px){body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions{position:static;margin:0;padding:10px 18px 0}body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li{float:none;display:inline-block;margin:0 6px 6px 0}}@media screen and (max-width:782px){body.lookbook_page_shoppable-lookbook-account #fs_account .postbox{max-width:100%}body.lookbook_page_shoppable-lookbook-account #fs_addons,body.lookbook_page_shoppable-lookbook-account #fs_sites{overflow-x:auto}body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat{min-width:480px}body.lookbook_page_shoppable-lookbook-account .fs-key-value-table code,body.lookbook_page_shoppable-lookbook-account .fs-key-value-table var{font-size:12px;word-break:break-all}}
+/**
+ * Account page skin (Freemius screens)
+ *
+ * The Account page is rendered by the bundled Freemius SDK; its templates
+ * must not be edited (they are replaced on SDK updates), so this stylesheet
+ * re-skins the standard Freemius markup to match the plugin's light Analytics
+ * dashboard look and adds the responsive behavior the SDK only partially
+ * provides. Enqueued for page=shoppable-lookbook-account only (inc/init.php);
+ * everything is scoped to that page's body class.
+ *
+ * @package Douple
+ */
+
+/* ── Canvas: same light stage as the Analytics dashboard ──────────────────── */
+body.lookbook_page_shoppable-lookbook-account #wpbody-content .wrap h2.nav-tab-wrapper {
+    border-color: #e2e4e7;
+}
+body.lookbook_page_shoppable-lookbook-account .nav-tab {
+    background: #f6f7f7;
+    border-color: #e2e4e7;
+    color: #646970;
+}
+body.lookbook_page_shoppable-lookbook-account .nav-tab-active,
+body.lookbook_page_shoppable-lookbook-account .nav-tab:hover {
+    background: #fff;
+    color: #1d2327;
+}
+
+/* Neutralise WP core's legacy two-column wrapper (the SDK renders no actual
+   sidebar, but the classes still add margins that overflow small screens). */
+body.lookbook_page_shoppable-lookbook-account #fs_account .has-sidebar,
+body.lookbook_page_shoppable-lookbook-account #fs_account .has-sidebar-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none;
+    width: auto;
+}
+
+/* ── Cards ───────────────────────────────────────────────────────────────── */
+body.lookbook_page_shoppable-lookbook-account #fs_account .postbox {
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .04);
+    overflow: hidden;
+    max-width: 860px;
+    /* Anchor for the absolutely-positioned .fs-header-actions chips — the
+       SDK assumes a positioned ancestor without providing one itself. */
+    position: relative;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .postbox h3 {
+    background: #f6f7f7;
+    color: #1d2327;
+    font-size: 13px;
+    font-weight: 600;
+    border-bottom: 1px solid #e2e4e7;
+    padding: 14px 18px;
+    margin: 0 0 4px;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .postbox h3 .dashicons {
+    color: var(--wp-admin-theme-color);
+}
+
+/* Header action links → subtle chips; the "•" separators between them are
+   bare text nodes inside their own <li>, killed via the font-size-0 trick. */
+body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions {
+    top: 12px;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions ul {
+    font-size: 0;
+    line-height: 0;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li {
+    margin-left: 6px;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li a {
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1;
+    background: #f0f0f1;
+    color: #646970;
+    border-radius: 999px;
+    padding: 6px 12px;
+    transition: background .15s ease, color .15s ease;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li a:hover {
+    background: var(--wp-admin-theme-color);
+    color: #fff;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li a .dashicons {
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+}
+
+/* ── Key/value details table ─────────────────────────────────────────────── */
+body.lookbook_page_shoppable-lookbook-account .fs-key-value-table td,
+body.lookbook_page_shoppable-lookbook-account .fs-key-value-table th {
+    color: #646970;
+    border-bottom: 1px solid #e2e4e7;
+}
+body.lookbook_page_shoppable-lookbook-account .fs-key-value-table tr td:first-child nobr {
+    color: #1d2327;
+    font-weight: 600;
+}
+body.lookbook_page_shoppable-lookbook-account .fs-key-value-table tr.fs-odd {
+    background: #f6f7f7;
+}
+body.lookbook_page_shoppable-lookbook-account .fs-key-value-table code,
+body.lookbook_page_shoppable-lookbook-account .fs-key-value-table var {
+    background: none;
+    color: var(--wp-admin-theme-color);
+    font-size: 14px;
+}
+body.lookbook_page_shoppable-lookbook-account .fs-key-value-table input[type=text] {
+    background: #fff;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    color: #1d2327;
+    font-size: 13px;
+    box-shadow: none;
+}
+
+/* ── Generic tables (sites list, add-ons) ────────────────────────────────── */
+body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat {
+    background: #fff;
+    border: 1px solid #e2e4e7;
+    color: #646970;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat thead,
+body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat tfoot {
+    background: #f6f7f7;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat th,
+body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat td {
+    color: #646970;
+    border-color: #e2e4e7;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat tr:nth-child(odd) {
+    background: #f6f7f7;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_sites .fs-scrollable-table .fs-table-body {
+    border-color: #e2e4e7;
+}
+
+/* ── Buttons ─────────────────────────────────────────────────────────────── */
+body.lookbook_page_shoppable-lookbook-account #fs_account .button,
+body.lookbook_page_shoppable-lookbook-account #fs_account .button-secondary {
+    background: #f6f7f7;
+    border-color: #8c8f94;
+    color: #2c3338;
+    box-shadow: none;
+    text-shadow: none;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .button:hover,
+body.lookbook_page_shoppable-lookbook-account #fs_account .button-secondary:hover {
+    background: #f0f0f1;
+    border-color: #646970;
+    color: #1d2327;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .button-primary {
+    background: var(--wp-admin-theme-color);
+    border-color: var(--wp-admin-theme-color);
+    color: #fff;
+    font-weight: 600;
+}
+body.lookbook_page_shoppable-lookbook-account #fs_account .button-primary:hover {
+    background: var(--wp-admin-theme-color-darker-10);
+    border-color: var(--wp-admin-theme-color-darker-10);
+    color: #fff;
+}
+body.lookbook_page_shoppable-lookbook-account .button-upgrade {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 4px;
+}
+body.lookbook_page_shoppable-lookbook-account .button-upgrade .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────
+   The SDK only handles ≤639px; cover the tablet band too, and let wide
+   tables scroll inside their card instead of blowing out the page. */
+@media screen and (max-width: 960px) {
+    body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions {
+        position: static;
+        margin: 0;
+        padding: 10px 18px 0;
+    }
+    body.lookbook_page_shoppable-lookbook-account #fs_account .fs-header-actions li {
+        float: none;
+        display: inline-block;
+        margin: 0 6px 6px 0;
+    }
+}
+@media screen and (max-width: 782px) {
+    body.lookbook_page_shoppable-lookbook-account #fs_account .postbox {
+        max-width: 100%;
+    }
+    body.lookbook_page_shoppable-lookbook-account #fs_sites,
+    body.lookbook_page_shoppable-lookbook-account #fs_addons {
+        overflow-x: auto;
+    }
+    body.lookbook_page_shoppable-lookbook-account #fs_account table.widefat {
+        min-width: 480px;
+    }
+    body.lookbook_page_shoppable-lookbook-account .fs-key-value-table code,
+    body.lookbook_page_shoppable-lookbook-account .fs-key-value-table var {
+        font-size: 12px;
+        word-break: break-all;
+    }
+}
