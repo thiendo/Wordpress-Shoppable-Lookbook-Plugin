@@ -2,6 +2,8 @@
 
 Free WordPress / WooCommerce plugin to tag products on photos and turn them into shoppable lookbooks.
 
+This public repository is the **free** package (no Freemius SDK). Pro is distributed separately.
+
 - **Website:** https://douple.net/shoppable-lookbook/
 - **Docs:** https://douple.net/shoppable-lookbook/docs.html
 - **WordPress.org:** free package from this repository
